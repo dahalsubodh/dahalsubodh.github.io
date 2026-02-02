@@ -4,7 +4,7 @@ layout: default
 ---
 
 
-# EDUCATION
+# EDUCATION  
 
 
 ## M.A. in International Cooperation & Development
