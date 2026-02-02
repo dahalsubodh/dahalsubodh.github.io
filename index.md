@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subodh Dahal | Portfolio</title>
+  <title>Subodh Dahal |Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,12 +26,12 @@
 <!-- Projects Section -->
 <section id="Projects" class="section">
   <div class="container">
-    <h2>ICT in schools</h2>
+    <h2>Research Projects</h2>
     <div class="project-grid">
       <div class="project-card">
         <img src="assets/project1.jpg" alt="Project 1">
-        <h3>Project Title</h3>
-        <p>Short description of project.</p>
+        <h3>ICT in Schools</h3>
+        <p>Assess the ICT resources and its application for teaching and learning in 14 schools of Gokarneswor.</p>
       </div>
       <!-- Repeat for more projects -->
     </div>
