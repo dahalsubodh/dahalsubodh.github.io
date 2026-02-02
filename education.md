@@ -3,7 +3,6 @@ title: Education
 layout: default
 ---
 
-
 # EDUCATION
 
 ### M.A. in International Cooperation & Development
@@ -11,6 +10,7 @@ layout: default
 📅 Graduation: Nov 2025  
 
 *"My master’s program has deepened my interest in educational development and strengthened my understanding of how technology serves as a cornerstone for advancing education."* 
+
 #### Graduate Research Focus  
 📘 Thesis: Assessing Technological and Pedagogical Knowledge of Government School Teachers in E-Learning in Lalitpur Metropolitan City.  
 🔬 Methodology: Convergent parallel mixed-methods. Quantitative data through surveys school teachers teaching Science, Math, and English subjects. A short semi-structured questionnaire interviews with the ICT focal persons of schools.  
