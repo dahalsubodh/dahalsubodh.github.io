@@ -47,13 +47,7 @@ body, h1, h2, h3, p, ul, li {
   background: #f5f5f5;
   text-align: center;
   padding: 60px 20px;
-}
 
-.hero-img {
-  width: 160px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
 
 .hero h1 {
   font-size: 2.2rem;
@@ -128,20 +122,3 @@ main.container p,
 main.container ul {
   margin-bottom: 14px;
 }
-
-.hero-flex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-/* keep image from shrinking */
-.hero-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
