@@ -6,6 +6,7 @@ layout: default
 
 # EDUCATION
 
+
 ## M.A. in International Cooperation & Development
 🏫 **MU Institute of Cooperation & Development (Mid-West University), Nepal**  
 📅 Graduation: Nov 2025  
@@ -28,7 +29,7 @@ layout: default
 
 ---
 
-### B.B.A. (finance)  
+## B.B.A. (finance)  
 🏫 **Bhaktapur Multiple Campus, Tribhuvan University, Nepal**  
 
 📅 **Graduation:** 2018  
