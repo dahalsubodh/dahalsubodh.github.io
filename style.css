@@ -134,12 +134,14 @@ main.container ul {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  flex-wrap: wrap;
 }
 
+/* keep image from shrinking */
 .hero-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  flex-shrink: 0;
 }
+
