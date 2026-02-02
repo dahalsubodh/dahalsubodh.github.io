@@ -12,7 +12,7 @@
 <header class="hero">
   <div class="container">
     <h1>Hi, I’m Subodh Dahal</h1>
-    <p>EdTech Researcher | Learning Integrity Research | Content Strategy |Learning Experience Designer</p>
+    <p>EdTech Researcher | Learning Integrity Research | Content Strategy | Learning Experience Designer</p>
   </div>
 </header>
 
@@ -43,7 +43,7 @@
 <section id="contact" class="section">
   <div class="container">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>Email: <a href="mailto:subodhdotcome@example.com">subodhdotcome@example.com</a></p>
   </div>
 </section>
 
