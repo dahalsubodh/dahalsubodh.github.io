@@ -1,5 +1,10 @@
-# EDUCATION
+---
+title: Education
+layout: default
+---
 
+
+# EDUCATION
 
 ### M.A. in International Cooperation & Development
 🏫 MU Institute of Cooperation & Development (Mid-West University), Nepal  
