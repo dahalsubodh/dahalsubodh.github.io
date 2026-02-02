@@ -19,6 +19,7 @@
       <div class="hero-buttons">
         <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" download>Download CV</a>
         <a href="#projects" class="cta-btn cta-secondary">View Projects</a>
+      </div>
   </div>
 </header>
 
