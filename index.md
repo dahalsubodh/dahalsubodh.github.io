@@ -11,7 +11,7 @@
 <header class="hero">
   <div class="container">
     <h1>Hi, I’m Subodh Dahal</h1>
-    <p>EdTech Researcher | Learning Integrity Research | Content Strategy | Learning Experience Designer</p>
+    <p>EdTech Researcher | Learning Integrity Research | Learning Experience Designer</p>
   </div>
 </header>
 
