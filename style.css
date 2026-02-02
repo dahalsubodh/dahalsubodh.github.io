@@ -57,9 +57,9 @@ body, h1, h2, h3, p, ul, li {
 
 /* Image */
 .hero-img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
   object-fit: cover;
   flex-shrink: 0;
 }
