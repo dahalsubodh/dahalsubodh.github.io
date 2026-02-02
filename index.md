@@ -8,7 +8,6 @@
 <body>
 
 <!-- Hero Section -->
-
 <header class="hero">
   <div class="container hero-flex">
     <img src="assets/subodh-hero-image.png" alt="Subodh Dahal" class="hero-img">
@@ -16,11 +15,13 @@
     <div class="hero-text">
       <h1>Hi, I’m Subodh Dahal</h1>
       <p>EdTech Researcher | Learning Integrity Research | Learning Experience Designer</p>
+     
       <div class="hero-buttons">
         <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" download>Download CV</a>
         <a href="#projects" class="cta-btn cta-secondary">View Projects</a>
       </div>
   </div>
+</div>
 </header>
 
 <!-- About Section -->
