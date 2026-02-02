@@ -13,7 +13,7 @@
   <div class="container">
     <img src="assets/profile.jpg" alt="Subodh Dahal">
     <h1>Hi, I’m Subodh Dahal</h1>
-    <p>Software Developer | Learner | Creator</p>
+    <p>EdTech Researcher | Learning Integrity Research | Content Strategy |Learning Experience Designer</p>
   </div>
 </header>
 
@@ -21,14 +21,14 @@
 <section id="about" class="section">
   <div class="container">
     <h2>About Me</h2>
-    <p>I build modern web experiences and applications...</p>
+    <p>I research and explore educational technology tools, helping schools integrate ICT into learning, and creating resources to improve teaching and learning processes.</p>
   </div>
 </section>
 
 <!-- Projects Section -->
-<section id="projects" class="section">
+<section id="Research Projects" class="section">
   <div class="container">
-    <h2>Projects</h2>
+    <h2>ICT in schools</h2>
     <div class="project-grid">
       <div class="project-card">
         <img src="assets/project1.jpg" alt="Project 1">
