@@ -11,7 +11,6 @@
 <!-- Hero Section -->
 <header class="hero">
   <div class="container">
-    <img src="assets/profile.jpg" alt="Subodh Dahal">
     <h1>Hi, I’m Subodh Dahal</h1>
     <p>EdTech Researcher | Learning Integrity Research | Content Strategy |Learning Experience Designer</p>
   </div>
