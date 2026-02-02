@@ -8,6 +8,7 @@
 <body>
 
 <!-- Hero Section -->
+
 <header class="hero">
   <div class="container hero-flex">
     <img src="assets/unlome-00079.jpg" alt="Subodh Dahal" class="hero-img">
