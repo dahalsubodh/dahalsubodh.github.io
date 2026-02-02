@@ -3,15 +3,15 @@ title: Publications
 layout: default
 ---
 
-## Publications and Presentations
+# Publications and Presentations
 
-### 📝 Publications  
+## 📝 Publications  
 **The Reality of School Nutrition Programs as Perceived by Teachers** (Asian Social Science, 2023)
 Co-authored research examining primary school nutrition programs in Khotang, Nepal. Contributed to data collection, qualitative analysis, and manuscript drafting.
 🔗 [Read Article](https://ccsenet.org/journal/index.php/ass/article/view/0/48995)
 
 
-### 🎤 Presentations  
+## 🎤 Presentations  
 ✅ **3Ps: A New Framework for Academic Integrity**  — [NELTA 2026](https://www.nelta.org.np/conference/30) (Jan 2026) — Accepted
 This poster presents a practical framework for academic integrity by aligning three essentials: person, process, and product.
 
