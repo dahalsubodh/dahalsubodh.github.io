@@ -57,10 +57,11 @@ body, h1, h2, h3, p, ul, li {
 
 /* Image */
 .hero-img {
-  width: 200px;
-  height: 300px;
-  border-radius: 10px;
-  object-fit: top;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
   flex-shrink: 0;
 }
 
