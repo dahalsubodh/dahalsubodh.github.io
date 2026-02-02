@@ -3,6 +3,7 @@ title: Education
 layout: default
 ---
 
+
 # EDUCATION
 
 ### M.A. in International Cooperation & Development
