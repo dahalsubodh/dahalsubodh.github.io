@@ -17,7 +17,7 @@
       <p>EdTech Researcher | Learning Integrity Research | Learning Experience Designer</p>
      
       <div class="hero-buttons">
-        <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" download>Download CV</a>
+      <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" target="_blank" rel="noopener noreferrer">View CV</a>
         <a href="#projects" class="cta-btn cta-secondary">View Projects</a>
       </div>
   </div>
