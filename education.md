@@ -3,8 +3,8 @@ title: Education
 layout: default
 ---
 
-
 # EDUCATION  
+
 
 
 ## M.A. in International Cooperation & Development
@@ -17,15 +17,18 @@ layout: default
 📘 **Thesis:** Assessing Technological and Pedagogical Knowledge of Government School Teachers in E-Learning in Lalitpur Metropolitan City.  
 
 🔬 **Methodology:** Convergent parallel mixed-methods. 
-  Quantitative: Surveys of Science, Math, and English subject teachers. 
-  Qualitative: Semi-structured interviews with the ICT focal persons.  
+  1. Quantitative: Surveys of Science, Math, and English subject teachers. 
+  2. Qualitative: Semi-structured interviews with the ICT focal persons.  
 
 
 💻 **Inspiration:** The rapid integration of ICT tools and the growth of e-learning platforms during COVID pandemic motivated me study on importance of digital learning in schools and readiness of teachers to adopt education technologies.  
 
 
-🔍 **Findings:** Research found that while many teachers possess strong pedagogical skills, their technological confidence and readiness for digital education remain limited. The sudy identified that effective digital education requires more than access to devices — it depends on clear policy, continuous training, reliable infrastructure, and community engagement.  
-
+🔍 **Findings:** Teachers have strong pedagogical skills but limited technological confidence. Effective digital education requires:  
+  1. Clear policy  
+  2. Continuous training  
+  3. Reliable infrastructure  
+  4. Community engagement  
 
 ---
 
