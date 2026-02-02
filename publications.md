@@ -1,5 +1,5 @@
 ---
-title: Education
+title: Publications
 layout: default
 ---
 
