@@ -26,7 +26,7 @@
 </section>
 
 <!-- Projects Section -->
-<section id="Research Projects" class="section">
+<section id="Projects" class="section">
   <div class="container">
     <h2>ICT in schools</h2>
     <div class="project-grid">
