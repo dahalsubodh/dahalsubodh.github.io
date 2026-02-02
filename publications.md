@@ -4,7 +4,10 @@ layout: default
 ---
 
 # Publications and Presentations
+
 ---
+
+
 ## 📝 Publications  
 **The Reality of School Nutrition Programs as Perceived by Teachers** (Asian Social Science, 2023)
 Co-authored research examining primary school nutrition programs in Khotang, Nepal. Contributed to data collection, qualitative analysis, and manuscript drafting.
