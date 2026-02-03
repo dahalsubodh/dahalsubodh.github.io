@@ -14,8 +14,7 @@
 
     <div class="hero-text">
       <h1>Hi, I’m Subodh Dahal</h1>
-      <p>EdTech Researcher | Learning Integrity | Learning Experience Designer</p>
-     
+      <p>My work focuses on teacher ICT readiness, learning integrity, and the practical application of educational technologies in resource-constrained settings.</p>
       <div class="hero-buttons">
       <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" target="_blank" rel="noopener noreferrer">View CV</a>
         <a href="#projects" class="cta-btn cta-secondary">View Projects</a>
@@ -28,7 +27,7 @@
 <section id="about" class="section">
   <div class="container">
     <h2>About Me</h2>
-    <p>I research and explore educational technology tools, helping schools integrate ICT into learning, and creating resources to improve teaching and learning processes.</p>
+    <p>I am subodh dahal, recent graduate of International Co-operation and Development. </p>
   </div>
 </section>
 
