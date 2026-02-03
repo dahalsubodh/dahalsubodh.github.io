@@ -14,7 +14,7 @@
 
     <div class="hero-text">
       <h1>Hi, I’m Subodh Dahal</h1>
-      <p>EdTech Researcher | Learning Integrity Research | Learning Experience Designer</p>
+      <p>EdTech Researcher | Learning Integrity | Learning Experience Designer</p>
      
       <div class="hero-buttons">
       <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" target="_blank" rel="noopener noreferrer">View CV</a>
@@ -42,10 +42,18 @@
         <h3>ICT in Schools</h3>
         <p>Assess the ICT resources and its application for teaching and learning in 14 schools of Gokarneswor.</p>
       </div>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/project1.jpg" alt="Project 1">
+        <h3>ICT in Schools</h3>
+        <p>Assess the ICT resources and its application for teaching and learning in 14 schools of Gokarneswor.</p>
+      </div>
+          
       <!-- Repeat for more projects -->
     </div>
   </div>
 </section>
+
 
 <!-- Contact Section -->
 <section id="contact" class="section">
