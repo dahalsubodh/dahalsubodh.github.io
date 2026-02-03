@@ -51,7 +51,6 @@
       <!-- Repeat for more projects -->
     </div>
   </div>
-</section>
 
 
 <!-- Contact Section -->
@@ -61,6 +60,3 @@
     <p>Email: <a href="mailto:subodhdotcome@example.com">subodhdotcome@example.com</a></p>
   </div>
 </section>
-
-</body>
-</html>
