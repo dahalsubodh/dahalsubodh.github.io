@@ -8,7 +8,7 @@ layout: default
 ---
 
 
-## 📝 Publications  
+## 📝 Journal Publications  
 **The Reality of School Nutrition Programs as Perceived by Teachers** (Asian Social Science, 2023)   
 
 
@@ -16,7 +16,7 @@ Co-authored research examining primary school nutrition programs in Khotang, Nep
 🔗 [Read Article](https://ccsenet.org/journal/index.php/ass/article/view/0/48995)
 
 
-## 🎤 Presentations  
+## 🎤 Conference Presentations and Workshops  
 ✅ **3Ps: A New Framework for Academic Integrity**  — [NELTA 2026](https://www.nelta.org.np/conference/30) (Jan 2026) — Poster Presentation
 
 
