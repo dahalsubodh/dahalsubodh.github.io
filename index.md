@@ -10,7 +10,7 @@
 <!-- Hero Section -->
 <header class="hero">
   <div class="container hero-flex">
-    <img src="assets/subodh-hero-section.JPG" alt="Subodh Dahal" class="hero-img">
+    <img src="assets/subodh-hero-image.png" alt="Subodh Dahal" class="hero-img">
 
     <div class="hero-text">
       <h1>Hi, I’m Subodh Dahal</h1>
