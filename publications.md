@@ -17,7 +17,7 @@ Co-authored research examining primary school nutrition programs in Khotang, Nep
 
 
 ## 🎤 Presentations  
-✅ **3Ps: A New Framework for Academic Integrity**  — [NELTA 2026](https://www.nelta.org.np/conference/30) (Jan 2026) — Accepted
+✅ **3Ps: A New Framework for Academic Integrity**  — [NELTA 2026](https://www.nelta.org.np/conference/30) (Jan 2026) — Poster Presentation
 
 
 This poster presents a practical framework for academic integrity by aligning three essentials: person, process, and product.
