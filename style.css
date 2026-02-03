@@ -50,7 +50,7 @@ body, h1, h2, h3, p, ul, li {
 
 .hero-flex {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: flex-start
   gap: 50px;
   flex-direction: row-reverse;
