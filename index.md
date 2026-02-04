@@ -57,6 +57,6 @@
 <section id="contact" class="section">
   <div class="container">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:subodhdotcome@example.com">subodhdotcome@example.com</a></p>
+    <p>Email: <a href="mailto:subodhdotcome@gmail.com">subodhdotcome@gmail.com</a></p>
   </div>
 </section>
