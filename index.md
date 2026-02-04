@@ -17,7 +17,7 @@
       <p>My work focuses on teacher ICT readiness, learning integrity, and the practical application of educational technologies in resource-constrained settings.</p>
       <div class="hero-buttons">
       <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" target="_blank" rel="noopener noreferrer">View CV</a>
-        <a href="projects.md" class="cta-btn cta-secondary">View Projects</a>
+        <a href="projects.html" class="cta-btn cta-secondary">View Projects</a>
       </div>
   </div>
 </div>
