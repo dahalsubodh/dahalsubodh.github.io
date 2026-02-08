@@ -5,6 +5,7 @@ layout: default
 
 # Research Trajectory 
 
+
 ## From Education Technology to Learning Integrity 
 I am interested in how educational technologies can be designed and used to support credible learning. Rather than relying on the detection tools or final outcome, my work focuses on learning integrity that reflects how students actually learn, engage and demonstrate understanding of the learning process. 
 
