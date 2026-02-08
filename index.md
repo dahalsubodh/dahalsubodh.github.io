@@ -48,9 +48,7 @@
           Methods: School surveys, interviews, observational assessment of ICT infrastructure and usage.
 </p>
       </div>
-<section id="Projects" class="section">
-<div class="container">
-    <h2>Research Projects</h2>
+   </section>
     <div class="project-grid">
       <div class="project-card">
         <img src="assets/project1.jpg" alt="Project 1">
@@ -64,10 +62,7 @@
           Methods: Data collection (likely mixed—quantitative and qualitative), stakeholder engagement, and analysis.
   </p>
 
-
-<section id="Projects" class="section">
-<div class="container">
-    <h2>Research Projects</h2>  
+</section> 
   <div class="project-grid">
       <div class="project-card">
         <img src="assets/project1.jpg" alt="Project 1">
