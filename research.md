@@ -5,6 +5,7 @@ layout: default
 
 # Research Trajectory 
 
+---
 
 
 ## From Education Technology to Learning Integrity 
