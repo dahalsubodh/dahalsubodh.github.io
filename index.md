@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subodh Dahal | Portfolio</title>
+  <title>Subodh Dahal | Edtech Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +14,10 @@
 
     <div class="hero-text">
       <h1>Hi, I’m Subodh Dahal</h1>
-      <p>My work focuses on teacher ICT readiness, learning integrity, and the practical application of educational technologies in resource-constrained settings.</p>
+      <p>As an education technology researcher and policy practitioner, I examine how digital environments can be architected to prioritize learning integrity as a process, rather than just an outcome to be detected.
+
+My trajectory spans from assessing TPACK readiness in Nepalese government schools to presenting process-based integrity frameworks at international conferences.
+</p>
       <div class="hero-buttons">
       <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" target="_blank" rel="noopener noreferrer">View CV</a>
         <a href="projects.html" class="cta-btn cta-secondary">View Projects</a>
@@ -24,69 +27,61 @@
 </header>
 
 <!-- About Section -->
-<section id="about" class="section">
-  <div class="container">
-    <h2>Research Trajectory</h2>
+<section class="trajectory container">
+    <div class="card">
+      <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+      <h3>Foundations in EdTech & TPACK</h3>
+      <p>Began by examining teacher preparedness through the TPACK framework. My thesis revealed that while pedagogy is strong, technological integration depends on confidence and effective implementation strategies.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-robot"></i></div>
+      <h3>The GenAI Challenge</h3>
+      <p>As GenAI tools became widespread, I identified a critical gap: prevailing tools prioritize detecting misconduct at submission rather than supporting the learning journey itself.</p>
+    </div>
+    <div class="card">
+      <div class="icon"><i class="fas fa-network-wired"></i></div>
+      <h3>The 3P Framework</h3>
+      <p>Currently exploring the Person, Process, Product framework. I advocate for educational tools that address all three dimensions to make integrity decisions more transparent and fair.</p>
+    </div>
+  </section>
+<!-- Mission Callout -->
+<section class="mission">
+    <blockquote>"Moving beyond detection: Designing credible learning evidence in the age of GenAI."</blockquote>
+  </section>
 
-  </div>
-</section>
+<!-- Highlight Section -->
+  <section class="highlight">
+    <span class="tag">TPACK Study</span>
+    <h3>Assessing Teacher ICT Integration</h3>
+    <p>Assessed pedagogical and technological knowledge in Lalitpur. Discovered that teachers possess strong subject mastery but require scaffolded support for meaningful digital integration in low-resource settings.</p>
+    <a href="#" class="button">View Research</a>
+  </section>
 
-<!-- Projects Section -->
-<section id="Projects" class="section">
-  <div class="container">
-    <h2>Research Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="assets/project1.jpg" alt="Project 1">
-        <h3>ICT in Schools of Gokarneshwor Municipality</h3>
-        <p>Role: Researcher / Assessor
-          
-          Scope: ICT status and needs assessment across 14 schools.
-          
-          Focus: Collect baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.
-          
-          Methods: School surveys, interviews, observational assessment of ICT infrastructure and usage.
-</p>
+ <!-- Footer -->
+ footer>
+    <div class="container">
+      <h4>Subodh Dahal</h4>
+      <p>Researcher & Policy Practitioner • Kathmandu, Nepal</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/subodh-dahal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.com/citations?hl=en&user=3pw7tvsAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="mailto:subodhdotcome@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
       </div>
-   </section>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="assets/project1.jpg" alt="Project 1">
-        <h3>School Nutrition Modalities</h3>
-        <p>Role: Research Assistant
-            
-          Scope: Studied four different school nutrition programs.
-          
-          Focus: Understanding factors contributing to sustainability of these programs.
+      <a href="mailto:subodhdotcome@gmail.com" class="cta-button">Get in Touch</a>
+    </div>
+  </footer>
 
-          Methods: Data collection (likely mixed—quantitative and qualitative), stakeholder engagement, and analysis.
-  </p>
+  <!-- Scroll Animations -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('show');
+        }
+      });
+    }, { threshold: 0.1 });
 
-</section> 
-  <div class="project-grid">
-      <div class="project-card">
-        <img src="assets/project1.jpg" alt="Project 1">
-        <h3>Own Source Revenue of Lumbini Province</h3>
-        <p>Role: Research Assistant to an economist
-            
-          Scope: Contributed to a study on revenue generation sources for Lumbini Province.
-          
-          Focus: Understanding how provinces generate revenue independently of federal transfers.
-          
-          Methods: Data analysis, report drafting, and documentation support.
-          
-          Key Learnings:
-          1. Exposure to policy and governance research.
-          2. Experience in data analysis, understanding fiscal systems, and preparing research for publication.
-          3. Reinforced your analytical and methodological skills.
-  </p>
-  </div>
-
-
-<!-- Contact Section -->
-<section id="contact" class="section">
-  <div class="container">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:subodhdotcome@gmail.com">subodhdotcome@gmail.com</a></p>
-  </div>
-</section>
+    document.querySelectorAll('.card, .mission, .highlight').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
