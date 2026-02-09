@@ -74,6 +74,8 @@ title: Home
   </a>
 </section>
 
+{% include hero.html %}
+
 <!-- ================= Scroll Animation Hook ================= -->
 <script>
   const observer = new IntersectionObserver(
