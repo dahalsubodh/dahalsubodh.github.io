@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 <!-- ================= Research Trajectory ================= -->
 <section id="trajectory" class="trajectory">
   <h2>Research Trajectory</h2>
