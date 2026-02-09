@@ -76,6 +76,27 @@ nav a:hover { background-color:#0083CB; color:#fff; transform:scale(1.05); }
   </div>
 </nav>
 
+.nav-link.active {
+  background-color: #0083CB;
+  color: #fff;
+  border-radius: 0.75rem;
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+  background-color: #0083CB;
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .nav-bar .container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+
 <!-- Hero -->
 <section id="hero" class="hero">
   <div class="hero-left">
