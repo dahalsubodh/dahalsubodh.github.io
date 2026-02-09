@@ -6,10 +6,9 @@
   <title>{{ page.title }} | Subodh Dahal | EdTech Portfolio</title>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/style.css">
-
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -22,8 +21,18 @@
 
 <body>
 
-  <!-- NAVIGATION -->
-  {% include nav.html %}
+    <!-- NAVIGATION -->
+   {% include nav.html %}
+
+  {% if page.url == "/" %}
+    {% include hero.html %}
+  {% endif %}
+
+  <main class="page-content">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
 
   <!-- HERO SECTION (Homepage Only) -->
   {% if page.url == "/" or page.url == "/index.html" %}
@@ -52,9 +61,6 @@
   <main class="container">
     {{ content }}
   </main>
-
-  <!-- FOOTER -->
-  {% include footer.html %}
 
 </body>
 </html>
