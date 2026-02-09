@@ -34,29 +34,6 @@
 
   {% include footer.html %}
 
-  <!-- HERO SECTION (Homepage Only) -->
-  {% if page.url == "/" or page.url == "/index.html" %}
-  <section class="hero">
-    <div class="container hero-container">
-      <div class="hero-left">
-        <h1>Hi I'm <span>Subodh Dahal</span></h1>
-        <p>
-          I investigate how educational technologies can be designed to support credible learning.
-          My work shifts the focus from detection-based integrity to process-based integrity,
-          making student engagement visible and meaningful.
-        </p>
-        <div class="hero-cta">
-          <a href="/assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" target="_blank" class="cta-button">View CV</a>
-          <a href="/research.html" class="cta-button orange">Research Interests</a>
-        </div>
-      </div>
-      <div class="hero-right">
-        <img src="/assets/subodh-hero-image.png" alt="Subodh Dahal">
-      </div>
-    </div>
-  </section>
-  {% endif %}
-
   <!-- MAIN CONTENT -->
   <main class="container">
     {{ content }}
