@@ -50,19 +50,6 @@
     <a href="#" class="button">View Research</a>
   </section>
 
- <!-- Footer -->
- footer>
-    <div class="container">
-      <h4>Subodh Dahal</h4>
-      <p>Researcher & Policy Practitioner • Kathmandu, Nepal</p>
-      <div class="social">
-        <a href="https://www.linkedin.com/in/subodh-dahal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://scholar.google.com/citations?hl=en&user=3pw7tvsAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="mailto:subodhdotcome@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-      </div>
-      <a href="mailto:subodhdotcome@gmail.com" class="cta-button">Get in Touch</a>
-    </div>
-  </footer>
 <!-- Scroll Animations -->
   <script>
     const observer = new IntersectionObserver((entries) => {
