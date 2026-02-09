@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html-->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="container">
-      <h1>From <span>EdTech Adoption</span> to Learning Integrity</h1>
+      <h1>From <span>Hi, I’m Subodh Dahal</h1>
       <p>I investigate how educational technologies can be designed to support credible learning. My work shifts the focus from detection-based integrity to process-based integrity, making student engagement visible and meaningful.</p>
     </div>
   </section>
