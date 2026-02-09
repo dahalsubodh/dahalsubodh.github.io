@@ -22,7 +22,8 @@
 
 <body>
  {% include nav.html %}
-
+<a href="#research" class="nav-link {% if page.title == 'Research' %}active{% endif %}">Research</a>
+  
   <!-- HERO SECTION (Homepage Only) -->
 {% if page.url == "/" or page.url == "/index.html" %}
   <!-- HERO SECTION -->
