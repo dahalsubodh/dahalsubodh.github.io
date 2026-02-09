@@ -262,3 +262,49 @@ footer a.button:hover {
   .hero h1 { font-size: 2rem; }
   .hero p { font-size: 1rem; }
 }
+
+/* Navbar */
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E5E7EB;
+  z-index: 1000;
+  padding: 1rem 0;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.sticky {
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Nav links */
+nav a {
+  color: #374151; /* slate gray */
+  font-weight: 600;
+  margin-left: 1.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0083CB; /* primary blue */
+  color: #FFFFFF;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 131, 203, 0.2);
+}
+
+nav a.active {
+  background-color: #D55126; /* accent orange for active page */
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(213, 81, 38, 0.2);
+}
