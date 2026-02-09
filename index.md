@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+{% include hero.html %}
+
 <!-- ================= Research Trajectory ================= -->
 <section id="trajectory" class="trajectory">
   <h2>Research Trajectory</h2>
@@ -73,8 +75,6 @@ title: Home
     Explore Research
   </a>
 </section>
-
-{% include hero.html %}
 
 <!-- ================= Scroll Animation Hook ================= -->
 <script>
