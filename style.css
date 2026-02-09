@@ -18,16 +18,27 @@ body { background-color: #fff; }
 .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
 
 /* ---------------- Nav ---------------- */
-nav {
-  background-color: #fff;
-  position: sticky; top: 0; z-index: 1000;
-  border-bottom: 1px solid #E5E7EB; padding:1rem 0;
+.nav-bar {
+  background: #fff;
+  border-bottom: 1px solid #E5E7EB;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
-nav .container { display:flex; justify-content:center; gap:2rem; }
-nav a {
-  color:#0083CB; font-weight:600; text-decoration:none; padding:0.5rem 1rem; border-radius:0.75rem; transition:all 0.3s ease;
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
-nav a:hover { background-color:#0083CB; color:#fff; transform:scale(1.05); }
+
+.nav-bar a {
+  color: #0083CB;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
 
 /* ---------------- Hero ---------------- */
 .hero { background-color:#E0F0FF; padding:6rem 0; display:flex; align-items:center; flex-wrap:wrap; }
@@ -39,8 +50,12 @@ nav a:hover { background-color:#0083CB; color:#fff; transform:scale(1.05); }
 .cta-button:hover { transform:scale(1.05); box-shadow:0 6px 16px rgba(0,131,203,0.25);}
 .cta-button.orange { background-color:#D55126; }
 .hero-right { flex:1; min-width:300px; text-align:center; margin-top:2rem; }
-.hero-right img { max-width:100%; border-radius:1rem; box-shadow:0 10px 20px rgba(0,0,0,0.1); transition: transform 0.5s ease; }
 .hero-right img:hover { transform: translateY(-5px) scale(1.02); }
+.hero-right img {
+  max-width: 100%;
+  max-height: 380px;
+  object-fit: contain;
+}
 
 /* ---------------- Trajectory ---------------- */
 .trajectory { padding:6rem 0; }
