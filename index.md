@@ -1,33 +1,25 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subodh Dahal | Edtech Portfolio</title>
+  <title>Subodh Dahal - EdTech Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Hero Section -->
-<header class="hero">
-  <div class="container hero-flex">
-    <img src="assets/subodh-hero-image.png" alt="Subodh Dahal" class="hero-img">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>From <span>EdTech Adoption</span> to Learning Integrity</h1>
+      <p>I investigate how educational technologies can be designed to support credible learning. My work shifts the focus from detection-based integrity to process-based integrity, making student engagement visible and meaningful.</p>
+    </div>
+  </section>
 
-    <div class="hero-text">
-      <h1>Hi, I’m Subodh Dahal</h1>
-      <p>As an education technology researcher and policy practitioner, I examine how digital environments can be architected to prioritize learning integrity as a process, rather than just an outcome to be detected.
-
-My trajectory spans from assessing TPACK readiness in Nepalese government schools to presenting process-based integrity frameworks at international conferences.
-</p>
-      <div class="hero-buttons">
-      <a href="assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" class="cta-btn" target="_blank" rel="noopener noreferrer">View CV</a>
-        <a href="projects.html" class="cta-btn cta-secondary">View Projects</a>
-      </div>
-  </div>
-</div>
-</header>
-
-<!-- About Section -->
-<section class="trajectory container">
+  <!-- Trajectory Section -->
+  <section class="trajectory container">
     <div class="card">
       <div class="icon"><i class="fas fa-graduation-cap"></i></div>
       <h3>Foundations in EdTech & TPACK</h3>
@@ -44,12 +36,13 @@ My trajectory spans from assessing TPACK readiness in Nepalese government school
       <p>Currently exploring the Person, Process, Product framework. I advocate for educational tools that address all three dimensions to make integrity decisions more transparent and fair.</p>
     </div>
   </section>
-<!-- Mission Callout -->
-<section class="mission">
+
+  <!-- Mission Callout -->
+  <section class="mission">
     <blockquote>"Moving beyond detection: Designing credible learning evidence in the age of GenAI."</blockquote>
   </section>
 
-<!-- Highlight Section -->
+  <!-- Highlight Section -->
   <section class="highlight">
     <span class="tag">TPACK Study</span>
     <h3>Assessing Teacher ICT Integration</h3>
@@ -70,8 +63,7 @@ My trajectory spans from assessing TPACK readiness in Nepalese government school
       <a href="mailto:subodhdotcome@gmail.com" class="cta-button">Get in Touch</a>
     </div>
   </footer>
-
-  <!-- Scroll Animations -->
+<!-- Scroll Animations -->
   <script>
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
@@ -83,5 +75,6 @@ My trajectory spans from assessing TPACK readiness in Nepalese government school
 
     document.querySelectorAll('.card, .mission, .highlight').forEach(el => observer.observe(el));
   </script>
-</body>
+
+ </body>
 </html>
