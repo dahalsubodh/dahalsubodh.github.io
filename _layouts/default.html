@@ -21,56 +21,45 @@
 </head>
 
 <body>
-
-  <!-- NAVIGATION -->
-  <header>
-    <nav class="nav-bar">
-      <div class="container nav-container">
-        <a href="/index.html" class="nav-link {% if page.title == 'Home' %}active{% endif %}">Home</a>
-        <a href="/research.html" class="nav-link {% if page.title == 'Research' %}active{% endif %}">Research</a>
-        <a href="/projects.html" class="nav-link {% if page.title == 'Projects' %}active{% endif %}">Projects</a>
-        <a href="/publications.html" class="nav-link {% if page.title == 'Publications' %}active{% endif %}">Publications</a>
-        <a href="/education.html" class="nav-link {% if page.title == 'Education' %}active{% endif %}">Education</a>
-        <a href="/contact.html" class="nav-link {% if page.title == 'Contact' %}active{% endif %}">Contact</a>
-      </div>
-    </nav>
-  </header>
+ {% include nav.html %}
 
   <!-- HERO SECTION (Homepage Only) -->
-  {% if page.url == "/" or page.url == "/index.html" %}
+{% if page.url == "/" or page.url == "/index.html" %}
+  <!-- HERO SECTION -->
   <section class="hero">
     <div class="container hero-container">
       <div class="hero-left">
-        <h1>From <span>EdTech Adoption</span> to Learning Integrity</h1>
-        <p>I investigate how educational technologies can be designed to support credible learning. My work shifts the focus from detection-based integrity to process-based integrity, making student engagement visible and meaningful.</p>
-        <a href="/assets/SubodhDahal_CV.pdf" target="_blank" class="cta-button">View CV</a>
-        <a href="#research" class="cta-button orange">Research Interests</a>
+        <h1>Hi I'm<span>Subodh Dahal</h1>
+        <p>
+          I investigate how educational technologies can be designed to support credible learning.
+          My work shifts the focus from detection-based integrity to process-based integrity,
+          making student engagement visible and meaningful.
+        </p>
+        <div class="hero-cta">
+          <a href="/assets/Subodh Dahal — Academic CV - 3 pager (2026).pdf" target="_blank" class="cta-button">View CV</a>
+          <a href="#research" class="cta-button orange">Research Interests</a>
+        </div>
       </div>
       <div class="hero-right">
-        <img src="/assets/hero-image.png" alt="EdTech Illustration">
+        <img src="/assets/subodh-hero-image.png" alt="Subodh Dahal">
       </div>
     </div>
   </section>
-  {% endif %}
+{% endif %}
+
 
   <!-- MAIN CONTENT -->
   <main class="container">
     {{ content }}
   </main>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-container">
-      <h4>Subodh Dahal</h4>
-      <p>Researcher & Policy Practitioner • Kathmandu, Nepal</p>
-      <div class="social">
-        <a href="https://www.linkedin.com/in/subodh-dahal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://scholar.google.com/citations?hl=en&user=3pw7tvsAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-        <a href="mailto:subodhdotcome@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-      </div>
-      <a href="mailto:subodhdotcome@gmail.com" class="cta-button">Get in Touch</a>
-    </div>
-  </footer>
+ {% include footer.html %}
 
 </body>
 </html>
+
+
+<div class="hero-cta">
+  <a class="cta-button">...</a>
+  <a class="cta-button orange">...</a>
+</div>
