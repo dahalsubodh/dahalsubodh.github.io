@@ -1,68 +1,89 @@
-<!--DOCTYPE html-->
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subodh Dahal | EdTech Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!-- ================= Research Trajectory ================= -->
+<section id="trajectory" class="trajectory">
+  <h2>Research Trajectory</h2>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>From <span>Hi, I’m Subodh Dahal</h1>
-      <p>I investigate how educational technologies can be designed to support credible learning. My work shifts the focus from detection-based integrity to process-based integrity, making student engagement visible and meaningful.
+  <div class="steps">
+    <div class="step-card">
+      <div class="icon">
+        <i class="fas fa-graduation-cap"></i>
+      </div>
+      <h3>Foundations in EdTech & TPACK</h3>
+      <p>
+        Began by examining teacher preparedness through the TPACK framework.
+        My graduate research highlighted that while pedagogical knowledge is
+        strong, effective technology integration depends on confidence,
+        contextual support, and implementation strategies.
       </p>
     </div>
-  </section>
 
-  <!-- Trajectory Section -->
-  <section class="trajectory container">
-    <div class="card">
-      <div class="icon"><i class="fas fa-graduation-cap"></i></div>
-      <h3>Foundations in EdTech & TPACK</h3>
-      <p>Began by examining teacher preparedness through the TPACK framework. My thesis revealed that while pedagogy is strong, technological integration depends on confidence and effective implementation strategies.</p>
-    </div>
-    <div class="card">
-      <div class="icon"><i class="fas fa-robot"></i></div>
+    <div class="step-card">
+      <div class="icon">
+        <i class="fas fa-robot"></i>
+      </div>
       <h3>The GenAI Challenge</h3>
-      <p>As GenAI tools became widespread, I identified a critical gap: prevailing tools prioritize detecting misconduct at submission rather than supporting the learning journey itself.</p>
+      <p>
+        As generative AI tools became widespread, I identified a critical gap:
+        prevailing integrity solutions emphasize detection at submission,
+        rather than supporting and evidencing the learning process itself.
+      </p>
     </div>
-    <div class="card">
-      <div class="icon"><i class="fas fa-network-wired"></i></div>
+
+    <div class="step-card">
+      <div class="icon">
+        <i class="fas fa-network-wired"></i>
+      </div>
       <h3>The 3P Framework</h3>
-      <p>Currently exploring the Person, Process, Product framework. I advocate for educational tools that address all three dimensions to make integrity decisions more transparent and fair.</p>
+      <p>
+        My current work explores the Person–Process–Product framework,
+        advocating for educational technologies that surface engagement,
+        authorship, and learning decisions in transparent and fair ways.
+      </p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Mission Callout -->
-  <section class="mission">
-    <blockquote>"Moving beyond detection: Designing credible learning evidence in the age of GenAI."</blockquote>
-  </section>
+<!-- ================= Mission ================= -->
+<section class="mission">
+  <h2>Core Philosophy</h2>
+  <blockquote>
+    “Moving beyond detection: designing credible learning evidence
+    in the age of generative AI.”
+  </blockquote>
+</section>
 
-  <!-- Highlight Section -->
-  <section class="highlight">
-    <span class="tag">TPACK Study</span>
-    <h3>Assessing Teacher ICT Integration</h3>
-    <p>Assessed pedagogical and technological knowledge in Lalitpur. Discovered that teachers possess strong subject mastery but require scaffolded support for meaningful digital integration in low-resource settings.</p>
-    <a href="#" class="button">View Research</a>
-  </section>
+<!-- ================= Research Highlight ================= -->
+<section class="highlight container">
+  <span class="tag">Graduate Research • TPACK</span>
 
-<!-- Scroll Animations -->
-  <script>
-    const observer = new IntersectionObserver((entries) => {
+  <h3>Assessing Teacher ICT Integration in Public Schools</h3>
+
+  <p>
+    Conducted an assessment of pedagogical and technological knowledge among
+    schoolteachers in Nepal. The study revealed strong subject mastery but
+    uneven adoption of digital tools, emphasizing the need for scaffolded,
+    context-sensitive professional development in low-resource settings.
+  </p>
+
+  <a href="/research.html" class="cta-button">
+    Explore Research
+  </a>
+</section>
+
+<!-- ================= Scroll Animation Hook ================= -->
+<script>
+  const observer = new IntersectionObserver(
+    (entries) => {
       entries.forEach(entry => {
-        if(entry.isIntersecting){
+        if (entry.isIntersecting) {
           entry.target.classList.add('show');
         }
       });
-    }, { threshold: 0.1 });
+    },
+    { threshold: 0.1 }
+  );
 
-    document.querySelectorAll('.card, .mission, .highlight').forEach(el => observer.observe(el));
-  </script>
+  document
+    .querySelectorAll('.step-card, .mission, .highlight')
+    .forEach(el => observer.observe(el));
+</script>
 
- </body>
-</html>
