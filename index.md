@@ -92,27 +92,4 @@ title: Home
     .forEach(el => observer.observe(el));
 </script>
 
-<!-- rest of homepage sections -->
-<section class="hero">
-  <div class="container hero-container">
-    <div class="hero-left">
-      <h1>Hi, I’m <span>Subodh Dahal</span></h1>
-      <p>
-        I investigate how educational technologies can be designed to support credible learning.
-        My work shifts the focus from detection-based integrity to process-based integrity,
-        making student engagement visible and meaningful.
-      </p>
-
-      <div class="hero-cta">
-        <a href="/assets/SubodhDahal_CV.pdf" class="cta-button" target="_blank">View CV</a>
-        <a href="/research.html" class="cta-button orange">Research Interests</a>
-      </div>
-    </div>
-
-    <div class="hero-right">
-      <img src="/assets/subodh-hero-image.png" alt="Subodh Dahal">
-    </div>
-  </div>
-</section>
-
 
