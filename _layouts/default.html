@@ -3,57 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} Subodh Dahal | Portfolio</title>
+  <title>{{ page.title }} | Subodh Dahal Portfolio</title>
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/style.css">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome for social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <!-- Favicon -->  
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
 </head>
 
 <body>
+
   <!-- NAVIGATION -->
   <header>
     <nav class="nav-bar">
-      <a href="/index.html" class="nav-link {% if page.title == 'Home' %}active{% endif %}">Home</a>
-      <a href="/research.html" class="nav-link {% if page.title == 'Research' %}active{% endif %}">Research</a>
-      <a href="/projects.html" class="nav-link {% if page.title == 'Projects' %}active{% endif %}">Projects</a>
-      <a href="/publications.html" class="nav-link {% if page.title == 'Publications' %}active{% endif %}">Publications</a>
-      <a href="/education.html" class="nav-link {% if page.title == 'Education' %}active{% endif %}">Education</a>
-      <a href="/contact.html" class="nav-link {% if page.title == 'Contact' %}active{% endif %}">Contact</a>
+      <div class="container nav-container">
+        <a href="/index.html" class="nav-link {% if page.title == 'Home' %}active{% endif %}">Home</a>
+        <a href="/research.html" class="nav-link {% if page.title == 'Research' %}active{% endif %}">Research</a>
+        <a href="/projects.html" class="nav-link {% if page.title == 'Projects' %}active{% endif %}">Projects</a>
+        <a href="/publications.html" class="nav-link {% if page.title == 'Publications' %}active{% endif %}">Publications</a>
+        <a href="/education.html" class="nav-link {% if page.title == 'Education' %}active{% endif %}">Education</a>
+        <a href="/contact.html" class="nav-link {% if page.title == 'Contact' %}active{% endif %}">Contact</a>
+      </div>
     </nav>
   </header>
 
-  <!-- HERO SECTION ONLY ON HOME PAGE -->
+  <!-- HERO SECTION (Homepage Only) -->
   {% if page.title == "Home" %}
   <section class="hero">
     <div class="container hero-container">
-      <h1>Subodh Dahal</h1>
-      <p>EdTech Researcher | Learning Integrity | Learning Experience Designer </p>
+      <div class="hero-left">
+        <h1>From <span>EdTech Adoption</span> to Learning Integrity</h1>
+        <p>I investigate how educational technologies can be designed to support credible learning. My work shifts the focus from detection-based integrity to process-based integrity, making student engagement visible and meaningful.</p>
+        <a href="/assets/SubodhDahal_CV.pdf" target="_blank" class="cta-button">View CV</a>
+        <a href="#research" class="cta-button orange">Research Interests</a>
+      </div>
+      <div class="hero-right">
+        <img src="/assets/hero-image.png" alt="EdTech Illustration">
+      </div>
     </div>
   </section>
   {% endif %}
 
-  <!-- PAGE CONTENT -->
+  <!-- MAIN CONTENT -->
   <main class="container">
     {{ content }}
   </main>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>Connect with me:</p>
-    <a href="https://linkedin.com/in/subodh-dahal" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-    <a href="https://scholar.google.com/citations?hl=en&user=3pw7tvsAAAAJ" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-    <a href="mailto:subodhdotcome@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+    <div class="container footer-container">
+      <h4>Subodh Dahal</h4>
+      <p>Researcher & Policy Practitioner • Kathmandu, Nepal</p>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/subodh-dahal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://scholar.google.com/citations?hl=en&user=3pw7tvsAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="mailto:subodhdotcome@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      <a href="mailto:subodhdotcome@gmail.com" class="cta-button">Get in Touch</a>
+    </div>
   </footer>
 
 </body>
