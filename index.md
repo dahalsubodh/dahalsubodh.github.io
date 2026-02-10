@@ -50,6 +50,7 @@ title: Home
 
 <!-- ================= Mission ================= -->
 <section class="mission">
+<div class="container">
   <h2>Core Philosophy</h2>
   <blockquote>
     “Moving beyond detection: designing credible learning evidence
@@ -69,7 +70,3 @@ title: Home
   </p>
   <a href="/research.html" class="cta-button">Read More</a>
 </section>
-
-
-
-
