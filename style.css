@@ -128,7 +128,8 @@ body {
 .hero-image img {
   width: 300px;
   height: 300px;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: 50% 20%; 
   border-radius: 50%;
   border: 6px solid #fff;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
