@@ -22,6 +22,13 @@ body {
   padding-right: 1.5rem;
 }
 
+/* Global page content */
+main.container {
+  max-width: 900px;       /* ensures content does not stretch too wide */
+  margin: 0 auto;
+  padding: 0 24px;        /* spacing on left/right */
+}
+
 /* ---------------- Nav ---------------- */
 .nav-bar {
   position: sticky;
@@ -66,18 +73,19 @@ body {
   color: #ffffff;
 }
 
-
 /* ---------------- Hero ---------------- */
 .hero { 
   background-color:#E0F0FF; 
-  padding:80px 0; 
-  display:flex; 
-  align-items:center; 
-  flex-wrap:wrap; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hero-left { 
   flex:1; 
+.hero-right {  
+  text-align: center;
   min-width:400px; 
   padding-right:2rem; 
 }
@@ -128,13 +136,10 @@ body {
 }
 
 .hero-image img {
-  width: 300px;
+  width: 300px;      /* fixed width to show face */
   height: 300px;
-  object-fit: cover;
-  object-position: 70% 05%; 
-  border-radius: 25%;
-  border: 2px solid #fff;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 50%; /* circle */
+  object-fit: cover;  /* crops sides but keeps face */
 }
 
 .hero-right img:hover { 
@@ -267,12 +272,7 @@ body {
   border-radius: 1.5rem;
   margin: 2rem auto;
 }
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
+  
 .research-highlight .tag {
   display: inline-block;
   font-size: 0.8rem;
@@ -284,6 +284,13 @@ body {
 .research-highlight .cta-button {
   display: inline-block;
   margin-top: 1rem;
+}
+
+.research-highlight .container,
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* ---------------- Footer ---------------- */
