@@ -58,13 +58,15 @@ title: Home
 
 <!-- ================= Research Highlight ================= -->
 <section class="research-highlight">
-  <div class="container">
-  <span class="tag">Graduate Research • TPACK</span>
-  <h2>Assessing Teacher ICT Integration in Public Schools</h2>
-  <p>
-    A field-based study examining pedagogical and technological readiness
-    among public school teachers, highlighting the gap between strong pedagogy
-    and practical digital integration.
-  </p>
-  <a href="/research.html" class="cta-button">Read More</a>
+  <div class="highlight-container">
+    <span class="tag">Graduate Research • TPACK</span>
+    <h2>Assessing Teacher ICT Integration in Public Schools</h2>
+    <p>
+      A field-based study examining pedagogical and technological readiness
+      among public school teachers, highlighting the gap between strong pedagogy
+      and practical digital integration.
+    </p>
+    <a href="/research.html" class="cta-button">Read More</a>
+  </div>
+</section>
 
