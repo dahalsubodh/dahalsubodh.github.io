@@ -118,7 +118,7 @@ section {
 }
 
 .hero-right img {
- width: 240px;
+  width: 240px;
   height: 240px;
   object-fit: cover;
   border-radius: 50%;
