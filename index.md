@@ -69,4 +69,3 @@ title: Home
     <a href="/research.html" class="cta-button">Read More</a>
   </div>
 </section>
-
