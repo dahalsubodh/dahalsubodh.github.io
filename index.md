@@ -45,8 +45,6 @@ title: Home
         authorship, and learning decisions in transparent and fair ways.
       </p>
     </div>
-  </div>
-</section>
 
 <!-- ================= Mission ================= -->
 <section class="mission">
@@ -69,4 +67,4 @@ title: Home
     and practical digital integration.
   </p>
   <a href="/research.html" class="cta-button">Read More</a>
-</section>
+
