@@ -57,22 +57,17 @@ title: Home
 </section>
 
 <!-- ================= Research Highlight ================= -->
-<section class="highlight container">
+<section class="research-highlight">
   <span class="tag">Graduate Research • TPACK</span>
-
-  <h3>Assessing Teacher ICT Integration in Public Schools</h3>
-
+  <h2>Assessing Teacher ICT Integration in Public Schools</h2>
   <p>
-    Conducted an assessment of pedagogical and technological knowledge among
-    schoolteachers in Nepal. The study revealed strong subject mastery but
-    uneven adoption of digital tools, emphasizing the need for scaffolded,
-    context-sensitive professional development in low-resource settings.
+    A field-based study examining pedagogical and technological readiness
+    among public school teachers, highlighting the gap between strong pedagogy
+    and practical digital integration.
   </p>
-
-  <a href="/research.html" class="cta-button">
-    Explore Research
-  </a>
+  <a href="/research.html" class="cta-button">Read More</a>
 </section>
+
 
 
 
