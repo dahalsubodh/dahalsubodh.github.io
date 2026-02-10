@@ -5,6 +5,7 @@ title: Home
 
 <!-- ================= Research Trajectory ================= -->
 <section id="trajectory" class="trajectory">
+  <div class="container">
   <h2>Research Trajectory</h2>
 
   <div class="steps">
@@ -58,6 +59,7 @@ title: Home
 
 <!-- ================= Research Highlight ================= -->
 <section class="research-highlight">
+  <div class="container">
   <span class="tag">Graduate Research • TPACK</span>
   <h2>Assessing Teacher ICT Integration in Public Schools</h2>
   <p>
