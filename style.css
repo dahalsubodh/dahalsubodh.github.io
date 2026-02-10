@@ -129,7 +129,7 @@ body {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  object-position: 50% 10%; 
+  object-position: 50% 5%; 
   border-radius: 20%;
   border: 3px solid #fff;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
@@ -276,74 +276,59 @@ body {
   margin-top: 1rem;
 }
 
-/* ---------------- Footer ---------------- */
-.site-footer {
-  background: #f1f5f9;            /* soft neutral blue */
-  padding: 4rem 0;
-  margin-top: 6rem;
-}
+<!-- Updated Footer --> 
+    <footer id="contact" class="site-footer">
+        <div class="footer-container reveal">
+            <h4>Let's build something credible.</h4>
+            <p>Available for academic collaborations, policy consulting, and research initiatives.</p>
+            
+            <div class="social">
+                <a href="https://www.linkedin.com/in/subodh-dahal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:subodhdotcome@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://scholar.google.com/" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+            </div>
 
-.footer-container {
-  max-width: 720px;
-  margin: 0 auto;
-  background: #ffffff;
-  padding: 3rem 2rem;
-  border-radius: 1.5rem;
-  text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-}
-.footer-container h4 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #0f172a;
-  margin-bottom: 0.75rem;
-}
+            <div class="footer-divider"></div>
 
-.footer-container p {
+            <div class="footer-microtext">
+                © 2026 Subodh Dahal • Designed with a Process-Based Focus
+            </div>
+            <div class="footer-microtext" style="opacity: 0.6;">
+                Kathmandu, Nepal
+            </div>
+        </div>
+    </footer>
+
+/* ---------------- Main Page Content ---------------- */
+.page-content {
+  max-width: 900px; /* constrain content width */
+  margin: 0 auto;   /* center the content */
+  padding: 2rem 1.5rem; /* top-bottom 2rem, left-right 1.5rem */
+  line-height: 1.7; /* more readable */
   font-size: 1rem;
-  color: #475569;
-  margin-bottom: 2rem;
+  color: #374151;
 }
 
-.social {
-  display: flex;
-  justify-content: center;
-  gap: 1.25rem;
-}
-
-.social a {
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: #e0f0ff;
-  color: #0083cb;
-  font-size: 1.1rem;
-  transition: all 0.25s ease;
-  text-decoration: none;
-}
-
-.social a:hover {
-  background: #0083cb;
-  color: #ffffff;
-  transform: translateY(-2px);
-}
-
-/* Footer divider */
-.footer-divider {
-  width: 60px;
-  height: 3px;
-  background-color: #B3D7F3;
-  margin: 2rem auto;
-  border-radius: 2px;
-}
-
-/* Footer microtext */
-.footer-microtext {
-  font-size: 0.85rem;
-  color: #64748b;
+/* Optional: style headings */
+.page-content h1, 
+.page-content h2, 
+.page-content h3 {
   text-align: center;
   margin-bottom: 1rem;
+  color: #0083cb;
+}
+
+.page-content p {
+  margin-bottom: 1rem;
+}
+
+/* Optional: style links inside content */
+.page-content a {
+  color: #D55126;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.page-content a:hover {
+  color: #0083CB;
 }
