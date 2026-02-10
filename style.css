@@ -292,6 +292,7 @@ body {
 .footer-container {
   max-width: 900px;
   margin: 0 auto;
+  padding: 0 24px;
   text-align: center;
 }
 
@@ -335,14 +336,6 @@ body {
 .footer-microtext {
   font-size: 0.8rem;
   color: #6b7280;
-}
-
-
-/* ---- Footer width fix ---- */
-.site-footer .container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 24px;
 }
 
 /* ---------------- Main Page Content ---------------- */
