@@ -54,7 +54,7 @@ title: Home
     “Moving beyond detection: designing credible learning evidence
     in the age of generative AI.”
   </blockquote>
-</section>
+</div>
 
 <!-- ================= Research Highlight ================= -->
 <section class="research-highlight">
