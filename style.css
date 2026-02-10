@@ -119,7 +119,7 @@ section {
 
 .hero-right img {
   width: 240px;
-  height: 240px;
+  height: 380px;
   object-fit: cover;
   border-radius: 50%;
   transition: transform 0.5s ease;
