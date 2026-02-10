@@ -21,24 +21,24 @@
 
 <body>
 
-  {% include hero.html %}
+<!-- NAVIGATION (GLOBAL) -->
+  {% include nav.html %}
 
-    <!-- NAVIGATION -->
-   {% include nav.html %}
+  <!-- HERO (HOMEPAGE ONLY) -->
+  {% if page.url == "/" or page.url == "/index.html" %}
+    {% include hero.html %}
+  {% endif %}
 
+  <!-- PAGE CONTENT -->
   <main class="page-content">
     {{ content }}
   </main>
 
+  <!-- FOOTER -->
   {% include footer.html %}
 
-  <!-- MAIN CONTENT -->
-  <main class="container">
-    {{ content }}
-  </main>
-
-<! -- Scroll Animation -->  
-<script src="{{ '/assets/js/scroll.js' | relative_url }}"></script>
+  <!-- Scroll Animation -->
+  <script src="{{ '/assets/js/scroll.js' | relative_url }}"></script>
 
 </body>
 </html>
