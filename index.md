@@ -58,7 +58,7 @@ title: Home
 
 <!-- ================= Research Highlight ================= -->
 <section class="research-highlight">
-  <div class="highlight-container">
+  <div class="container">
     <span class="tag">Graduate Research • TPACK</span>
     <h2>Assessing Teacher ICT Integration in Public Schools</h2>
     <p>
@@ -69,3 +69,4 @@ title: Home
     <a href="/research.html" class="cta-button">Read More</a>
   </div>
 </section>
+
