@@ -15,9 +15,11 @@ body {
 
 /* Global layout constraint */
 .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 24px;
+   max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 /* ---------------- Nav ---------------- */
@@ -159,6 +161,7 @@ body {
 
 /* ---------------- Trajectory ---------------- */
 .trajectory { 
+  <div class="container">
   padding:6rem 0; 
 }
 
@@ -235,6 +238,7 @@ body {
 
 /* ---------------- Mission ---------------- */
 .mission { 
+  <div class="container">
   background-color:#F0F8FF; 
   padding:5rem 0; 
   text-align:center; 
@@ -257,6 +261,7 @@ body {
 
 /* ---------------- Research Highlight ---------------- */
 .research-highlight {
+  <div class="container">
   text-align: center;
   padding: 4rem 2rem;
   background: #f0f8ff;
@@ -363,4 +368,15 @@ body {
 
 .page-content a:hover {
   color: #0083CB;
+}
+
+/* ---------------- Markdown Pages ---------------- */
+main {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1.5rem;
+}
+
+section > *:not(.container) {
+  max-width: 100%;
 }
