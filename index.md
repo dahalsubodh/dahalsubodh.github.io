@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-{% include hero.html %}
-
 <!-- ================= Research Trajectory ================= -->
 <section id="trajectory" class="trajectory">
   <h2>Research Trajectory</h2>
@@ -76,22 +74,5 @@ title: Home
   </a>
 </section>
 
-<!-- ================= Scroll Animation Hook ================= -->
-<script>
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('show');
-        }
-      });
-    },
-    { threshold: 0.1 }
-  );
-
-  document
-    .querySelectorAll('.step-card, .mission, .highlight')
-    .forEach(el => observer.observe(el));
-</script>
 
 
