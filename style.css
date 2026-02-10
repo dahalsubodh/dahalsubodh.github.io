@@ -30,7 +30,7 @@ section {
 .nav-bar {
   position: sticky;
   top: 0;
-  background: #fff;
+  background: #ffffff;
   border-bottom: 1px solid #e5e7eb;
   z-index: 1000;
 }
@@ -39,23 +39,37 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 72px;
 }
 
-.nav-link {
-  font-weight: 600;
-  text-decoration: none;
+/* Brand / logo */
+.logo {
+  font-weight: 700;
+  font-size: 1.1rem;
   color: #0083cb;
-  padding: 0.5rem 1rem;
-  border-radius: 0.75rem;
-  transition: 0.3s;
+}
+
+/* Link wrapper */
+.nav-links {
   display: flex;
   gap: 2rem;
 }
 
+/* Individual links */
+.nav-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #0083cb;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.75rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
 .nav-link:hover {
   background: #0083cb;
-  color: #fff;
+  color: #ffffff;
 }
+
 
 /* ---------------- Hero ---------------- */
 .hero { 
