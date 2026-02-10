@@ -276,28 +276,60 @@ body {
   margin-top: 1rem;
 }
 
-<!-- Updated Footer --> 
-    <footer id="contact" class="site-footer">
-        <div class="footer-container reveal">
-            <h4>Let's build something credible.</h4>
-            <p>Available for academic collaborations, policy consulting, and research initiatives.</p>
-            
-            <div class="social">
-                <a href="https://www.linkedin.com/in/subodh-dahal/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:subodhdotcome@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="https://scholar.google.com/" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-            </div>
+/* ---------------- Footer ---------------- */
+.site-footer {
+  background: #f8fafc;
+  margin-top: 6rem;
+  padding: 4rem 0 3rem;
+}
 
-            <div class="footer-divider"></div>
+.footer-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
 
-            <div class="footer-microtext">
-                © 2026 Subodh Dahal • Designed with a Process-Based Focus
-            </div>
-            <div class="footer-microtext" style="opacity: 0.6;">
-                Kathmandu, Nepal
-            </div>
-        </div>
-    </footer>
+.footer-container h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #0083cb;
+}
+
+.footer-tagline {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.social a {
+  color: #0083cb;
+  font-size: 1.25rem;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social a:hover {
+  transform: translateY(-2px);
+  color: #005f94;
+}
+
+.footer-divider {
+  width: 60px;
+  height: 2px;
+  background: #dbeafe;
+  margin: 0 auto 1.5rem;
+}
+
+.footer-microtext {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
 
 /* ---------------- Main Page Content ---------------- */
 .page-content {
