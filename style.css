@@ -20,12 +20,6 @@ body {
   padding: 0 24px;
 }
 
-/* Apply to all main sections */
-main,
-section {
-  width: 100%;
-}
-
 /* ---------------- Nav ---------------- */
 .nav-bar {
   position: sticky;
@@ -131,12 +125,13 @@ section {
   margin-top:2rem; 
 }
 
-.hero-right img {
-  width: 240px;
-  height: 380px;
+.hero-image img {
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   border-radius: 50%;
-  transition: transform 0.5s ease;
+  border: 6px solid #fff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
 .hero-right img:hover { 
@@ -148,6 +143,17 @@ section {
   align-items: center;
   gap: 3rem;
   flex-wrap: wrap;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.hero-text {
+  max-width: 520px;
 }
 
 /* ---------------- Trajectory ---------------- */
@@ -211,10 +217,20 @@ section {
   margin-bottom:0.5rem; 
 }
 
-@media(max-width:768px){ 
-  .steps { flex-direction:column; } 
-  .step-card { margin:1rem 0; } 
-}
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
 
 /* ---------------- Mission ---------------- */
 .mission { 
