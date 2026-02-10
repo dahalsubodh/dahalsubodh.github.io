@@ -268,10 +268,9 @@ body {
   margin: 2rem auto;
 }
 
-.research-highlight .highlight-container {
-  max-width: 900px;       /* constrain width */
-  margin: 0 auto;         /* center the container */
-  padding: 0 24px;        /* left-right spacing */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .research-highlight .tag {
@@ -283,9 +282,9 @@ body {
 }
 
 .research-highlight .cta-button {
-  margin-top: 1.5rem;     /* more space below text */
+  display: inline-block;
+  margin-top: 1rem;
 }
-
 
 /* ---------------- Footer ---------------- */
 .site-footer {
