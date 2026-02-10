@@ -261,12 +261,17 @@ body {
 
 /* ---------------- Research Highlight ---------------- */
 .research-highlight {
-  <div class="container">
   text-align: center;
   padding: 4rem 2rem;
   background: #f0f8ff;
   border-radius: 1.5rem;
   margin: 2rem auto;
+}
+
+.research-highlight .highlight-container {
+  max-width: 900px;       /* constrain width */
+  margin: 0 auto;         /* center the container */
+  padding: 0 24px;        /* left-right spacing */
 }
 
 .research-highlight .tag {
@@ -278,8 +283,9 @@ body {
 }
 
 .research-highlight .cta-button {
-  margin-top: 1rem;
+  margin-top: 1.5rem;     /* more space below text */
 }
+
 
 /* ---------------- Footer ---------------- */
 .site-footer {
