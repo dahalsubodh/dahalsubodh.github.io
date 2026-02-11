@@ -110,6 +110,56 @@ p, ul {
   width: 100%;
 }
 
+/* Hamburger styling */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #0083CB;
+  border-radius: 2px;
+}
+
+/* Responsive nav */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 72px; /* nav-bar height */
+    right: 0;
+    background: #ffffff;
+    width: 100%;
+    flex-direction: column;
+    display: none; /* hidden by default */
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .nav-links.show {
+    display: flex; /* show when hamburger clicked */
+  }
+
+  .nav-links a {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .hamburger {
+    display: flex; /* show hamburger on mobile */
+  }
+
+  .nav-container {
+    position: relative;
+  }
+}
+
 /* ================= HERO SECTION ================= */
 
 .hero {
