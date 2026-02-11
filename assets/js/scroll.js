@@ -15,3 +15,12 @@
     .querySelectorAll('.step-card, .mission, .highlight')
     .forEach(el => observer.observe(el));
 </script>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
