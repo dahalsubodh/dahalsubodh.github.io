@@ -223,6 +223,16 @@ p, ul {
   }
 }
 
+.hero-greeting {
+  color: #334155;       /* deep slate for greeting */
+  font-weight: 700;
+}
+
+.hero-name {
+  color: #2563EB;       /* sophisticated blue for name */
+  font-weight: 800;
+}
+
 /* ---------------- Trajectory ---------------- */
 .trajectory { 
   <div class="container">
