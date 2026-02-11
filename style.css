@@ -517,7 +517,8 @@ p, ul {
 }
 
 .research-highlight .cta-button:hover {
-  background-color: #005F94;
+  background-color: #005F94; /* dark blue */
+  color: #ffffff;            /* ensure text stays white */
   transform: translateY(-2px);
 }
 
