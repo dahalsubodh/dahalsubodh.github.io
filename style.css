@@ -59,6 +59,9 @@ p, ul {
   justify-content: space-between;
   align-items: center;
   height: 80px;
+  max-width: 1140px; /* ensure consistent with other containers */
+  margin: 0 auto;     /* center horizontally */
+  padding: 0 2rem;
 }
 
 /* -------- Logo -------- */
@@ -110,7 +113,7 @@ p, ul {
 
 .hero {
   background-color: #F8FAFC; /* light slate instead of bright blue */
-  padding: 6rem 0;
+  padding: 6rem 0 4rem 0;
 }
 
 .hero-container {
@@ -118,7 +121,8 @@ p, ul {
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;   /* prevents stacking by default */
+  margin: 0 auto;
 }
 
 /* -------- TEXT -------- */
@@ -210,9 +214,8 @@ p, ul {
     flex-direction: column-reverse;
     text-align: center;
   }
-
-  .hero-text {
-    max-width: 100%;
+  .hero-image {
+    margin-bottom: 2rem; /* spacing between image and text */
   }
 
   .hero-cta {
