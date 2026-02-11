@@ -287,12 +287,12 @@ p, ul {
   display: block;           /* ensures it’s on its own line */
   font-size: 3.2rem;
   font-weight: 800;
-  color: #1E40AF;           /* primary blue accent */
+  color: #2563EB;           /* primary blue accent */
 }
 
 /* ---------------- Trajectory ---------------- */
 .trajectory { 
-  padding: 2rem 1.5rem; 
+  padding: 1rem 1.5rem; 
   background-color: #F8FAFC; /* light box background */
   border-radius: 1.5rem;     /* rounded corners for box */
   box-shadow: 0 8px 20px rgba(0,0,0,0.05); /* subtle shadow */
