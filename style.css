@@ -236,7 +236,7 @@ p, ul {
 
 /* ---------------- Trajectory ---------------- */
 .trajectory { 
-  padding: 6rem 1.5rem; 
+  padding: 3rem 1.5rem; 
   background-color: #F8FAFC; /* light box background */
   border-radius: 1.5rem;     /* rounded corners for box */
   box-shadow: 0 8px 20px rgba(0,0,0,0.05); /* subtle shadow */
@@ -447,11 +447,24 @@ p, ul {
   margin-bottom: 0.5rem;
 }
 
-/* CTA button */
 .research-highlight .cta-button {
   display: inline-block;
   margin-top: 1rem;
+
+  background-color: #2563EB; /* sophisticated blue */
+  color: #ffffff;             /* white text for contrast */
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
+
+.research-highlight .cta-button:hover {
+  background-color: #1E40AF; /* darker blue on hover */
+  transform: translateY(-2px);
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -478,20 +491,15 @@ p, ul {
   margin-top: 6rem;
   padding: 4rem 0 3rem;
   width: 100%;
+  text-align: center;
 }
 
 .footer-container {
-  display: flex;
-  flex-wrap: wrap;       /* allows items to wrap on small/large screens */
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 1140px;     /* match global container */
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 2rem;
-  text-align: center;
-  gap: 2rem;             /* spacing between items */
+  padding: 0 1.5rem;
+  text-align: center; /* ensure container content is centered */
 }
-
 
 .footer-container h4 {
   font-size: 1.5rem;
@@ -508,19 +516,39 @@ p, ul {
 .social {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
   margin-bottom: 2.5rem;
+  flex-wrap: wrap;
 }
 
 .social a {
   color: #0083cb;
   font-size: 1.25rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column; /* icon above label */
+  align-items: center;
   transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social a i {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem; /* space between icon and label */
+}
+
+.social a span {
+  font-size: 0.875rem;
+  color: #0f172a;
 }
 
 .social a:hover {
   transform: translateY(-2px);
   color: #005f94;
+}
+
+.site-footer,
+.footer-container {
+  text-align: center; /* center all text and icons */
 }
 
 .footer-divider {
