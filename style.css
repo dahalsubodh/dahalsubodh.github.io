@@ -86,7 +86,7 @@ p, ul {
   text-decoration: none;
   color: #334155;
   position: relative;
-  padding-bottom: 4px;
+  padding-bottom: 3px;
   transition: color 0.2s ease;
 }
 
@@ -164,7 +164,7 @@ p, ul {
 
 .hero {
   background-color: #F8FAFC; /* light slate instead of bright blue */
-  padding: 1rem 0 2rem 0;
+  padding: 0.5rem 0 1rem 0;
 }
 
 .hero-container {
