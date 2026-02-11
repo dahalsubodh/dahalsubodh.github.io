@@ -37,12 +37,13 @@ p, ul {
   margin: 0 auto;
 }
 
-/* ---------------- Nav ---------------- */
+/* ================= NAV ================= */
+
 .nav-bar {
   position: sticky;
   top: 0;
   background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #E2E8F0;
   z-index: 1000;
 }
 
@@ -50,35 +51,52 @@ p, ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 72px;
+  height: 80px;
 }
 
-/* Brand / logo */
+/* -------- Logo -------- */
+
 .logo {
   font-weight: 700;
-  font-size: 1.1rem;
-  color: #0083cb;
+  font-size: 1.15rem;
+  color: #0F172A;   /* deep slate instead of bright blue */
+  letter-spacing: 0.3px;
 }
 
-/* Link wrapper */
+/* -------- Links -------- */
+
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 2.2rem;
 }
 
-/* Individual links */
 .nav-link {
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
-  color: #0083cb;
-  padding: 0.4rem 0.75rem;
-  border-radius: 0.75rem;
-  transition: background 0.3s ease, color 0.3s ease;
+  color: #334155;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.2s ease;
+}
+
+/* Subtle underline animation */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: #2563EB;
+  transition: width 0.25s ease;
 }
 
 .nav-link:hover {
-  background: #0083cb;
-  color: #ffffff;
+  color: #2563EB;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
 
 /* ================= HERO SECTION ================= */
