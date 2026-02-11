@@ -247,13 +247,14 @@ p, ul {
   color:#0083CB; 
 }
 
-.steps { 
-  display:flex; 
-  justify-content:space-between; 
-  flex-wrap:wrap; 
-  position:relative; 
-  max-width:900px; 
-  margin:0 auto; 
+.steps {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 1140px; /* match global container */
+  margin: 0 auto;
+  gap: 2rem;           /* ensures spacing between cards */
 }
 
 .steps::before {
@@ -268,17 +269,9 @@ p, ul {
   transform:translateY(-50%);
 }
 
-.step-card { 
-  background:#fff; 
-  border-radius:1.5rem; 
-  padding:2rem; 
-  text-align:center; 
-  border:1px solid #E5E7EB; 
-  transition:all 0.3s ease; 
-  flex:1; 
-  margin:0 0.5rem; 
-  position:relative; 
-  z-index:1; 
+.step-card {
+  flex: 1 1 250px;     /* flexible, min width 250px */
+  margin: 1rem 0;      /* spacing for wrap */
 }
 
 .step-card:hover { 
@@ -312,12 +305,12 @@ p, ul {
   }
 
 /* ---------------- Mission ---------------- */
-.mission { 
-  <div class="container">
-  background-color:#F0F8FF; 
-  padding:5rem 0; 
-  text-align:center; 
+.mission .container {
+  max-width: 1140px;  /* consistent with other sections */
+  margin: 0 auto;
+  padding: 0 2rem;
 }
+
 
 .mission h2 { 
   color:#0083CB; 
@@ -356,13 +349,13 @@ p, ul {
   margin-top: 1rem;
 }
 
-.research-highlight .container,
-.footer-container {
-  max-width: 900px;
+.research-highlight .container {
+  max-width: 1140px;   /* match hero/nav/global container */
   margin: 0 auto;
+  padding: 0 1.5rem;   /* spacing inside container */
   text-align: center;
 }
-
+  
 /* ---------------- Footer ---------------- */
 .site-footer {
   background: #f8fafc;
@@ -372,11 +365,17 @@ p, ul {
 }
 
 .footer-container {
-  max-width: 900px;
+  display: flex;
+  flex-wrap: wrap;       /* allows items to wrap on small/large screens */
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1140px;     /* match global container */
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 2rem;
   text-align: center;
+  gap: 2rem;             /* spacing between items */
 }
+
 
 .footer-container h4 {
   font-size: 1.5rem;
