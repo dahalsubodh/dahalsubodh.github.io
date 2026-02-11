@@ -23,25 +23,37 @@
 <body>
 
   <!-- ================= NAVIGATION ================= -->
-  {% include nav.html %}
+  <nav class="nav-bar">
+    <div class="container nav-container">
+      {% include nav.html %}
+    </div>
+  </nav>
 
   <!-- ================= HERO (HOMEPAGE ONLY) ================= -->
   {% if page.url == "/" or page.url == "/index.html" %}
-    {% include hero.html %}
+    <section class="hero">
+      <div class="container hero-container">
+        {% include hero.html %}
+      </div>
+    </section>
   {% endif %}
 
   <!-- ================= PAGE CONTENT ================= -->
-<main>
-  <div class="container content-narrow">
-    {{ content }}
-  </div>
-</main>
+  <main>
+    <div class="container content-narrow">
+      {{ content }}
+    </div>
+  </main>
 
   <!-- ================= FOOTER ================= -->
-  {% include footer.html %}
+  <footer>
+    <div class="container">
+      {% include footer.html %}
+    </div>
+  </footer>
 
   <!-- Scroll Animation -->
-  <script src="{{ '/assets/js/scroll.js' | relative_url }}"></script> 
+  <script src="{{ '/assets/js/scroll.js' | relative_url }}"></script>
 
 </body>
 </html>
