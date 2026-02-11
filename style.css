@@ -73,95 +73,117 @@ main.container {
   color: #ffffff;
 }
 
-/* ---------------- Hero ---------------- */
-.hero { 
-  background-color:#E0F0FF; 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+/* ================= HERO SECTION ================= */
 
-.hero-left { 
-  flex:1; 
-.hero-right {  
-  text-align: center;
-  min-width:400px; 
-  padding-right:2rem; 
-}
-
-.hero-left h1 { 
-  font-size:3rem; 
-  font-weight:900; 
-  color:#0083CB; 
-  margin-bottom:1.5rem; 
-}
-
-.hero-left span { 
-  color:#D55126; 
-}
-
-.hero-left p { 
-  font-size:1.2rem; 
-  margin-bottom:2rem; 
-  color:#374151; 
-}
-
-.cta-button { 
-  display:inline-block; 
-  background-color:#0083CB; 
-  color:#fff; 
-  padding:0.75rem 1.5rem; 
-  border-radius:1rem; 
-  font-weight:600; 
-  margin-right:1rem; 
-  text-decoration:none; 
-  transition:all 0.3s ease; 
-}
-
-.cta-button:hover { 
-  transform:scale(1.05); 
-  box-shadow:0 6px 16px rgba(0,131,203,0.25);
-}
-
-.cta-button.orange { 
-  background-color:#D55126; 
-}
-
-.hero-right { 
-  flex:1; 
-  min-width: 400px; 
-  text-align:center; 
-  margin-top:2rem; 
-}
-
-.hero-image img {
-  width: 300px;      /* fixed width to show face */
-  height: 300px;
-  border-radius: 50%; /* circle */
-  object-fit: cover;  /* crops sides but keeps face */
-}
-
-.hero-right img:hover { 
-  transform: translateY(-5px) scale(1.02); 
-}
-
-.hero-inner {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  flex-wrap: wrap;
+.hero {
+  background-color: #F8FAFC; /* light slate instead of bright blue */
+  padding: 6rem 0;
 }
 
 .hero-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 3rem;
+  gap: 4rem;
+  flex-wrap: wrap;
 }
 
+/* -------- TEXT -------- */
+
 .hero-text {
-  max-width: 500px;
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #0F172A;   /* deep slate */
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #2563EB;   /* sophisticated blue */
+  margin-bottom: 1.5rem;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #334155;
+  margin-bottom: 2.5rem;
+}
+
+/* -------- BUTTONS -------- */
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background-color: #2563EB;
+  color: #FFFFFF;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1E40AF;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #2563EB;
+  padding: 0.8rem 1.6rem;
+  border: 1.5px solid #2563EB;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #EFF6FF;
+}
+
+/* -------- IMAGE -------- */
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+/* -------- RESPONSIVE -------- */
+
+@media (max-width: 900px) {
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-cta {
+    justify-content: center;
+  }
 }
 
 /* ---------------- Trajectory ---------------- */
