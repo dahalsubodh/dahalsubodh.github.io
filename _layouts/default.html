@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | Subodh Dahal | EdTech Portfolio</title>
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
@@ -25,7 +25,15 @@
   <!-- ================= NAVIGATION ================= -->
   <nav class="nav-bar">
     <div class="container nav-container">
-      {% include nav.html %}
+      <div class="logo">Subodh Dahal</div>
+      <div class="nav-links">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/research" class="nav-link">Research</a>
+        <a href="/publications" class="nav-link">Publications</a>
+         <a href="/education" class="nav-link">Education</a>
+         <a href="/projects" class="nav-link">Projects</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </div>
     </div>
   </nav>
 
@@ -40,14 +48,10 @@
 
   <!-- ================= PAGE CONTENT ================= -->
   <main>
-    <div class="container content-narrow">
+    <div class="container markdown-content">
       {{ content }}
     </div>
   </main>
-
-  <div class="markdown-content">
-  {{ content }}
-</div>
 
   <!-- ================= FOOTER ================= -->
   <footer>
