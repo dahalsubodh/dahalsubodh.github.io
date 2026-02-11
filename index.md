@@ -5,7 +5,6 @@ title: Home
 
 <!-- ================= Research Trajectory ================= -->
 <section id="trajectory" class="trajectory">
-  <div class="container">
   <h2>Research Trajectory</h2>
 
   <div class="steps">
@@ -45,28 +44,37 @@ title: Home
         authorship, and learning decisions in transparent and fair ways.
       </p>
     </div>
+  </div>
+</section>
 
 <!-- ================= Mission ================= -->
 <section class="mission">
-<div class="container">
   <h2>Core Philosophy</h2>
   <blockquote>
     “Moving beyond detection: designing credible learning evidence
     in the age of generative AI.”
   </blockquote>
-</div>
-
-<!-- ================= Research Highlight ================= -->
-<section class="research-highlight">
-  <div class="container">
-    <span class="tag">Graduate Research • TPACK</span>
-    <h2>Assessing Teacher ICT Integration in Public Schools</h2>
-    <p>
-      A field-based study examining pedagogical and technological readiness
-      among public school teachers, highlighting the gap between strong pedagogy
-      and practical digital integration.
-    </p>
-    <a href="/research.html" class="cta-button">Read More</a>
-  </div>
 </section>
 
+<!-- ================= Research Highlight Timeline ================= -->
+<section class="research-highlight">
+  <h2>Research Highlights</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="tag">2024</span>
+      <h3>EdTech Integration in Nepal Schools</h3>
+      <p>Analyzed teachers’ ICT readiness and practical adoption of e-learning systems.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="tag">2023</span>
+      <h3>Learning Integrity Study</h3>
+      <p>Researched how process-based feedback tools support academic honesty in assignments.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="tag">2022</span>
+      <h3>Teacher Training in ICT</h3>
+      <p>Designed workshops to strengthen blended learning models in resource-constrained schools.</p>
+    </div>
+  </div>
+  <a href="/research" class="cta-button btn-primary">Explore All Research</a>
+</section>
