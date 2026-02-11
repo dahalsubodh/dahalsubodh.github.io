@@ -166,7 +166,7 @@ main.container {
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 25%; 
+  object-position: center 20%; 
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
