@@ -224,14 +224,20 @@ p, ul {
   }
 }
 
+/* -------- HERO GREETINGS AND NAME -------- */
 .hero-greeting {
-  color: #334155;       /* deep slate for greeting */
-  font-weight: 700;
+  display: block;           /* forces it onto its own line */
+  font-size: 2.5rem;        /* adjust size as needed */
+  font-weight: 600;
+  color: #0F172A;           /* dark slate */
+  margin-bottom: 0.2rem;    /* small spacing before name */
 }
 
 .hero-name {
-  color: #2563EB;       /* sophisticated blue for name */
+  display: block;           /* ensures it’s on its own line */
+  font-size: 3.2rem;
   font-weight: 800;
+  color: #005F94;           /* primary blue accent */
 }
 
 /* ---------------- Trajectory ---------------- */
