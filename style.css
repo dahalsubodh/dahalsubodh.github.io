@@ -47,7 +47,7 @@ p, ul {
 /* ================= NAV ================= */
 
 .nav-bar {
-  position: sticky;
+  position: relative;
   top: 0;
   background: #ffffff;
   border-bottom: 1px solid #E2E8F0;
