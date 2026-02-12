@@ -47,7 +47,7 @@ p, ul {
 /* ================= NAV ================= */
 
 .nav-bar {
-  position: relative;
+  position: sticky;
   top: 0;
   background: #ffffff;
   border-bottom: 1px solid #E2E8F0;
@@ -85,7 +85,7 @@ p, ul {
   font-weight: 500;
   text-decoration: none;
   color: #334155;
-  position: sticky;
+  position: relative;
   padding-bottom: 3px;
   transition: color 0.2s ease;
 }
