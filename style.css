@@ -85,7 +85,7 @@ p, ul {
   font-weight: 500;
   text-decoration: none;
   color: #334155;
-  position: relative;
+  position: sticky;
   padding-bottom: 3px;
   transition: color 0.2s ease;
 }
