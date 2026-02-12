@@ -23,19 +23,7 @@
 <body>
 
   <!-- ================= NAVIGATION ================= -->
-  <nav class="nav-bar">
-    <div class="container nav-container">
-      <div class="logo">Subodh Dahal</div>
-      <div class="nav-links">
-        <a href="/" class="nav-link">Home</a>
-        <a href="/research" class="nav-link">Research</a>
-        <a href="/publications" class="nav-link">Publications</a>
-         <a href="/education" class="nav-link">Education</a>
-         <a href="/projects" class="nav-link">Projects</a>
-        <a href="/contact" class="nav-link">Contact</a>
-      </div>
-    </div>
-  </nav>
+  {% include nav.html %}
 
   <!-- ================= HERO (HOMEPAGE ONLY) ================= -->
   {% if page.url == "/" or page.url == "/index.html" %}
@@ -62,6 +50,19 @@
 
   <!-- Scroll Animation -->
   <script src="{{ '/assets/js/scroll.js' | relative_url }}"></script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    if (hamburger && navLinks) {
+      hamburger.addEventListener("click", function () {
+        navLinks.classList.toggle("show");
+      });
+    }
+  });
+</script>
 
 </body>
 </html>
