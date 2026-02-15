@@ -8,7 +8,7 @@ layout: default
 ---
 
 
-> #### From Education Technology to Learning Integrity 
+> ### From Education Technology to Learning Integrity 
 > My research began with studying educational technology and teacher ICT integration, where I observed that access and outcomes did not necessarily reflect meaningful learning. This led me to question how learning is evaluated. I now focus on learning integrity, shifting away from detection tools and final outcomes toward evidence that reflects how students actually learn, engage, and demonstrate understanding through the learning process.
 
 ## 🎓 Foundations in Educational Technology
