@@ -8,9 +8,8 @@ layout: default
 ---
 
 
-## From Education Technology to Learning Integrity 
-I am interested in how educational technologies can be designed and used to support credible learning. Rather than relying on the detection tools or final outcome, my work focuses on learning integrity that reflects how students actually learn, engage and demonstrate understanding of the learning process. 
-
+> #### From Education Technology to Learning Integrity 
+> My research began with studying educational technology and teacher ICT integration, where I observed that access and outcomes did not necessarily reflect meaningful learning. This led me to question how learning is evaluated. I now focus on learning integrity, shifting away from detection tools and final outcomes toward evidence that reflects how students actually learn, engage, and demonstrate understanding through the learning process.
 
 ## 🎓 Foundations in Educational Technology
 My early exposure to education technology began during my graduate studies and field-based research. During my master’s degree, my interest in Edtech became part of my thesis study, where I examined how teachers were prepared to use technology in their classroom using the TPACK framework. This study showed that while teachers had strong pedagogical knowledge, their technological confidence and ability to integrate technology varied widely. 
