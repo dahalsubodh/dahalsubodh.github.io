@@ -31,4 +31,4 @@ My recent research proposes a 3P framework (Person, Process, Product) for academ
 
 
 ## 🌏 Knowledge Sharing
-I have shared this work through workshops and presentations in both national and international settings, including in [ACE](https://ace.iafor.org/ace2024/#conference-theme), [NELTA](https://www.nelta.org.np/conference/30). These experiences have further shaped my perspective on the importance of designing educational technology that supports reflection, enables formative feedback and generates credible learning evidence. 
+I have shared this work through workshops and presentations in both national and international settings, including in [ACE](https://ace.iafor.org/ace2024/#conference-theme) and [NELTA](https://www.nelta.org.np/conference/30). These experiences have further shaped my perspective on the importance of designing educational technology that supports reflection, enables formative feedback and generates credible learning evidence. 
