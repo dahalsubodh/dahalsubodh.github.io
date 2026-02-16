@@ -664,7 +664,6 @@ p, ul {
 /* Optional: style links inside content */
 .page-content a {
   color: var(--color-primary);
-  text-decoration: underline;
   transition: color 0.3s;
 }
 
