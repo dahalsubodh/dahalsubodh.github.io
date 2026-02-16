@@ -9,7 +9,7 @@ layout: default
 
 
 > ### From Education Technology to Learning Integrity 
-> While researching on educational technology and teachers' ICT integration, I observed that access and outcomes did not necessarily reflect meaningful learning. This led me to question how learning is evaluated and shifted my focus to learning integrity. I began prioritizing evidence that captures how students learn, engage, and demonstrate understanding throughout the learning process.
+> While researching educational technology and teachers' ICT integration, I observed that access and outcomes did not necessarily reflect meaningful learning. This led me to question how learning is evaluated and shifted my focus to learning integrity. I began prioritizing evidence that captures how students learn, engage, and demonstrate understanding throughout the learning process.
 
 ## 🎓 Foundations in Educational Technology
 My early exposure to educational technology began during my graduate studies and field-based research. During my master’s degree, this interest became central to my thesis study, in which I examined how teachers were prepared to use technology into their classroom using the TPACK framework. I found that while teachers had strong pedagogical knowledge, their technological confidence and ability to integrate technology varied widely. 
@@ -27,7 +27,7 @@ As I engage in research on GenAI and academic integrity tools, I observed that m
 
 ## 🧠Learning Integrity as Process and Evidence
 This led to my growing interest in learning integrity. Specifically, I began examining whether learning activities, processes, and evidence genuinely reflect learners' understanding and engagement. 
-My recent research propsoes a 3P framework (Person, Process, Product) for academic integrity. This framework suggests that educational tools needs to address all three dimensions to support fair academic integrity decisions and enhance student learning. 
+My recent research proposes a 3P framework (Person, Process, Product) for academic integrity. This framework suggests that educational tools need to address all three dimensions to support fair academic integrity decisions and enhance student learning. 
 
 
 ## 🌏 Knowledge Sharing
