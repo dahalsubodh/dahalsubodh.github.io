@@ -386,7 +386,7 @@ p, ul {
 /* ---------------- Mission ---------------- */
 .mission {
   background-color: var(--color-soft-accent);
-  padding: 6rem 1.5rem;      /* spacing top/bottom */
+  padding: 1rem 1rem;      /* spacing top/bottom */
   text-align: center;
   border-radius: 1.5rem;     /* subtle rounding for box feel */
   border: 1px solid var(--color-border);
@@ -447,7 +447,7 @@ p, ul {
   position: relative;
   background: var(--color-soft-accent);
   border-radius: 1.5rem;
-  padding: 4rem 2rem;
+  padding: 1rem 1rem;
   margin: 2rem auto;
   max-width: 1140px;
   border: 1px solid var(--color-border);
