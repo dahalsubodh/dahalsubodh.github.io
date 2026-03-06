@@ -5,31 +5,26 @@ title: Home
 
 <!-- ================= Research Trajectory ================= -->
 <section id="trajectory" class="trajectory">
-  <h2>Research Trajectory</h2>
+  <h2>Project Conducted</h2>
 
   <div class="steps">
     <div class="step-card">
       <div class="icon">
-        <i class="fas fa-graduation-cap"></i>
+       <i class="fa-solid fa-laptop"></i>
       </div>
-      <h3>Foundations in EdTech & TPACK</h3>
+      <h3>ICT Status in Schools</h3>
       <p>
-        Began by examining teacher preparedness through the TPACK framework.
-        My graduate research highlighted that while pedagogical knowledge is
-        strong, effective technology integration depends on confidence,
-        contextual support, and implementation strategies.
+       Gained deep insight into classroom technology integration and the systemic challenges schools face—from infrastructure gaps to teacher confidence.
       </p>
     </div>
 
     <div class="step-card">
       <div class="icon">
-        <i class="fas fa-robot"></i>
+        <i class="fa-solid fa-laptop-file"></i>
       </div>
-      <h3>The GenAI Challenge</h3>
+      <h3>EdTech Tools & Academic Integrity Scoping Review</h3>
       <p>
-        As generative AI tools became widespread, I identified a critical gap:
-        prevailing integrity solutions emphasize detection at submission,
-        rather than supporting and evidencing the learning process itself.
+       Identified significant gaps in integrity-focused technologies, which directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).
       </p>
     </div>
 
@@ -37,14 +32,13 @@ title: Home
       <div class="icon">
         <i class="fas fa-network-wired"></i>
       </div>
-      <h3>The 3P Framework</h3>
+      <h3>Assessment of Teachers' TPACK for E-Learning</h3>
       <p>
-        My current work explores the Person–Process–Product framework,
-        advocating for educational technologies that surface engagement,
-        authorship, and learning decisions in transparent and fair ways.
+        Discovered that infrastructure gaps alone don't explain low tech adoption, institutional support and teacher confidence are critical levers.
       </p>
     </div>
   </div>
+   <a href="/projects" class="cta-button btn-primary">Explore All Projects</a>
 </section>
 
 <!-- ================= Mission ================= -->
