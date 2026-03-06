@@ -11,7 +11,7 @@ layout: default
 **Scope:** ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality.  
 **Focus:** Collect baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.  
 **Methods:** School surveys, interviews, observational assessment of ICT infrastructure and usage.  
-**Key Learnings:**  
+**Key Learnings:** 
 1. Understanding of how technology is integrated in classrooms and challenges schools face.  
 2. Groundwork for ICT capacity-building interventions.  
 3. Data informed broader research and policy discussions around EdTech adoption.  
@@ -50,7 +50,7 @@ layout: default
 **Scope:** Assessing technological and pedgagogical knowledge of government school teachers in Lalitpur Metropolitan City, Nepal.  
 **Focus:** Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of teachers in Science, Math, and English, and its influence on e-learning.  
 **Methods:** Convergent parallel mixed-methods design: surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.  
-**Key Learnings:** Discovered that teachers' TPACK is highly context-dependent, shaped by access to resources, professional development, and institutional support.  
+**Key Learnings:** Discovered that infrastructure gaps alone don't explain low tech adoption, institutional support and teacher confidence are critical levers.  
 
 
 --- 
