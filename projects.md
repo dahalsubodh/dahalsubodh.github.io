@@ -21,11 +21,11 @@ layout: default
 
 ## EdTech Tools & Academic Integrity Scoping Review
 
-**Role:** Research and Communication Consultant (Process Feedback)
-**Scope:** A scoping review examining how current educational technology tools address academic integrity.
-**Focus:** Identifying whether edtech tools adopt preventive, punitive, or educative approaches to uphold learning integrity.
-**Methods:** Systematic literature review, comparative analysis of existing technologies.
-**Key Learnings:** Identified significant gaps in integrity-focused technologies, which directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).
+**Role:** Research and Communication Consultant (Process Feedback)  
+**Scope:** A scoping review examining how current educational technology tools address academic integrity.  
+**Focus:** Identifying whether edtech tools adopt preventive, punitive, or educative approaches to uphold learning integrity.  
+**Methods:** Systematic literature review, comparative analysis of existing technologies.  
+**Key Learnings:** Identified significant gaps in integrity-focused technologies, which directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).  
 
 
 --- 
@@ -46,22 +46,22 @@ layout: default
 
 ## Assessment of Teachers' TPACK for E-Learning
 
-**Role:** Principal Researcher (M.A. Thesis)
-**Scope:** Assessing technological and pedgagogical knowledge of government school teachers in Lalitpur Metropolitan City, Nepal.
-**Focus:** Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of teachers in Science, Math, and English, and its influence on e-learning.
-**Methods:** Convergent parallel mixed-methods design: surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.
-**Key Learnings:** Discovered that teachers' TPACK is highly context-dependent, shaped by access to resources, professional development, and institutional support.
+**Role:** Principal Researcher (M.A. Thesis)  
+**Scope:** Assessing technological and pedgagogical knowledge of government school teachers in Lalitpur Metropolitan City, Nepal.  
+**Focus:** Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of teachers in Science, Math, and English, and its influence on e-learning.  
+**Methods:** Convergent parallel mixed-methods design: surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.  
+**Key Learnings:** Discovered that teachers' TPACK is highly context-dependent, shaped by access to resources, professional development, and institutional support.  
 
 
 --- 
 
 ## Climate Programs Under Pandemic Recovery
 
-**Role:** Project Work (M.A. Program)
-**Scope:** Analysis of the COVID-19 pandemic's impact on Nepal's climate governance and its Nationally Determined Contributions (NDCs) under the Paris Agreement.
-**Focus:** Assessing disruptions to climate adaptation and mitigation programs implemented by organizations in Kathmandu Valley.
-**Methods:** Desk reviews and Key Informant Interviews with nine national and international organizations.
-**Key Learnings:** Understood how global crises (pandemic, Russia-Ukraine war) intersect with and affect national policy implementation and funding flows for climate action.
+**Role:** Project Work (M.A. Program)  
+**Scope:** Analysis of the COVID-19 pandemic's impact on Nepal's climate governance and its Nationally Determined Contributions (NDCs) under the Paris Agreement.  
+**Focus:** Assessing disruptions to climate adaptation and mitigation programs implemented by organizations in Kathmandu Valley.  
+**Methods:** Desk reviews and Key Informant Interviews with nine national and international organizations.  
+**Key Learnings:** Understood how global crises (pandemic, Russia-Ukraine war) intersect with and affect national policy implementation and funding flows for climate action.  
 
 
 ------------
