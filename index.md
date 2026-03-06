@@ -45,8 +45,7 @@ title: Home
 <section class="mission">
   <h2>Core Philosophy</h2>
   <blockquote>
-    “Moving beyond detection: designing credible learning evidence
-    in the age of generative AI.”
+    “Designing, implementing and study educational intervention that emphasize on learning process, formative feedback and cognitive development.”
   </blockquote>
 </section>
 
