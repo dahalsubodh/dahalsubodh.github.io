@@ -5,7 +5,7 @@ layout: default
 
 # Projects conducted
 
-### Status of ICT in Schools
+## Status of ICT in Schools
 
 ![Project 1](assets/project1.jpg)
 
@@ -25,7 +25,7 @@ layout: default
 
 ---
 
-### Own Source Revenue of Lumbini Province
+## Own Source Revenue of Lumbini Province
 
 ![Project 1](assets/project1.jpg)
 
