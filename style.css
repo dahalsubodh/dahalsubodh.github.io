@@ -253,7 +253,7 @@ p, ul {
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-soft-accent);
+  background-color: var(--color-primary-dark);
 }
 
 /* -------- IMAGE -------- */
