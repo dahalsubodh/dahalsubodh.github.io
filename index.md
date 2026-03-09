@@ -3,6 +3,52 @@ layout: default
 title: Home
 ---
 
+<!-- ================= Current Focus  ================= -->
+<section class="mission">
+  <h2>Current Focus</h2>
+  <blockquote>
+    <h3>3P for Academic Integrity</h3> 
+  Co-developing a framework that shifts academic integrity from policing outcomes to making the entire learning journey visible. Moving beyond fragmented detection methods and treating learning as a continuous path rather than a single point, the framework ensures that evidence of student work is visible from start to finish. The frmework has been presented in national and international conferences. 
+  </blockquote>
+</section>
+
+<!-- ================= Research Highlight Timeline ================= -->
+<section class="research-highlight">
+  <h2>Research Milestones</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="tag">2026 Feb</span>
+      <h3>Poster Presentation</h3>
+      <p>[Three Ps for Academic Integrity in the AI Era: Right Person, Process, and Product](https://www.nelta.org.np/conference/30) – NELTA </p>
+    </div>
+      <span class="tag">2025 Oct</span>
+      <h3>Accepted Presentation</h3>
+      <p>[Right Person, Process, and Product: Using 3Ps Framework to Improve Student Learning](https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39) — FTTC </p>
+    </div>
+   </div>
+    <div class="timeline-item">
+      <span class="tag">2025</span>
+      <h3>TPACK Study</h3>
+      <p>Assessment of government school teachers pedagogical and technologcial knowledge in adopting e-learning. Convergent parallel mixed-methods study with 28 teachers and 9 ICT focal persons</p>
+    </div>
+      <span class="tag">2024 dec</span>
+      <h3>Workshop Facilitation</h3>
+      <p>[Easy Chrome Extension for Promoting Academic Integrity and Self-Reflection](https://stargc2024.kusoed.edu.np/wp-content/uploads/2024/12/Book-of-Abstract-in-person-conference-as-of-date-Dec-11-2024.pdf) — Star Global Conference</p>
+    </div>
+    <div class="timeline-item">
+      <span class="tag">2024 Nov</span>
+      <h3>Live Session</h3>
+      <p>[The Process Matters: Academic Integrity in the Age of AI](https://ace.iafor.org/presentation/submission88664/) — ACE Conference (virtual)</p>
+    </div>
+    <div class="timeline-item">
+      <span class="tag">2023</span>
+      <h3>Peer-Reviewed Publication</h3>
+      <p>[The Reality of School Nutrition Programs as Perceived by Teachers: A Case Study of Primary Schools in Khotang, Nepal.](https://doi.org/10.5539/ass.v19n4p55) — Asian Social Science, 19(4)</p>
+    </div>
+  </div>
+  <a href="/publication" class="cta-button btn-primary">Explore More</a>
+</section>
+
 <!-- ================= Research Trajectory ================= -->
 <section id="trajectory" class="trajectory">
   <h2>Project Conducted</h2>
@@ -14,7 +60,7 @@ title: Home
       </div>
       <h3>ICT Status in Schools</h3>
       <p>
-       Gained deep insight into classroom technology integration and the systemic challenges schools face—from infrastructure gaps to teacher confidence.
+       ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality.
       </p>
     </div>
 
@@ -24,7 +70,7 @@ title: Home
       </div>
       <h3>EdTech Tools & Academic Integrity Scoping Review</h3>
       <p>
-       Identified significant gaps in integrity-focused technologies, which directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).
+      Scoping review examining whether educational technology tools adopt preventive, punitive, or educative approaches to academic integrity.
       </p>
     </div>
 
@@ -34,7 +80,7 @@ title: Home
       </div>
       <h3>Assessment of Teachers' TPACK for E-Learning</h3>
       <p>
-        Discovered that infrastructure gaps alone don't explain low tech adoption, institutional support and teacher confidence are critical levers.
+        Study of government school teachers TPACK in adopting e-learning in Lalitpur Metropolitan City, Nepal.
       </p>
     </div>
   </div>
@@ -49,25 +95,3 @@ title: Home
   </blockquote>
 </section>
 
-<!-- ================= Research Highlight Timeline ================= -->
-<section class="research-highlight">
-  <h2>Research Highlights</h2>
-  <div class="timeline">
-    <div class="timeline-item">
-      <span class="tag">2024</span>
-      <h3>EdTech Integration in Nepal Schools</h3>
-      <p>Analyzed teachers’ ICT readiness and practical adoption of e-learning systems.</p>
-    </div>
-    <div class="timeline-item">
-      <span class="tag">2023</span>
-      <h3>Learning Integrity Study</h3>
-      <p>Researched how process-based feedback tools support academic honesty in assignments.</p>
-    </div>
-    <div class="timeline-item">
-      <span class="tag">2022</span>
-      <h3>Teacher Training in ICT</h3>
-      <p>Designed workshops to strengthen blended learning models in resource-constrained schools.</p>
-    </div>
-  </div>
-  <a href="/research" class="cta-button btn-primary">Explore All Research</a>
-</section>
