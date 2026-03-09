@@ -6,8 +6,8 @@ title: Home
 <!-- ================= Current Focus  ================= -->
 <section class="mission">
   <h2>Current Focus</h2>
+   <h3>3P for Academic Integrity</h3> 
   <blockquote>
-    <h3>3P for Academic Integrity</h3> 
  Co-developing a framework that shifts academic integrity from policing outcomes to making the entire learning journey visible. Moving beyond fragmented detection methods and treating learning as a continuous path rather than a single point, the framework ensures that evidence of student work is visible from start to finish. The framework has been presented in national and international conferences.
   </blockquote>
 </section>
