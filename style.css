@@ -463,7 +463,7 @@ p, ul {
 /* Timeline container */
 .timeline {
   position: relative;
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding-left: 2rem;
 }
 
@@ -491,7 +491,7 @@ p, ul {
   content: "";
   position: absolute;
   left: 12px;
-  top: 0.2;
+  top: 0;
   width: 10px;
   height: 10px;
   background: var(--color-primary);
@@ -503,7 +503,7 @@ p, ul {
 /* Timeline content */
 .timeline-item h3 {
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: var(--color-text-main);
 }
 
@@ -528,7 +528,7 @@ p, ul {
 
   background-color: var(--color-primary);
   color: var(--color-text-light);
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
