@@ -23,6 +23,7 @@ title: Home
         <a href="https://www.nelta.org.np/conference/30">Three Ps for Academic Integrity in the AI Era: Right Person, Process, and Product
         </a> NELTA </p>
     </div>
+    <div class="timeline">
       <span class="tag">2025 Oct</span>
       <h3>Accepted Presentation</h3>
       <p>
@@ -34,6 +35,7 @@ title: Home
       <h3>TPACK Study</h3>
       <p>Assessment of government school teachers pedagogical and technologcial knowledge in adopting e-learning. Convergent parallel mixed-methods study with 28 teachers and 9 ICT focal persons</p>
     </div>
+    <div class="timeline">
       <span class="tag">2024 dec</span>
       <h3>Workshop Facilitation</h3>
       <p>
