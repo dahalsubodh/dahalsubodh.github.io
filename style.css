@@ -491,9 +491,9 @@ p, ul {
   content: "";
   position: absolute;
   left: 12px;
-  top: 0;
-  width: 16px;
-  height: 16px;
+  top: 0.2;
+  width: 10px;
+  height: 10px;
   background: var(--color-primary);
   border-radius: 50%;
   border: 3px solid var(--color-background);
@@ -510,7 +510,7 @@ p, ul {
 .timeline-item p {
   font-size: 1rem;
   color: var(--color-text-muted);
-  line-height: 1.4;
+  line-height: 1;
 }
 
 /* Optional tag */
@@ -519,7 +519,7 @@ p, ul {
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--color-primary);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
 }
 
 .research-highlight .cta-button {
@@ -568,7 +568,11 @@ p, ul {
   .timeline-item {
     padding-left: 2rem;
   }
-
+  
+.timeline-item h3 {
+  margin-top: 0;
+}
+  
   .timeline-item::before {
     left: -2px;
   }
