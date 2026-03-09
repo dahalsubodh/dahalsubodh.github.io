@@ -456,7 +456,7 @@ p, ul {
 .research-highlight h2 {
   font-size: 2rem;
   color: var(--color-primary);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -510,7 +510,7 @@ p, ul {
 .timeline-item p {
   font-size: 1rem;
   color: var(--color-text-muted);
-  line-height: 1;
+  line-height: 1.4;
 }
 
 /* Optional tag */
@@ -519,7 +519,7 @@ p, ul {
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--color-primary);
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .research-highlight .cta-button {
