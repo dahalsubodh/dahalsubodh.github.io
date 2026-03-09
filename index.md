@@ -54,7 +54,7 @@ title: Home
         <a href= "https://doi.org/10.5539/ass.v19n4p55">The Reality of School Nutrition Programs as Perceived by Teachers: A Case Study of Primary Schools in Khotang, Nepal 
           <a/> Asian Social Science, 19(4)</p>
     </div>
-  <a href="/publication" class="cta-button btn-primary">Explore More</a>
+  <a href="/publications" class="cta-button btn-primary">Explore More</a>
 </section>
 
 <!-- ================= Research Trajectory ================= -->
