@@ -493,7 +493,7 @@ p, ul {
   content: "";
   position: absolute;
   left: 10px;
-  top: 2rem;
+  top: 0;
   bottom: 4rem;
   width: 2px;
   background: var(--color-secondary);
