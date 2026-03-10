@@ -542,7 +542,7 @@ p, ul {
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-primary);
-  margin: -2.5px;
+  margin: -3px;
   letter-spacing: 0.05rem;
   line-height:1;
 }
