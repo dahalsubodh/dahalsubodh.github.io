@@ -475,8 +475,8 @@ p, ul {
   content: "";
   position: absolute;
   left: 15px;
-  top: 0.5rem;
-  bottom: 0;
+  top: 0rem;
+  bottom: 3.5rem;
   width: 2px;
   background: var(--color-secondary);
 }
@@ -524,7 +524,7 @@ p, ul {
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-primary);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0rem;
   letter-spacing: 0.05rem;
   line-height:1;
 }
