@@ -42,7 +42,7 @@ p, ul {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;  /* centers container horizontally */
-  padding-left: 2rem;  /* horizontal padding */
+  padding-left: 1rem;  /* horizontal padding */
   padding-right: 2rem;
 }
 
