@@ -7,7 +7,7 @@ title: Home
 <section class="mission">
   <h2>Current Focus</h2>
    <h3>3P for Academic Integrity</h3> 
-Moving from policing outcomes → making the learning journey visible.<br> 
+<strong>Moving from policing outcomes → making the learning journey visible.<br> </strong> 
 <blockquote>  
   "Beyond fragmented detection. Learning as a continuous path, not a single point." 
 </blockquote> <br>
