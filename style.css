@@ -448,7 +448,7 @@ p, ul {
 .research-highlight {
   position: relative;
   background: var(--color-soft-accent);
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   padding: 3rem 2rem;
   margin: 1rem auto;
   max-width: 1140px;
@@ -459,7 +459,7 @@ p, ul {
 .research-highlight h2 {
   font-size: 2rem;
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -467,16 +467,16 @@ p, ul {
 .timeline {
   position: relative;
   margin: 2rem 0;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
 }
 
 /* Vertical line */
 .timeline::before {
   content: "";
   position: absolute;
-  left: 15px;
-  top: 0rem;
-  bottom: 3.5rem;
+  left: 7px;
+  top: 10rem;
+  bottom: 2rem;
   width: 2px;
   background: var(--color-secondary);
 }
@@ -493,14 +493,14 @@ p, ul {
   content: "";
   position: absolute;
   left: 8px;
-  top: 6px;
+  top: 2px;
   width: 10px;
   height: 10px;
   background: var(--color-primary);
   border-radius: 50%;
-  border: 3px solid var(--color-background);
+  border: 2px solid var(--color-background);
   box-shadow: 0 0 0 1px var(--color-secondary);
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Timeline content */
@@ -514,7 +514,7 @@ p, ul {
 .timeline-item p {
   font-size: 1rem;
   color: var(--color-text-muted);
-  line-height: 1.6;
+  line-height: 1.5;
   margin: 0;
 }
 
@@ -524,9 +524,9 @@ p, ul {
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-primary);
-  margin-bottom: 0rem;
+  margin: 0;
   letter-spacing: 0.05rem;
-  line-height:1;
+  line-height:1.2;
 }
 
 .research-highlight .cta-button {
@@ -575,7 +575,10 @@ p, ul {
   }
   
 .timeline-item h3 {
-  margin-top: 0;
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  margin: 2px 0 8px 0; /* Tiny top margin, clean bottom margin */
+  line-height: 1.2;
 }
   
   .timeline-item::before {
