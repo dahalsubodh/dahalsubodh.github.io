@@ -449,7 +449,7 @@ p, ul {
   position: relative;
   background: var(--color-soft-accent);
   border-radius: 1.5rem;
-  padding: 2rem 1.5rem;
+  padding: 3rem 2rem;
   margin: 1rem auto;
   max-width: 1140px;
   border: 1px solid var(--color-border);
@@ -459,7 +459,7 @@ p, ul {
 .research-highlight h2 {
   font-size: 2rem;
   color: var(--color-primary);
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -467,74 +467,74 @@ p, ul {
 .timeline {
   position: relative;
   margin: 2rem 0;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 /* Vertical line */
 .timeline::before {
   content: "";
   position: absolute;
-  left: 20px;
-  top: 0.3rem;
+  left: 15px;
+  top: 0.5rem;
   bottom: 0;
-  width: 4px;
+  width: 2px;
   background: var(--color-secondary);
-  border-radius: 2px;
 }
 
 /* Timeline item */
 .timeline-item {
   position: relative;
-  margin-bottom: 2.5rem;
-  padding-left: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 2.5rem;
 }
 
 /* Timeline bullet */
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: 12px;
-  top: 0;
+  left: 8px;
+  top: 6px;
   width: 10px;
   height: 10px;
   background: var(--color-primary);
   border-radius: 50%;
   border: 3px solid var(--color-background);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 0 0 1px var(--color-secondary);
   z-index: 1;
 }
 
 /* Timeline content */
 .timeline-item h3 {
   font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-  margin-top:-4px;
+  margin:0 0 0.5rem 0;
   color: var(--color-text-main);
+  line-height:1.2;
 }
 
 .timeline-item p {
   font-size: 1rem;
   color: var(--color-text-muted);
-  line-height: 1.5;
-  margin: 0.5rem 0;
+  line-height: 1.6;
+  margin: 0;
 }
 
 /* Optional tag */
 .timeline-item .tag {
-  display: inline-block;
+  display: block;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-primary);
   margin-bottom: 0.25rem;
   letter-spacing: 0.05rem;
+  line-height:1;
 }
 
 .research-highlight .cta-button {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   background-color: var(--color-primary);
   color: var(--color-text-light);
-  padding: 0.5rem 1.25rem;
+  padding: 0.6rem 1.25rem;
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
@@ -550,7 +550,6 @@ p, ul {
 .trajectory .cta-button {
   display: inline-block;
   margin-top: 1rem;
-
   background-color: var(--color-primary);
   color: var(--color-text-light);
   padding: 0.75rem 1.5rem;
@@ -580,11 +579,11 @@ p, ul {
 }
   
   .timeline-item::before {
-    left: 2px;
+    left: 11px;
   }
 
   .timeline::before {
-    left: 10px;
+    left: 4px;
   }
 }
 
