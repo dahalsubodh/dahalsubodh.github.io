@@ -476,8 +476,8 @@ p, ul {
 .timeline::before {
   content: "";
   position: absolute;
-  left: 7px;
-  top: 7rem;
+  left: 10px;
+  top: 10rem;
   bottom: 4rem;
   width: 2px;
   background: var(--color-secondary);
