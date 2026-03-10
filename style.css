@@ -493,7 +493,7 @@ p, ul {
   content: "";
   position: absolute;
   left: 10px;
-  top: 5rem;
+  top: 2rem;
   bottom: 4rem;
   width: 2px;
   background: var(--color-secondary);
@@ -542,9 +542,9 @@ p, ul {
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-primary);
-  margin: 0;
+  margin: -2px;
   letter-spacing: 0.05rem;
-  line-height:1.2;
+  line-height:1;
 }
 
 .research-highlight .cta-button {
