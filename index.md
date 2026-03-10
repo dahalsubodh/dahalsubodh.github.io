@@ -7,9 +7,9 @@ title: Home
 <section class="mission">
   <h2>Current Focus</h2>
    <h3>3P for Academic Integrity</h3> 
-<strong>Moving from policing outcomes → making the learning journey visible.<br> </strong> 
+<strong>To ensure authenticity of students' work in the three key aspects of academic integrity: verifying the correct person, process and product.<br> </strong> 
 <blockquote>  
-  "Beyond fragmented detection. Learning as a continuous path, not a single point." 
+  "Moving from policing outcomes → making the learning journey credible." 
 </blockquote> <br>
 ✅ Presented at: <a href = "https://www.nelta.org.np/conference/30">[NELTA] 2026</a> | <a href ="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">[FTTC] 2025</a> <br>
 📄 Status: Framework co-development | Submitted for peer-review <br>
