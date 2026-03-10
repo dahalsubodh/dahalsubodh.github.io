@@ -522,6 +522,7 @@ p, ul {
   font-weight: 600;
   color: var(--color-primary);
   margin-bottom: 0rem;
+  margin-top: 0rem
 }
 
 .research-highlight .cta-button {
@@ -576,7 +577,7 @@ p, ul {
 }
   
   .timeline-item::before {
-    left: -2px;
+    left: 2px;
   }
 
   .timeline::before {
