@@ -13,19 +13,13 @@ title: Home
   │ Visible  │    │ Trackable│    │ Verified │
   │ Activity │    │   Path   │    │  Output  │
   └──────────┘    └──────────┘    └──────────┘
-       ↓               ↓               ↓
+      ↓               ↓               ↓
   Formative      Continuous      Authentic
   Feedback       Documentation   Assessment
-
   "Beyond fragmented detection. Learning as a continuous path, not a single point."
-
-
-✅ Presented at: <a href = "https://www.nelta.org.np/conference/30">[NELTA] 2026 | <a href ="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">[FTTC] 2025
-
-
+✅ Presented at: <a href = "https://www.nelta.org.np/conference/30">[NELTA] 2026 </a>| <a href ="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">[FTTC] 2025 </a>
 📄 Status: Framework co-development | Submitted for peer-review
- 
-</section>
+ </section>
 
 <!-- ================= Research Highlight Timeline ================= -->
 <section class="research-highlight">
