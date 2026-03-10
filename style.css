@@ -486,7 +486,7 @@ p, ul {
 /* Timeline item */
 .timeline-item {
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   padding-left: 2rem;
 }
 
