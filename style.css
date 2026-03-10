@@ -384,7 +384,23 @@ p, ul {
     align-items: center;
   }
 }
+.trajectory .cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
 
+.trajectory .cta-button:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-light);
+  transform: translateY(-2px);
+}
 /* ---------------- Mission ---------------- */
 .mission {
   background-color: var(--color-soft-accent);
@@ -495,7 +511,7 @@ p, ul {
   content: "";
   position: absolute;
   left: 0px;
-  top: 7px;
+  top: 2px;
   width: 10px;
   height: 10px;
   background: var(--color-primary);
@@ -549,23 +565,6 @@ p, ul {
   transform: translateY(-2px);
 }
 
-.trajectory .cta-button {
-  display: inline-block;
-  margin-top: 1rem;
-  background-color: var(--color-primary);
-  color: var(--color-text-light);
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.trajectory .cta-button:hover {
-  background-color: var(--color-primary-dark);
-  color: var(--color-text-light);
-  transform: translateY(-2px);
-}
 /* Responsive */
 @media (max-width: 768px) {
   .timeline {
@@ -579,7 +578,7 @@ p, ul {
 .timeline-item h3 {
   font-size: 1.4rem;
   color: var(--color-primary);
-  margin: -2px 0 10px 0; 
+  margin: -2px 0 6px 0; 
   line-height: 1.2;
 }
   
