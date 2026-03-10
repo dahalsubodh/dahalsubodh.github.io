@@ -9,7 +9,7 @@ title: Home
    <h3>3P for Academic Integrity</h3> 
 <strong>To ensure authenticity of students' work in the three key aspects of academic integrity: verifying the correct person, process and product.<br> </strong> 
 <blockquote>  
-  "Moving from policing outcomes → making the learning journey credible." 
+  "Moving from policing outcomes → to clear evidence of learning." 
 </blockquote> <br>
 ✅ Presented at: <a href = "https://www.nelta.org.np/conference/30">[NELTA] 2026</a> | <a href ="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">[FTTC] 2025</a> <br>
 📄 Status: Framework co-development | Submitted for peer-review <br>
