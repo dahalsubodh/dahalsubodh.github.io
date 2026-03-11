@@ -82,10 +82,18 @@ p, ul {
 /* -------- Logo -------- */
 
 .logo {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.05rem;
   font-weight: 700;
-  font-size: 1.15rem;
-  color: #0F172A;   /* deep slate instead of bright blue */
-  letter-spacing: 0.3px;
+  color: var(--color-primary);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.logo span {
+  color: var(--color-text-muted);
+  font-weight: 300;
+  font-style: italic;
 }
 
 /* -------- Links -------- */
