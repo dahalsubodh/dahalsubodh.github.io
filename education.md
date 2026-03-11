@@ -8,12 +8,7 @@ layout: default
   Academic Formation
 </span>
 <h2 class="section-title">Education</h2>
-<h2 class="section-title">Education</h2>
-<p style="color: var(--color-text-muted); font-size:0.97rem; max-width:620px; margin-bottom:2rem; line-height:1.8;">
-  Grounded in international development, mixed-methods research, and management — with applied work spanning educational technology, governance, and field research.
-</p>
-
-<hr style="border:none; border-top:1px solid var(--color-border); margin: 2rem 0;">
+<hr style="border:none; border-top:0.2px solid var(--color-border); margin: 2rem 0;">
 
 <!-- ================= M.A. ================= -->
 <div class="edu-entry">
