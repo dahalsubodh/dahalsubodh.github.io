@@ -22,8 +22,11 @@ title: Home
       </p>
     </article>
     <article class="progress-card" data-status="● Ongoing · Edtech Consultant">
-      <h3>Research and Communication Consultant</h3>
-      <p>Contribute to Process Feedback by co-developing website architecture and leading multimedia strategy. Present at global conferences to advocate for process-oriented pedagogy over detection. Lead outreach and PR, building strategic networks with EdTech leaders to support a user base of 60,000+.</p>
+      <h3>Developing Edtech products</h3>
+      <p>Contribute to co-developing website architecture and leading multimedia strategy of Process Feedback. Present at global conferences to advocate for process-oriented pedagogy over detection. Lead outreach and PR, building strategic networks with EdTech leaders to support a user base of 60,000+.
+      ✅ <a href="https://www.Processfeedback.org">Process Feedback</a> &nbsp;|&nbsp;
+        <a href="https://www.youtube.com/watch?v=mVxsM_omzrI">Multimedia</a>
+        <br>📄 <a href= "https://www.processfocus.org/2025/04/top-chrome-extensions-for-exploring.html"> Writing Process - Blog</a> </p>
     </article>
     <article class="progress-card" data-status="● Ongoing · Policy Coordination">
       <h3>School Education Sector Plan (SESP) Implementation</h3>
