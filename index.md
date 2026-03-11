@@ -5,19 +5,39 @@ title: Home
 
 <!-- ================= Current Focus  ================= -->
 <section class="mission">
-  <h2>Research in Progress</h2>
-   <!-- Active Mark -->
+  <div class="section-label">Current Work</div>
+  <h2 class="section-title">Research in Progress</h2>
   <span class="status-badge">
     <span class="status-dot"></span>
-    Active
+    Active — 2024–Present
   </span>
-   <h3>Process-Based Academic Integrity in the AI Era</h3> 
-   <!-- Small Label -->
-  <p class="work-type">● Ongoing · Research &amp; Practice</p>
-Developing the 3P Framework (Person–Process–Product) to reframe integrity as a learning-centred practice rather than a punitive concern. Scoping review underway examining preventive, punitive, and educative approaches in current EdTech tools.<br>
-✅ Presented at: <a href = "https://www.nelta.org.np/conference/30">[NELTA] 2026</a> | <a href ="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">[FTTC] 2025</a> <br>
-📄 Status: Framework co-development | Submitted for peer-review <br>
- </section>
+  <div class="in-progress-grid">
+    <article class="progress-card" data-status="● Ongoing · Research &amp; Practice">
+      <h4>Academic Integrity in the AI Era</h4>
+      <p>Developing the 3P Framework (Person–Process–Product) to reframe integrity
+      as a learning-centred practice rather than a punitive concern. Scoping review underway examining integrity approaches in current EdTech tools.</p>
+      <p style="margin-top:0.6rem;">
+        ✅ <a href="https://www.nelta.org.np/conference/30">NELTA 2026</a> &nbsp;|&nbsp;
+        <a href="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">FTTC 2025</a>
+        <br>📄 Framework co-development | Scoping review 
+      </p>
+    </article>
+    <article class="progress-card" data-status="● Ongoing · Edtech Consultant">
+      <h4>Research and Communication Consultant</h4>
+      <p>Contribute to the establishment of Process Feedback by co-developing website architecture and leading multimedia content strategy. Present at national and international conferences on process-oriented learning and academic integrity, advocating for process-oriented pedagogy over detection-based approaches. Lead outreach and public relations efforts, building strategic global networks of EdTech leaders and educators to support a user base of over 60,000.</p>
+    </article>
+    <article class="progress-card" data-status="● Ongoing · Policy Coordination">
+      <h4>School Education Sector Plan (SESP) Implementation</h4>
+      <p>Support the Center for Education and Human Resource Development (CEHRD) in implementing the School Education Sector Plan (SESP) through inter-governmental coordination and provincial orientations. Consolidate education data across 753 local levels to track progress and inform program target and achievement. Facilitate thematic working groups and Joint Review Meetings, between government and development partners ensuring that technical support and coordination functions tied to the SESP are effectively operationalized.</p>
+    </article>
+    <article class="progress-card" data-status="● Completed · M.A. Thesis">
+      <h4>TPACK in Government School E-Learning</h4>
+      <p>Convergent parallel mixed-methods study on teachers' technological and
+      pedagogical knowledge across 9 community schools in Lalitpur Metropolitan
+      City.</p>
+    </article>
+  </div>
+</section>
 
 <!-- ================= Research Highlight Timeline ================= -->
 <section class="research-highlight">
