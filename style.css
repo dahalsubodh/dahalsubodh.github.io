@@ -253,8 +253,7 @@ p, ul {
 }
 
 .btn-secondary:hover {
-  color: var(--color-text-light);
-  border-radius: 2px;
+  color: var(--color-text-muted);
   transform: translateY(-2px);
 }
 
@@ -921,4 +920,14 @@ section > *:not(.container) {
 @keyframes pulse {
   0%, 100% { opacity: 1; }
   50%       { opacity: 0.3; }
+}
+/* ---------------- Small label ---------------- */
+.work-type {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8b3a2a;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e2dbd0;
 }
