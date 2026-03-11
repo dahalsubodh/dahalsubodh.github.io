@@ -108,45 +108,36 @@ title: Home
   
 
 <!-- ================= Research Trajectory ================= -->
-<section id="trajectory" class="trajectory">
-  <h2>Project Conducted</h2>
-  <div class="steps">
-    <div class="step-card">
-      <div class="icon">
-       <i class="fa-solid fa-laptop"></i>
-      </div>
-      <h3>ICT Status in Schools</h3>
-      <p>
-       ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality.
-      </p>
-    </div>
+<section class="research-highlight">
+  <div class="section-label">Selected Projects</div>
+  <h2 class="section-title">Projects Conducted</h2>
+
+  <div class="in-progress-grid">
+
+    <article class="progress-card" data-status="● Completed · 2025">
+      <h4><i class="fa-solid fa-laptop" style="color:var(--color-primary); margin-right:0.5rem;"></i>ICT Status in Schools</h4>
+      <p>ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality.</p>
+    </article>
+
+    <article class="progress-card" data-status="● Ongoing · Research">
+      <h4><i class="fa-solid fa-laptop-file" style="color:var(--color-primary); margin-right:0.5rem;"></i>EdTech Tools &amp; Academic Integrity Scoping Review</h4>
+      <p>Scoping review examining whether educational technology tools adopt preventive, punitive, or educative approaches to academic integrity.</p>
+    </article>
+
+    <article class="progress-card" data-status="● Completed · M.A. Thesis">
+      <h4><i class="fas fa-network-wired" style="color:var(--color-primary); margin-right:0.5rem;"></i>Assessment of Teachers' TPACK for E-Learning</h4>
+      <p>Study of government school teachers' TPACK in adopting e-learning in Lalitpur Metropolitan City, Nepal.</p>
+    </article>
+
   </div>
-    <div class="step-card">
-      <div class="icon">
-        <i class="fa-solid fa-laptop-file"></i>
-      </div>
-      <h3>EdTech Tools & Academic Integrity Scoping Review</h3>
-      <p>
-      Scoping review examining whether educational technology tools adopt preventive, punitive, or educative approaches to academic integrity.
-      </p>
-    </div>
-    <div class="step-card">
-      <div class="icon">
-        <i class="fas fa-network-wired"></i>
-      </div>
-      <h3>Assessment of Teachers' TPACK for E-Learning</h3>
-      <p>
-        Study of government school teachers TPACK in adopting e-learning in Lalitpur Metropolitan City, Nepal.
-      </p>
-    </div>
-   <a href="/projects" class="cta-button btn-primary">Explore All Projects →</a>
+
+  <a href="/projects" class="btn-primary" style="margin-top:1.5rem; display:inline-block;">Explore All Projects →</a>
 </section>
 
-<!-- ================= Mission ================= -->
+<!-- ================= Core Philosophy ================= -->
 <section class="mission">
   <h2>Core Philosophy</h2>
   <blockquote>
-    “Designing, implementing and study educational intervention that emphasize on learning process, formative feedback and cognitive development.”
+    "Designing, implementing and studying educational interventions that emphasize learning process, formative feedback and cognitive development."
   </blockquote>
 </section>
-
