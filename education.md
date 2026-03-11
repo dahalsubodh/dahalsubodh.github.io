@@ -8,6 +8,7 @@ layout: default
   Academic Formation
 </span>
 <h2 class="section-title">Education</h2>
+Grounded in international development, mixed-methods research, and management with applied work spanning educational technology, governance, and field research.
 <hr style="border:none; border-top:0.2px solid var(--color-border); margin: 2rem 0;">
 
 <!-- ================= M.A. ================= -->
@@ -36,7 +37,7 @@ layout: default
     </blockquote>
   </div>
 </div>
-<hr style="border:none; border-top:1px solid var(--color-border); margin: 2rem 0;">
+<hr style="border:none; border-top:0px solid var(--color-border); margin: 2rem 0;">
 
 <!-- ================= B.B.A. ================= -->
 <div class="edu-entry">
