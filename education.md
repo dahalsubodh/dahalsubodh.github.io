@@ -17,7 +17,7 @@ layout: default
 
 <!-- ================= M.A. ================= -->
 <div class="edu-entry">
-  <div class="edu-year">Nov 2025<br>Completed</div>
+  <div class="edu-year">Nov 2025</div>
   <div>
     <h3 class="edu-degree">M.A. International Cooperation & Development</h3>
     <div class="edu-institution">MU Institute of Cooperation & Development · Mid-West University, Nepal</div>
@@ -45,7 +45,7 @@ layout: default
 
 <!-- ================= B.B.A. ================= -->
 <div class="edu-entry">
-  <div class="edu-year">Feb 2019<br>Completed</div>
+  <div class="edu-year">Feb 2019</div>
   <div>
     <h3 class="edu-degree">Bachelor of Business Administration (Finance)</h3>
     <div class="edu-institution">Bhaktapur Multiple Campus · Tribhuvan University, Nepal</div>
