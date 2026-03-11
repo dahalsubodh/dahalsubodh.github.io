@@ -1108,3 +1108,71 @@ section > *:not(.container) {
     gap: 0.5rem;
   }
 }
+
+
+/* ================= PUBLICATIONS ================= */
+.pub-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.pub-item:last-child { border-bottom: none; }
+
+.pub-number {
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+  margin-bottom: 0.4rem;
+}
+
+.pub-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.45;
+  margin-bottom: 0.4rem;
+}
+
+.pub-title a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--color-secondary);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+
+.pub-title a:hover { text-decoration-color: var(--color-primary); }
+
+.pub-meta {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.pub-desc {
+  font-size: 0.85rem;
+  color: var(--color-text-main);
+  line-height: 1.75;
+  margin-top: 0.5rem;
+}
+
+.pub-type-tag {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.6rem;
+  border: 1.5px solid var(--color-border);
+  color: var(--color-text-muted);
+  display: inline-block;
+  margin-right: 0.4rem;
+  border-radius: 4px;
+}
+
+.pub-type-tag.conference { color: var(--color-primary);    border-color: var(--color-primary);    background: var(--color-primary-pale); }
+.pub-type-tag.journal    { color: #8b6914;                 border-color: #8b6914;                 background: rgba(139,105,20,0.06); }
+.pub-type-tag.workshop   { color: #2e7d52;                 border-color: #2e7d52;                 background: rgba(46,125,82,0.06); }
+.pub-type-tag.poster     { color: var(--color-text-muted); border-color: var(--color-text-muted); }
+.pub-type-tag.acknowledged { color: var(--color-text-muted); border-color: var(--color-text-muted); }
