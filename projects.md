@@ -19,10 +19,10 @@ A record of research, assessment, and consultancy projects spanning educational 
 <div class="edu-entry">
   <div class="edu-year">Ongoing</div>
   <div>
-    <h3 class="edu-degree">EdTech Tools & Academic Integrity Scoping Review</h3>
-    <div class="edu-institution">Research & Communication Consultant · Process Feedback</div>
+    <h3 class="edu-degree">EdTech Tools &amp; Academic Integrity Scoping Review</h3>
+    <div class="edu-institution">Research &amp; Communication Consultant · Process Feedback</div>
     <div class="thesis-box">
-      <div class="tb-label">Scope & Focus</div>
+      <div class="tb-label">Scope &amp; Focus</div>
       <p>A scoping review examining how current educational technology tools address academic integrity — identifying whether EdTech tools adopt preventive, punitive, or educative approaches to uphold learning integrity.</p>
     </div>
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
@@ -49,7 +49,7 @@ A record of research, assessment, and consultancy projects spanning educational 
     <h3 class="edu-degree">Status of ICT in Schools</h3>
     <div class="edu-institution">Researcher · Assessor · Gokarneshwor Municipality</div>
     <div class="thesis-box">
-      <div class="tb-label">Scope & Focus</div>
+      <div class="tb-label">Scope &amp; Focus</div>
       <p>ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality — collecting baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.</p>
     </div>
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
@@ -76,7 +76,7 @@ A record of research, assessment, and consultancy projects spanning educational 
     <h3 class="edu-degree">Own Source Revenue of Lumbini Province</h3>
     <div class="edu-institution">Research Assistant · Economic Advisor</div>
     <div class="thesis-box">
-      <div class="tb-label">Scope & Focus</div>
+      <div class="tb-label">Scope &amp; Focus</div>
       <p>Contributed to a study on revenue generation sources for Lumbini Province — understanding how provinces generate revenue independently of federal transfers.</p>
     </div>
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
@@ -103,7 +103,7 @@ A record of research, assessment, and consultancy projects spanning educational 
     <h3 class="edu-degree">Assessment of Teachers' TPACK for E-Learning</h3>
     <div class="edu-institution">Principal Researcher · Mid-West University, Nepal</div>
     <div class="thesis-box">
-      <div class="tb-label">Scope & Focus</div>
+      <div class="tb-label">Scope &amp; Focus</div>
       <p>Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of Science, Math, and English teachers in government schools of Lalitpur Metropolitan City, and its influence on e-learning adoption.</p>
     </div>
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
@@ -129,7 +129,7 @@ A record of research, assessment, and consultancy projects spanning educational 
     <h3 class="edu-degree">Climate Programs Under Pandemic Recovery</h3>
     <div class="edu-institution">Project Work · M.A. Program · Mid-West University</div>
     <div class="thesis-box">
-      <div class="tb-label">Scope & Focus</div>
+      <div class="tb-label">Scope &amp; Focus</div>
       <p>Analysis of COVID-19's impact on Nepal's climate governance and Nationally Determined Contributions (NDCs) under the Paris Agreement — assessing disruptions to climate adaptation and mitigation programs in Kathmandu Valley.</p>
     </div>
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
