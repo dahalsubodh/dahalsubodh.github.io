@@ -964,7 +964,7 @@ section > *:not(.container) {
   }
 }
 
-
+/*----------------Tags--------------------------*/
 .status-badge {
   display: inline-flex;
   align-items: center;
