@@ -541,16 +541,16 @@ p, ul {
 .timeline::before {
   content: '';
   position: absolute;
-  left: 97px;
-  top: 8px; bottom: 0;
+  left: 102px;
+  top: 10px; bottom: 0;
   width: 2px;
   background: var(--color-border);
 }
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 90px 14px 1fr;
-  gap: 0 1rem;
+  grid-template-columns: 90px 16px 1fr;
+  gap: 0 1.25rem;
   margin-bottom: 1.25rem;
   align-items: start;
   position: relative;
@@ -572,10 +572,11 @@ p, ul {
   background: var(--color-primary);
   border: 2px solid var(--color-background);
   box-shadow: 0 0 0 2px var(--color-primary);
-  margin-top: 0.28rem;
+  margin-top: 0.3rem;
   Justify-self: center;
   position: relative;
   z-index: 1;
+  left: 0;
 }
 
 .timeline-card {
