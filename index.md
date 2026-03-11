@@ -5,19 +5,16 @@ title: Home
 
 <!-- ================= Current Focus  ================= -->
 <section class="mission">
-  <h2>Current Focus</h2>
-   <h3>Process-Based Academic Integrity in the AI Era</h3> 
-  <!-- Active Mark -->
+  <h2>Research in Progress</h2>
+   <!-- Active Mark -->
   <span class="status-badge">
     <span class="status-dot"></span>
-    Active — 2024–Present
+    Active
   </span>
+   <h3>Process-Based Academic Integrity in the AI Era</h3> 
    <!-- Small Label -->
   <p class="work-type">● Ongoing · Research &amp; Practice</p>
-<strong>To ensure authenticity of students' work in the three key aspects of academic integrity: verifying the correct person, process and product.<br> </strong> 
-<blockquote>  
-  "Moving from policing outcomes → to clear evidence of learning." 
-</blockquote> <br>
+Developing the 3P Framework (Person–Process–Product) to reframe integrity as a learning-centred practice rather than a punitive concern. Scoping review underway examining preventive, punitive, and educative approaches in current EdTech tools.<br>
 ✅ Presented at: <a href = "https://www.nelta.org.np/conference/30">[NELTA] 2026</a> | <a href ="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">[FTTC] 2025</a> <br>
 📄 Status: Framework co-development | Submitted for peer-review <br>
  </section>
