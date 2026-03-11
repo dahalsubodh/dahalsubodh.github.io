@@ -31,7 +31,7 @@ title: Home
     </article>
     <article class="progress-card" data-status="● Ongoing · Policy Coordination">
       <h3>School Education Sector Plan (SESP) Implementation</h3>
-      <p>Support the Center for Education and Human Resource Development (CEHRD) in implementing the School Education Sector Plan (SESP) through inter-governmental coordination and provincial orientations. Consolidate education data across 753 local levels to track progress and inform program target and achievement. Facilitate thematic working groups and Joint Review Meetings, between government and development partners ensuring that technical support and coordination functions tied to the SESP are effectively operationalized.</p>
+      <p>Support Nepal’s School Education Sector Plan (SESP) through inter-governmental coordination and data-driven planning. Facilitate provincial orientations, validate national budgets, manage thematic working groups, and conduct field assessments to strengthen education policy implementation.</p>
     </article>
     <article class="progress-card" data-status="● Completed · M.A. Thesis">
       <h3>TPACK in Government School E-Learning</h3>
