@@ -247,6 +247,7 @@ p, ul {
 
 .btn-primary:hover {
   background-color: var(--color-primary-dark);
+  color: var(--color-text-light);
 }
 
 .btn-secondary {
