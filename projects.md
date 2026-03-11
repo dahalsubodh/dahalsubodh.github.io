@@ -13,7 +13,6 @@ layout: default
 A record of research, assessment, and consultancy projects spanning educational technology, academic integrity, and development policy.
 </p>
 
-<hr class="divider">
 
 <!-- ================= PROJECT 1 ================= -->
 <div class="edu-entry">
