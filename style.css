@@ -262,7 +262,8 @@ p, ul {
 }
 
 .btn-secondary:hover {
-  color: var(--color-text-muted);
+  background-color: var(--color-primary-dark);
+  color: var(--color-text-light);
   transform: translateY(-2px);
 }
 
