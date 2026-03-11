@@ -1034,3 +1034,27 @@ section > *:not(.container) {
 .pub-type-tag.workshop   { color: #2e7d52;                 border-color: #2e7d52;                 background: rgba(46,125,82,0.06); }
 .pub-type-tag.poster     { color: var(--color-text-muted); border-color: var(--color-text-muted); }
 .pub-type-tag.acknowledged { color: var(--color-text-muted); border-color: var(--color-text-muted); }
+
+/* ================= Section label ================= */
+
+.section-label {
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: var(--color-primary);
+  opacity: 0.45;
+}
