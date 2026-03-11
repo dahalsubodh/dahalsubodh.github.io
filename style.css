@@ -785,16 +785,6 @@ section > *:not(.container) {
 .markdown-content img { ... }
 .markdown-content .pull-quote { ... }
 
-.markdown-content a {
-  color: var(--color-primary);
-  text-decoration: none;
-  border-bottom: none;
-}
-
-.markdown-content a:hover {
-  color: var(--color-primary-dark);
-  text-decoration: underline;
-  text-underline-offset: 3px;
 
 @media (max-width: 768px) {
   .markdown-content { padding: 1.5rem 1rem; }
