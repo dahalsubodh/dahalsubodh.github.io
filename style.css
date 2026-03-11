@@ -946,8 +946,10 @@ section > *:not(.container) {
 
 /* ================= PUBLICATIONS ================= */
 .pub-item {
-  padding: 1.5rem 0;
+  padding: 1.5rem 1.25rem;
   border-bottom: 1px solid var(--color-border);
+  background: var(--color-soft-accent);
+  margin-bottom: 0.5rem;
 }
 
 .pub-item:last-child { border-bottom: none; }
@@ -961,11 +963,12 @@ section > *:not(.container) {
 }
 
 .pub-title {
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.95rem;
+  font-weight: 600;
   color: var(--color-primary);
   line-height: 1.45;
   margin-bottom: 0.4rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .pub-title a {
@@ -979,14 +982,14 @@ section > *:not(.container) {
 .pub-title a:hover { text-decoration-color: var(--color-primary); }
 
 .pub-meta {
-  font-size: 0.82rem;
+  font-size: 0.80rem;
   color: var(--color-text-muted);
   font-style: italic;
   margin-bottom: 0.5rem;
 }
 
 .pub-desc {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: var(--color-text-main);
   line-height: 1.75;
   margin-top: 0.5rem;
