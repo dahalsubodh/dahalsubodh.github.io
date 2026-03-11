@@ -21,17 +21,14 @@ A record of research, assessment, and consultancy projects spanning educational 
   <div>
     <h3 class="edu-degree">EdTech Tools & Academic Integrity Scoping Review</h3>
     <div class="edu-institution">Research & Communication Consultant · Process Feedback</div>
-
     <div class="thesis-box">
       <div class="tb-label">Scope & Focus</div>
       <p>A scoping review examining how current educational technology tools address academic integrity — identifying whether EdTech tools adopt preventive, punitive, or educative approaches to uphold learning integrity.</p>
     </div>
-
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
       <div class="tb-label" style="color:var(--color-green);">Methods</div>
       <p>Systematic literature review and comparative analysis of existing technologies.</p>
     </div>
-
   <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
   <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
   <ul class="entry-highlights" style="margin-top:0.25rem;">
@@ -40,6 +37,8 @@ A record of research, assessment, and consultancy projects spanning educational 
     <li>Data informed broader research and policy discussions around EdTech adoption.</li>
   </ul>
 </div>
+</div>
+
 ---
 
 <!-- ================= PROJECT 2 ================= -->
@@ -48,17 +47,14 @@ A record of research, assessment, and consultancy projects spanning educational 
   <div>
     <h3 class="edu-degree">Status of ICT in Schools</h3>
     <div class="edu-institution">Researcher · Assessor · Gokarneshwor Municipality</div>
-
     <div class="thesis-box">
       <div class="tb-label">Scope & Focus</div>
       <p>ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality — collecting baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.</p>
     </div>
-
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
       <div class="tb-label" style="color:var(--color-green);">Methods</div>
       <p>School surveys, interviews, and observational assessment of ICT infrastructure and usage.</p>
     </div>
-
      <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
   <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
   <ul class="entry-highlights" style="margin-top:0.25rem;">
@@ -67,6 +63,7 @@ A record of research, assessment, and consultancy projects spanning educational 
       <li>Data informed broader research and policy discussions around EdTech adoption.</li>
   </ul>
   </div>
+</div>
 </div>
 
 ---
@@ -77,17 +74,14 @@ A record of research, assessment, and consultancy projects spanning educational 
   <div>
     <h3 class="edu-degree">Own Source Revenue of Lumbini Province</h3>
     <div class="edu-institution">Research Assistant · Economic Advisor</div>
-
     <div class="thesis-box">
       <div class="tb-label">Scope & Focus</div>
       <p>Contributed to a study on revenue generation sources for Lumbini Province — understanding how provinces generate revenue independently of federal transfers.</p>
     </div>
-
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
       <div class="tb-label" style="color:var(--color-green);">Methods</div>
       <p>Data analysis, report drafting, Focus Group Discussions with government departments, and consultation workshops with 25+ private sector representatives.</p>
     </div>
-
       <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
   <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
   <ul class="entry-highlights" style="margin-top:0.25rem;">
@@ -96,6 +90,7 @@ A record of research, assessment, and consultancy projects spanning educational 
       <li>Reinforced analytical and methodological skills.</li>
     </ul>
   </div>
+</div>
 </div>
 
 ---
@@ -106,17 +101,14 @@ A record of research, assessment, and consultancy projects spanning educational 
   <div>
     <h3 class="edu-degree">Assessment of Teachers' TPACK for E-Learning</h3>
     <div class="edu-institution">Principal Researcher · Mid-West University, Nepal</div>
-
     <div class="thesis-box">
       <div class="tb-label">Scope & Focus</div>
       <p>Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of Science, Math, and English teachers in government schools of Lalitpur Metropolitan City, and its influence on e-learning adoption.</p>
     </div>
-
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
       <div class="tb-label" style="color:var(--color-green);">Methods</div>
       <p>Convergent parallel mixed-methods design — surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.</p>
     </div>
-
        <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
   <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
   <ul class="entry-highlights" style="margin-top:0.25rem;">
@@ -124,6 +116,7 @@ A record of research, assessment, and consultancy projects spanning educational 
       <li>Found TPACK is highly context-dependent, shaped by school-level support and professional development quality.</li>
     </ul>
   </div>
+</div>
 </div>
 
 ---
@@ -134,17 +127,14 @@ A record of research, assessment, and consultancy projects spanning educational 
   <div>
     <h3 class="edu-degree">Climate Programs Under Pandemic Recovery</h3>
     <div class="edu-institution">Project Work · M.A. Program · Mid-West University</div>
-
     <div class="thesis-box">
       <div class="tb-label">Scope & Focus</div>
       <p>Analysis of COVID-19's impact on Nepal's climate governance and Nationally Determined Contributions (NDCs) under the Paris Agreement — assessing disruptions to climate adaptation and mitigation programs in Kathmandu Valley.</p>
     </div>
-
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
       <div class="tb-label" style="color:var(--color-green);">Methods</div>
       <p>Desk reviews and Key Informant Interviews with nine national and international organisations working on climate adaptation and mitigation.</p>
     </div>
-
      <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
   <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
   <ul class="entry-highlights" style="margin-top:0.25rem;">
@@ -152,4 +142,5 @@ A record of research, assessment, and consultancy projects spanning educational 
       <li>Found low-to-medium pandemic impact on funding, with anticipated future constraints due to combined effects of COVID-19 and the Russia–Ukraine crisis.</li>
     </ul>
   </div>
+</div>
 </div>
