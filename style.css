@@ -540,16 +540,16 @@ p, ul {
   content: '';
   position: absolute;
   left: 90px;
-  top: 0; bottom: 0;
+  top: 8px; bottom: 0;
   width: 2px;
   background: var(--color-border);
 }
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 90px 18px 1fr;
-  gap: 0 1.25rem;
-  margin-bottom: 1.75rem;
+  grid-template-columns: 90px 14px 1fr;
+  gap: 0 1rem;
+  margin-bottom: 1.25rem;
   align-items: start;
   position: relative;
 }
@@ -565,13 +565,13 @@ p, ul {
 }
 
 .timeline-marker {
-  width: 12px; height: 12px;
+  width: 10px; height: 10px;
   border-radius: 50%;
   background: var(--color-primary);
   border: 2px solid var(--color-background);
   box-shadow: 0 0 0 2px var(--color-primary);
-  margin-top: 0.2rem;
-  flex-shrink: 0;
+  margin-top: 0.28rem;
+  Justify-self: center;
   position: relative;
   z-index: 1;
 }
@@ -580,7 +580,7 @@ p, ul {
   background: var(--color-soft-accent);
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-primary);
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
   border-radius: 0 3px 3px 0;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
@@ -591,11 +591,11 @@ p, ul {
 }
 
 .timeline-card h3 {
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--color-primary);
   line-height: 1.45;
-  margin: 0.4rem 0 0.3rem;
+  margin: 0.25rem 0 0.2rem;
 }
 
 .timeline-card h3 a {
@@ -626,14 +626,15 @@ p, ul {
 
 /* type badges */
 .timeline-type {
-  font-size: 0.58rem;
+  font-size: 0.55rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-  padding: 0.18rem 0.55rem;
+  padding: 0.15rem 0.45rem;
   border-radius: 2px;
   display: inline-block;
   border: 1.5px solid;
+  margin-bottom: 0.3rem;
 }
 
 .timeline-type.conference { color: var(--color-primary);  border-color: var(--color-primary);  background: var(--color-primary-pale); }
