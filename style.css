@@ -894,3 +894,31 @@ section > *:not(.container) {
     font-size: 0.9rem;
   }
 }
+
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5a7a5a;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid #5a7a5a;
+  margin-bottom: 1rem;
+  background: rgba(90, 122, 90, 0.05);
+}
+/* ---------------- blinking dot ---------------- */
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5a7a5a;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
