@@ -914,7 +914,7 @@ section > *:not(.container) {
   height: 6px;
   border-radius: 50%;
   background: #5a7a5a;
-  animation: pulse 2s infinite;
+  animation: pulse 3s infinite; flex-shrink: 0;
 }
 
 @keyframes pulse {
@@ -923,11 +923,11 @@ section > *:not(.container) {
 }
 /* ---------------- Small label ---------------- */
 .work-type {
-  font-size: 0.65rem;
+  font-size: 0.30rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #8b3a2a;
+  color: var(--color-primary);
   margin-bottom: 0.75rem;
   padding-bottom: 0.75rem;
-  border-bottom: 1px solid #e2dbd0;
+  border-bottom: 1px solid var(--color-border);
 }
