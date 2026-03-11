@@ -37,7 +37,6 @@ Grounded in international development, mixed-methods research, and management wi
     </blockquote>
   </div>
 </div>
-<hr style="border:none; border-top:0px solid var(--color-border); margin: 2rem 0;">
 
 <!-- ================= B.B.A. ================= -->
 <div class="edu-entry">
@@ -53,7 +52,6 @@ Grounded in international development, mixed-methods research, and management wi
     </ul>
   </div>
 </div>
-<hr style="border:none; border-top:1px solid var(--color-border); margin: 2rem 0;">
 
 <!-- ================= COMPETENCIES ================= -->
 <span class="status-badge">
