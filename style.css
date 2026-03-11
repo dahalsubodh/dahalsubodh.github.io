@@ -522,134 +522,138 @@ p, ul {
   color: var(--color-text-muted);
   line-height: 1.7;
 }
-/* ---------------- Research Highlight Timeline ---------------- */
+/* ================= TIMELINE ================= */
 .research-highlight {
-  position: relative;
-  background: var(--color-soft-accent);
-  border-radius: 1rem;
-  padding: 3rem 2rem;
-  margin: 1rem auto;
-  max-width: 1140px;
-  border: 1px solid var(--color-border);
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  max-width: 1280px;
+  margin: 4rem auto;
+  padding: 0 1rem;
 }
 
-.research-highlight h2 {
-  font-size: 2rem;
-  color: var(--color-primary);
-  margin-bottom: 2rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-}
-
-/* Timeline container */
 .timeline {
   position: relative;
-  margin: 2rem 0;
-  padding-left: 1.5rem;
+  margin: 2rem 0 2.5rem;
+  padding-left: 0;
 }
 
-/* Vertical line */
+/* vertical line */
 .timeline::before {
-  content: "";
+  content: '';
   position: absolute;
-  left: 10px;
-  top: 0;
-  bottom: 4rem;
+  left: 90px;
+  top: 0; bottom: 0;
   width: 2px;
-  background: var(--color-secondary);
+  background: var(--color-border);
 }
 
-/* Timeline item */
 .timeline-item {
+  display: grid;
+  grid-template-columns: 90px 18px 1fr;
+  gap: 0 1.25rem;
+  margin-bottom: 1.75rem;
+  align-items: start;
   position: relative;
-  margin-bottom: 2rem;
-  padding-left: 2rem;
 }
 
-/* Timeline bullet */
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 2px;
-  width: 10px;
-  height: 10px;
-  background: var(--color-primary);
-  border-radius: 50%;
-  border: 2px solid var(--color-background);
-  box-shadow: 0 0 0 1px var(--color-secondary);
-  z-index: 2;
-}
-
-/* Timeline content */
-.timeline-item h3 {
-  font-size: 1.25rem;
-  margin:0 0 0.5rem 0;
-  color: var(--color-text-main);
-  line-height:1.2;
-}
-
-.timeline-item p {
-  font-size: 1rem;
-  color: var(--color-text-muted);
-  line-height: 1.8;
-  margin: 0;
-}
-
-/* Optional tag */
-.timeline-item .tag {
-  display: block;
-  font-size: 0.75rem;
+.timeline-date {
+  font-size: 0.7rem;
   font-weight: 700;
-  color: var(--color-primary);
-  margin: 0;
-  letter-spacing: 0.05rem;
-  line-height:1;
+  color: var(--color-text-muted);
+  letter-spacing: 0.05em;
+  text-align: right;
+  padding-top: 0.15rem;
+  line-height: 1.4;
 }
 
-.research-highlight .cta-button {
-  display: inline-block;
-  margin-top: 1.25rem;
-  background-color: var(--color-primary);
-  color: var(--color-text-light);
-  padding: 0.6rem 1.25rem;
-  border-radius: 6px;
+.timeline-marker {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  border: 2px solid var(--color-background);
+  box-shadow: 0 0 0 2px var(--color-primary);
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-card {
+  background: var(--color-soft-accent);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  padding: 1rem 1.25rem;
+  border-radius: 0 3px 3px 0;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.timeline-card:hover {
+  box-shadow: 0 4px 16px rgba(23, 71, 102, 0.1);
+  transform: translateX(3px);
+}
+
+.timeline-card h3 {
+  font-size: 0.92rem;
   font-weight: 600;
-  text-decoration: none;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.research-highlight .cta-button:hover {
-  background-color: var(--color-primary-dark);
-  color: var(--color-text-light);
-  transform: translateY(-2px);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .timeline {
-    padding-left: 1rem;
-  }
-
-  .timeline-item {
-    padding-left: 2rem;
-  }
-  
-.timeline-item h3 {
-  font-size: 1.4rem;
   color: var(--color-primary);
-  margin: -2px 0 6px 0; 
-  line-height: 1.2;
+  line-height: 1.45;
+  margin: 0.4rem 0 0.3rem;
 }
-  
-  .timeline-item::before {
-    left: 11px;
-  }
 
-  .timeline::before {
-    left: 4px;
+.timeline-card h3 a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--color-secondary);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+}
+
+.timeline-card h3 a:hover {
+  text-decoration-color: var(--color-primary);
+}
+
+.timeline-venue {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-top: 0.2rem;
+}
+
+.timeline-card p {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-top: 0.5rem;
+}
+
+/* type badges */
+.timeline-type {
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.18rem 0.55rem;
+  border-radius: 2px;
+  display: inline-block;
+  border: 1.5px solid;
+}
+
+.timeline-type.conference { color: var(--color-primary);  border-color: var(--color-primary);  background: var(--color-primary-pale); }
+.timeline-type.poster     { color: var(--color-text-muted); border-color: var(--color-text-muted); background: transparent; }
+.timeline-type.workshop   { color: #2e7d52; border-color: #2e7d52; background: rgba(46,125,82,0.06); }
+.timeline-type.journal    { color: #8b6914; border-color: #8b6914; background: rgba(139,105,20,0.06); }
+.timeline-type.thesis     { color: #1F5C82; border-color: #1F5C82; background: rgba(31,92,130,0.06); }
+
+/* mobile */
+@media (max-width: 600px) {
+  .timeline::before { left: 0; }
+  .timeline-item {
+    grid-template-columns: 14px 1fr;
+    gap: 0 1rem;
+  }
+  .timeline-date {
+    grid-column: 1 / -1;
+    text-align: left;
+    margin-bottom: 0.4rem;
+    padding-left: 1.75rem;
   }
 }
 
