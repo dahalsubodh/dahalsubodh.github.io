@@ -39,7 +39,7 @@ p, ul {
 /* ================= GLOBAL CONTAINER ================= */
 
 .container {
-  max-width: 1140px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;  /* centers container horizontally */
   padding-left: 1rem;  /* horizontal padding */
