@@ -32,14 +32,14 @@ A record of research, assessment, and consultancy projects spanning educational 
       <p>Systematic literature review and comparative analysis of existing technologies.</p>
     </div>
 
-    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
-      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
-      <li>Identified significant gaps in integrity-focused technologies.</li>
-      <li>Directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).</li>
-    </ul>
-  </div>
+  <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
+  <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
+  <ul class="entry-highlights" style="margin-top:0.25rem;">
+    <li>Understanding of how technology is integrated in classrooms and challenges schools face.</li>
+    <li>Groundwork for ICT capacity-building interventions.</li>
+    <li>Data informed broader research and policy discussions around EdTech adoption.</li>
+  </ul>
 </div>
-
 ---
 
 <!-- ================= PROJECT 2 ================= -->
@@ -59,11 +59,13 @@ A record of research, assessment, and consultancy projects spanning educational 
       <p>School surveys, interviews, and observational assessment of ICT infrastructure and usage.</p>
     </div>
 
-    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
-      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
+     <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
+  <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
+  <ul class="entry-highlights" style="margin-top:0.25rem;">
       <li>Understanding of how technology is integrated in classrooms and challenges schools face.</li>
       <li>Groundwork for ICT capacity-building interventions.</li>
       <li>Data informed broader research and policy discussions around EdTech adoption.</li>
+  </ul>
   </div>
 </div>
 
@@ -86,8 +88,9 @@ A record of research, assessment, and consultancy projects spanning educational 
       <p>Data analysis, report drafting, Focus Group Discussions with government departments, and consultation workshops with 25+ private sector representatives.</p>
     </div>
 
-     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
-      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
+      <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
+  <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
+  <ul class="entry-highlights" style="margin-top:0.25rem;">
       <li>Exposure to policy and governance research in a federal context.</li>
       <li>Experience in fiscal systems analysis and preparing research for publication.</li>
       <li>Reinforced analytical and methodological skills.</li>
@@ -114,8 +117,9 @@ A record of research, assessment, and consultancy projects spanning educational 
       <p>Convergent parallel mixed-methods design — surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.</p>
     </div>
 
-      <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
-      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
+       <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
+  <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
+  <ul class="entry-highlights" style="margin-top:0.25rem;">
       <li>Infrastructure gaps alone don't explain low tech adoption — institutional support and teacher confidence are critical levers.</li>
       <li>Found TPACK is highly context-dependent, shaped by school-level support and professional development quality.</li>
     </ul>
@@ -141,8 +145,9 @@ A record of research, assessment, and consultancy projects spanning educational 
       <p>Desk reviews and Key Informant Interviews with nine national and international organisations working on climate adaptation and mitigation.</p>
     </div>
 
-     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
-      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
+     <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
+  <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
+  <ul class="entry-highlights" style="margin-top:0.25rem;">
       <li>Understood how global crises intersect with national policy implementation and funding flows.</li>
       <li>Found low-to-medium pandemic impact on funding, with anticipated future constraints due to combined effects of COVID-19 and the Russia–Ukraine crisis.</li>
     </ul>
