@@ -6,7 +6,14 @@ title: Home
 <!-- ================= Current Focus  ================= -->
 <section class="mission">
   <h2>Current Focus</h2>
-   <h3>3P for Academic Integrity</h3> 
+   <h3>Process-Based Academic Integrity in the AI Era</h3> 
+  <!-- Active Mark -->
+  <span class="status-badge">
+    <span class="status-dot"></span>
+    Active — 2024–Present
+  </span>
+   <!-- Small Label -->
+  <p class="work-type">● Ongoing · Research &amp; Practice</p>
 <strong>To ensure authenticity of students' work in the three key aspects of academic integrity: verifying the correct person, process and product.<br> </strong> 
 <blockquote>  
   "Moving from policing outcomes → to clear evidence of learning." 
