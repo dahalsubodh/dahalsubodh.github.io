@@ -15,18 +15,19 @@ title: Home
       <h3>Academic Integrity in the AI Era</h3>
       <p>Developing the 3P Framework (Person–Process–Product) to reframe integrity
       as a learning-centred practice rather than a punitive concern. Scoping review underway examining integrity approaches in current EdTech tools.</p>
-      <p style="margin-top:0.6rem;">
+      <p style="margin-top:0.3rem;">
         ✅ <a href="https://www.nelta.org.np/conference/30">NELTA 2026</a> &nbsp;|&nbsp;
         <a href="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">FTTC 2025</a>
-        <br>📄 Framework co-development | Scoping review 
+        <br>📄 Framework co-development | <a href= "https://drive.google.com/file/d/1IdP8zCTnvqBzVhxeaKmsmzgbzyCWsYKX/view?usp=sharing">Poster presentation</a> 
       </p>
     </article>
     <article class="progress-card" data-status="● Ongoing · Edtech Consultant">
       <h3>Developing Edtech products</h3>
-      <p>Contribute to co-developing website architecture and leading multimedia strategy of Process Feedback. Present at global conferences to advocate for process-oriented pedagogy over detection. Lead outreach and PR, building strategic networks with EdTech leaders to support a user base of 60,000+.
+      <p>Contribute to co-developing website architecture and leading multimedia strategy of Process Feedback. Present at global conferences to advocate for process-oriented pedagogy over detection. Lead outreach and PR, building strategic networks with EdTech leaders to support a user base of 60,000+. </p>
+      <p style="margin-top:0.3rem;">
       ✅ <a href="https://www.Processfeedback.org">Process Feedback</a> &nbsp;|&nbsp;
-        <a href="https://www.youtube.com/watch?v=mVxsM_omzrI">Multimedia</a>
-        <br>📄 <a href= "https://www.processfocus.org/2025/04/top-chrome-extensions-for-exploring.html"> Writing Process - Blog</a> </p>
+        <a href="https://www.youtube.com/watch?v=mVxsM_omzrI">Multimedia produced</a>
+        <br>📄 <a href= "https://www.processfocus.org/2025/04/top-chrome-extensions-for-exploring.html"> Tools for writing process - Blog</a> </p>
     </article>
     <article class="progress-card" data-status="● Ongoing · Policy Coordination">
       <h3>School Education Sector Plan (SESP) Implementation</h3>
