@@ -3,7 +3,11 @@ title: Education
 layout: default
 ---
 
-<div class="section-label">Academic Formation</div>
+<span class="status-badge static">
+  <span class="status-dot"></span>
+  Academic Formation
+</span>
+<h2 class="section-title">Education</h2>
 <h2 class="section-title">Education</h2>
 <p style="color: var(--color-text-muted); font-size:0.97rem; max-width:620px; margin-bottom:2rem; line-height:1.8;">
   Grounded in international development, mixed-methods research, and management — with applied work spanning educational technology, governance, and field research.
@@ -37,7 +41,6 @@ layout: default
     </blockquote>
   </div>
 </div>
-
 <hr style="border:none; border-top:1px solid var(--color-border); margin: 2rem 0;">
 
 <!-- ================= B.B.A. ================= -->
@@ -54,28 +57,29 @@ layout: default
     </ul>
   </div>
 </div>
-
 <hr style="border:none; border-top:1px solid var(--color-border); margin: 2rem 0;">
 
 <!-- ================= COMPETENCIES ================= -->
-<div class="section-label">Methods & Tools</div>
+<span class="status-badge">
+  <span class="status-dot"></span>
+  Methods & Tools
+</span>
 <h2 class="section-title">Research Competencies</h2>
-
 <div class="in-progress-grid" style="margin-top:1.5rem;">
   <div class="progress-card" data-status="Research Design">
-    <h4>Mixed-Methods</h4>
+    <h3>Mixed-Methods</h3>
     <p>Convergent parallel designs; integration of quantitative statistical analysis with thematic qualitative coding; KAP studies; policy analysis.</p>
   </div>
   <div class="progress-card" data-status="Qualitative Methods">
-    <h4>Qualitative Inquiry</h4>
+    <h3>Qualitative Inquiry</h3>
     <p>Semi-structured interviews; focus group discussions; thematic analysis; scoping reviews; stakeholder mapping; key informant interviews.</p>
   </div>
   <div class="progress-card" data-status="Quantitative Tools">
-    <h4>Quantitative Analysis</h4>
+    <h3>Quantitative Analysis</h3>
     <p>SPSS; descriptive statistics; cross-tabulation; correlation analysis; survey design; data visualisation; Excel-based reporting.</p>
   </div>
   <div class="progress-card" data-status="Communication & Outreach">
-    <h4>Research Communication</h4>
+    <h3>Research Communication</h3>
     <p>Academic writing; conference presentations; blog and editorial management; multimedia production; multilingual coordination (English, Nepali).</p>
   </div>
 </div>
