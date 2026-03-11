@@ -103,7 +103,7 @@ title: Home
       </div>
     </div>
   </div>
-  <a href="/publications" class="btn-primary">Explore All Publications →</a>
+  <a href="/publications" class="cta-button btn-primary">Explore All Publications →</a>
 </section>
   
 
@@ -139,7 +139,7 @@ title: Home
         Study of government school teachers TPACK in adopting e-learning in Lalitpur Metropolitan City, Nepal.
       </p>
     </div>
-   <a href="/projects" class="cta-button btn-primary">Explore All Projects </a>
+   <a href="/projects" class="cta-button btn-primary">Explore All Projects →</a>
 </section>
 
 <!-- ================= Mission ================= -->
