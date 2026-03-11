@@ -13,7 +13,6 @@ layout: default
 A record of research, assessment, and consultancy projects spanning educational technology, academic integrity, and development policy.
 </p>
 
-
 <!-- ================= PROJECT 1 ================= -->
 <div class="edu-entry">
   <div class="edu-year">Ongoing</div>
@@ -38,8 +37,6 @@ A record of research, assessment, and consultancy projects spanning educational 
     </div>
   </div>
 </div>
-
-<hr class="divider">
 
 <!-- ================= PROJECT 2 ================= -->
 <div class="edu-entry">
@@ -66,8 +63,6 @@ A record of research, assessment, and consultancy projects spanning educational 
   </div>
 </div>
 
-<hr class="divider">
-
 <!-- ================= PROJECT 3 ================= -->
 <div class="edu-entry">
   <div class="edu-year">Nov 2024 –<br>Feb 2025</div>
@@ -93,8 +88,6 @@ A record of research, assessment, and consultancy projects spanning educational 
   </div>
 </div>
 
-<hr class="divider">
-
 <!-- ================= PROJECT 4 ================= -->
 <div class="edu-entry">
   <div class="edu-year">2025<br>M.A. Thesis</div>
@@ -118,8 +111,6 @@ A record of research, assessment, and consultancy projects spanning educational 
     </div>
   </div>
 </div>
-
-<hr class="divider">
 
 <!-- ================= PROJECT 5 ================= -->
 <div class="edu-entry">
