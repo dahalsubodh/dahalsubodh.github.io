@@ -524,6 +524,7 @@ p, ul {
   color: var(--color-text-muted);
   line-height: 1.7;
 }
+
 /* ================= TIMELINE ================= */
 .research-highlight {
   max-width: 1280px;
@@ -534,53 +535,51 @@ p, ul {
 .timeline {
   position: relative;
   margin: 2rem 0 2.5rem;
-  padding-left: 130px;
-  max-width: 100%;
+  padding-left: 130px;        /* space for date + line */
 }
 
 /* vertical line */
 .timeline::before {
   content: '';
   position: absolute;
-  left: 113px;
-  top: 6px; bottom: 6px;
+  left: 113px;                /* sits right behind the dots */
+  top: 6px;
+  bottom: 6px;
   width: 2px;
   background: var(--color-border);
 }
 
 .timeline-item {
-  display: grid;
-  grid-template-columns: 90px 16px 1fr;
-  gap: 0 1.25rem;
-  margin-bottom: 1.25rem;
-  align-items: start;
   position: relative;
+  margin-bottom: 1.25rem;
 }
 
+/* date — positioned to the left of the line */
 .timeline-date {
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: var(--color-text-muted);
-  letter-spacing: 0.05em;
-  text-align: right;
-  padding-top: 0.7rem;
-  line-height: 1.4;
   position: absolute;
   left: -130px;
   width: 100px;
+  text-align: right;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  letter-spacing: 0.04em;
+  line-height: 1.4;
+  padding-top: 0.7rem;        /* aligns date to card top */
 }
 
+/* dot — sits exactly on the line */
 .timeline-marker {
-  width: 10px; height: 10px;
+  position: absolute;
+  left: -19px;                /* pulls dot onto the line: -(130px - 113px + 2px) */
+  top: 0.7rem;                /* matches date padding-top */
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background: var(--color-primary);
   border: 2px solid var(--color-background);
   box-shadow: 0 0 0 2px var(--color-primary);
-  margin-top: 0.7rem;
-  Justify-self: center;
-  position: absolute;
   z-index: 1;
-  left: -19px;
 }
 
 .timeline-card {
@@ -590,13 +589,23 @@ p, ul {
   padding: 0.75rem 1rem;
   border-radius: 0 4px 4px 0;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .timeline-card:hover {
   box-shadow: 0 4px 16px rgba(23, 71, 102, 0.1);
   transform: translateX(3px);
+}
+
+.timeline-type {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1.5px solid;
+  margin-bottom: 0.3rem;
 }
 
 .timeline-card h3 {
@@ -633,24 +642,12 @@ p, ul {
   margin-top: 0.5rem;
 }
 
-/* type badges */
-.timeline-type {
-  font-size: 0.55rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 0.15rem 0.45rem;
-  border-radius: 2px;
-  display: inline-block;
-  border: 1.5px solid;
-  margin-bottom: 0.3rem;
-}
-
-.timeline-type.conference { color: var(--color-primary);  border-color: var(--color-primary);  background: var(--color-primary-pale); }
+/* type badge colours */
+.timeline-type.conference { color: var(--color-primary);    border-color: var(--color-primary);    background: var(--color-primary-pale); }
 .timeline-type.poster     { color: var(--color-text-muted); border-color: var(--color-text-muted); background: transparent; }
-.timeline-type.workshop   { color: #2e7d52; border-color: #2e7d52; background: rgba(46,125,82,0.06); }
-.timeline-type.journal    { color: #8b6914; border-color: #8b6914; background: rgba(139,105,20,0.06); }
-.timeline-type.thesis     { color: #1F5C82; border-color: #1F5C82; background: rgba(31,92,130,0.06); }
+.timeline-type.workshop   { color: #2e7d52;                 border-color: #2e7d52;                 background: rgba(46,125,82,0.06); }
+.timeline-type.journal    { color: #8b6914;                 border-color: #8b6914;                 background: rgba(139,105,20,0.06); }
+.timeline-type.thesis     { color: #1F5C82;                 border-color: #1F5C82;                 background: rgba(31,92,130,0.06); }
 
 /* ── MOBILE ── */
 @media (max-width: 600px) {
@@ -683,7 +680,6 @@ p, ul {
     margin-left: 0;
   }
 }
-
 /* ---------------- Footer ---------------- */
 .site-footer {
   background: #f8fafc;
