@@ -19,14 +19,13 @@ layout: default
 <div class="section-label">Peer-Reviewed Publication</div>
 
 <div class="pub-item">
-  <div class="pub-number">J–01</div>
+  <div class="pub-number">J–01</div> <span class="pub-type-tag journal">Journal Article</span>
   <div class="pub-title">
     <a href="https://ccsenet.org/journal/index.php/ass/article/view/0/48995" target="_blank" rel="noopener">
       The Reality of School Nutrition Programs as Perceived by Teachers: A Case Study of Primary Schools in Khotang, Nepal
     </a>
   </div>
   <div class="pub-meta">Ratala, D. P. J., Rai, S. C., <strong>Dahal, S.</strong>, & Niraula, B. · Asian Social Science, 19(4) · 2023</div>
-  <span class="pub-type-tag journal">Journal Article</span>
   <p class="pub-desc">Co-author — contributed to data collection, qualitative analysis, and manuscript drafting. Examines four school nutrition program models and factors affecting sustainability in low-resource settings.</p>
 </div>
 
