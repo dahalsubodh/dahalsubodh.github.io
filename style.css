@@ -757,41 +757,7 @@ p, ul {
   font-size: 0.8rem;
   color: #6b7280;
 }
-
-/* ---------------- Main Page Content ---------------- */
-.page-content {
-  max-width: 950px; /* constrain content width */
-  margin: 0 auto;   /* center the content */
-  padding: 2rem 1.5rem; /* top-bottom 2rem, left-right 1.5rem */
-  line-height: 1.7; /* more readable */
-  font-size: 1rem;
-  color: var(--color-text-main);     /* main body text */
-}
-
-/* Optional: style headings */
-.page-content h1, 
-.page-content h2, 
-.page-content h3 {
-  text-align: center;
-  margin-bottom: 1rem;
-  color: var(--color-primary); 
-}
-
-.page-content p {
-  margin-bottom: 1rem;
-}
-
-/* Optional: style links inside content */
-.page-content a {
-  color: var(--color-primary);
-  transition: color 0.3s;
-}
-
-.page-content a:hover {
-  color: var(--color-primary-dark);
-}
-
-/* ---------------- Markdown Pages ---------------- */
+/* ---------------- Markdown content ---------------- */
 main {
   max-width: 950px;
   margin: 2rem auto;
@@ -802,188 +768,28 @@ section > *:not(.container) {
   max-width: 100%;
 }
 
-
-/* ================= Markdown Content ================= */
-
 .markdown-content {
-  max-width: 950px;           
+  max-width: 950px;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem;      
+  padding: 2.5rem 1.5rem;
   font-family: 'Open Sans', sans-serif;
-  color: var(--color-text-main); 
+  color: var(--color-text-main);
   line-height: 1.7;
   font-size: 16px;
-  text-decoration: none;         
-  border-bottom: none;           
 }
 
-/* ---------------- Headings ---------------- */
-.markdown-content h1 {
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--color-primary-dark);
-  margin-bottom: 1.5rem;
-  letter-spacing: -0.3px;
-}
+.markdown-content code { ... }
+.markdown-content pre { ... }
+.markdown-content table { ... }
+.markdown-content th, td { ... }
+.markdown-content img { ... }
+.markdown-content .pull-quote { ... }
 
-.markdown-content h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--color-primary);
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--color-secondary);
-}
-
-.markdown-content h3 {
-    font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--color-primary-dark);
-  margin-top: 1.75rem;
-  margin-bottom: 0.5rem;
-}
-
-.markdown-content h4,
-.markdown-content h5,
-.markdown-content h6 {
-  font-weight: 500;
-  color: #475569;
-  margin-bottom: 0.5rem;
-}
-
-/* ---------------- Paragraphs ---------------- */
-.markdown-content p {
-  font-size: 1rem;
-  margin-bottom: 1.6rem;
-  color: var(--color-text-main);
-}
-
-/* ---------------- Links ---------------- */
-.markdown-content a {
-  color: var(--color-primary);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease;
-}
-
-.markdown-content a:hover {
-  border-bottom: 1px solid var(--color-primary);
-}
-
-/* ---------------- Lists ---------------- */
-.markdown-content ul,
-.markdown-content ol {
-  margin-left: 2rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.7;
-}
-
-.markdown-content li {
-  margin-bottom: 0.5rem;
-}
-
-/* ---------------- Blockquotes ---------------- */
-.markdown-content blockquote {
-  font-style: italic;
-  color: var(--color-text-main);
-  border-left: 3px solid var(--color-primary);
-  padding-left: 1rem;
-  margin: 1.5rem 0;
-  background: transparent;
-  border-radius: 0.5rem;
-}
-
-/* ---------------- Code / Preformatted ---------------- */
-.markdown-content code {
-  font-family: 'Fira Code', monospace;
-  background-color: #E6F0F6;
-  padding: 0.2rem 0.4rem;
-  border-radius: 0.25rem;
-  font-size: 0.95rem;
-  color: var(--color-text-main);
-}
-
-.markdown-content pre {
-  background-color: #E6F0F6;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  overflow-x: auto;
-  margin-bottom: 1.5rem;
-  color: var(--color-text-main);
-}
-
-/* ---------------- Tables ---------------- */
-.markdown-content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1.5rem;
-}
-
-.markdown-content th,
-.markdown-content td {
-  border: 1px solid var(--color-secondary);
-  padding: 0.75rem;
-  text-align: left;
-}
-
-.markdown-content th {
-  background-color: var(--color-secondary);
-  color: var(--color-primary-dark);
-  font-weight: 600;
-}
-
-.markdown-content td {
-  color: var(--color-text-main);
-}
-
-/* ---------------- Images ---------------- */
-.markdown-content img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1.5rem auto;
-  border-radius: 0.5rem;
-  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
-}
-
-/* ---------------- Pull Quotes / Highlights ---------------- */
-.markdown-content .pull-quote {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--color-primary); 
-  margin: 2rem 0;
-  text-align: center;
-}
-
-/* ---------------- Responsive Adjustments ---------------- */
 @media (max-width: 768px) {
-  .markdown-content {
-    padding: 1.5rem 1rem;
-  }
-
-  .markdown-content h1 {
-    font-size: 2rem;
-  }
-
-  .markdown-content h2 {
-    font-size: 1.75rem;
-  }
-
-  .markdown-content h3 {
-    font-size: 1.25rem;
-  }
-
-  .markdown-content img {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .markdown-content table {
-    font-size: 0.9rem;
-  }
+  .markdown-content { padding: 1.5rem 1rem; }
+  .markdown-content img { width: 100%; max-width: 100%; }
+  .markdown-content table { font-size: 0.9rem; }
 }
-
 /*----------------Tags--------------------------*/
 .status-badge {
   display: inline-flex;
@@ -1024,12 +830,15 @@ section > *:not(.container) {
 }
 
 
-/* ================= EDUCATION ================= */
+/* ================= EDUCATION/Project ================= */
 .edu-entry {
   display: grid;
   grid-template-columns: 160px 1fr;
-  gap: 0;
+  gap: 1.25;
+  row-gap: 0;
   padding: 2rem 0;
+  border-bottom: 1px solid var(--color-border);
+  align-items: start;
 }
 
 .edu-year {
@@ -1037,7 +846,8 @@ section > *:not(.container) {
   font-weight: 700;
   color: var(--color-text-muted);
   line-height: 1.5;
-  padding-top: 0.25rem;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .edu-degree {
@@ -1046,6 +856,7 @@ section > *:not(.container) {
   color: var(--color-primary);
   margin-bottom: 0.25rem;
   line-height: 1.3;
+  margin-top: 0;
 }
 
 .edu-institution {
@@ -1100,6 +911,29 @@ section > *:not(.container) {
   box-shadow: none;
 }
 
+.entry-highlights {
+  list-style: none;
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+}
+
+.entry-highlights li {
+  font-size: 0.85rem;
+  color: var(--color-text-main);
+  line-height: 1.75;
+  padding-left: 1rem;
+  position: relative;
+  margin-bottom: 0.4rem;
+}
+
+.entry-highlights li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-size: 1rem;
+  line-height: 1.6;
+}
 
 /* mobile */
 @media (max-width: 640px) {
