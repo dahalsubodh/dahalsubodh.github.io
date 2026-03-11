@@ -9,40 +9,13 @@ layout: default
 </span>
 
 <h2 class="section-title">Projects Conducted</h2>
-<p style="color: var(--color-text-muted); font-size:0.97rem; max-width:620px; margin-bottom:2rem; line-height:1.8;">
-  A record of research, assessment, and consultancy projects spanning educational technology, academic integrity, and development policy.
+<p style="color: var(--color-text-muted); font-size:0.97rem; max-width:100%; margin-bottom:2rem; line-height:1.8;">
+A record of research, assessment, and consultancy projects spanning educational technology, academic integrity, and development policy.
 </p>
 
 ---
 
 <!-- ================= PROJECT 1 ================= -->
-<div class="edu-entry">
-  <div class="edu-year">2025<br>Completed</div>
-  <div>
-    <h3 class="edu-degree">Status of ICT in Schools</h3>
-    <div class="edu-institution">Researcher · Assessor · Gokarneshwor Municipality</div>
-
-    <div class="thesis-box">
-      <div class="tb-label">Scope & Focus</div>
-      <p>ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality — collecting baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.</p>
-    </div>
-
-    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
-      <div class="tb-label" style="color:var(--color-green);">Methods</div>
-      <p>School surveys, interviews, and observational assessment of ICT infrastructure and usage.</p>
-    </div>
-
-    <ul class="entry-highlights" style="margin-top:0.75rem;">
-      <li>Understanding of how technology is integrated in classrooms and challenges schools face.</li>
-      <li>Groundwork for ICT capacity-building interventions.</li>
-      <li>Data informed broader research and policy discussions around EdTech adoption.</li>
-    </ul>
-  </div>
-</div>
-
----
-
-<!-- ================= PROJECT 2 ================= -->
 <div class="edu-entry">
   <div class="edu-year">Ongoing</div>
   <div>
@@ -59,10 +32,38 @@ layout: default
       <p>Systematic literature review and comparative analysis of existing technologies.</p>
     </div>
 
-    <ul class="entry-highlights" style="margin-top:0.75rem;">
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
       <li>Identified significant gaps in integrity-focused technologies.</li>
       <li>Directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).</li>
     </ul>
+  </div>
+</div>
+
+---
+
+<!-- ================= PROJECT 2 ================= -->
+<div class="edu-entry">
+  <div class="edu-year">2025<br>Completed</div>
+  <div>
+    <h3 class="edu-degree">Status of ICT in Schools</h3>
+    <div class="edu-institution">Researcher · Assessor · Gokarneshwor Municipality</div>
+
+    <div class="thesis-box">
+      <div class="tb-label">Scope & Focus</div>
+      <p>ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality — collecting baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.</p>
+    </div>
+
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Methods</div>
+      <p>School surveys, interviews, and observational assessment of ICT infrastructure and usage.</p>
+    </div>
+
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
+      <li>Understanding of how technology is integrated in classrooms and challenges schools face.</li>
+      <li>Groundwork for ICT capacity-building interventions.</li>
+      <li>Data informed broader research and policy discussions around EdTech adoption.</li>
   </div>
 </div>
 
@@ -73,7 +74,7 @@ layout: default
   <div class="edu-year">Nov 2024 –<br>Feb 2025</div>
   <div>
     <h3 class="edu-degree">Own Source Revenue of Lumbini Province</h3>
-    <div class="edu-institution">Research Assistant · Economic Advisor Consultancy</div>
+    <div class="edu-institution">Research Assistant · Economic Advisor</div>
 
     <div class="thesis-box">
       <div class="tb-label">Scope & Focus</div>
@@ -85,7 +86,8 @@ layout: default
       <p>Data analysis, report drafting, Focus Group Discussions with government departments, and consultation workshops with 25+ private sector representatives.</p>
     </div>
 
-    <ul class="entry-highlights" style="margin-top:0.75rem;">
+     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
       <li>Exposure to policy and governance research in a federal context.</li>
       <li>Experience in fiscal systems analysis and preparing research for publication.</li>
       <li>Reinforced analytical and methodological skills.</li>
@@ -112,7 +114,8 @@ layout: default
       <p>Convergent parallel mixed-methods design — surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.</p>
     </div>
 
-    <ul class="entry-highlights" style="margin-top:0.75rem;">
+      <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
       <li>Infrastructure gaps alone don't explain low tech adoption — institutional support and teacher confidence are critical levers.</li>
       <li>Found TPACK is highly context-dependent, shaped by school-level support and professional development quality.</li>
     </ul>
@@ -138,7 +141,8 @@ layout: default
       <p>Desk reviews and Key Informant Interviews with nine national and international organisations working on climate adaptation and mitigation.</p>
     </div>
 
-    <ul class="entry-highlights" style="margin-top:0.75rem;">
+     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Lesson Learned</div
       <li>Understood how global crises intersect with national policy implementation and funding flows.</li>
       <li>Found low-to-medium pandemic impact on funding, with anticipated future constraints due to combined effects of COVID-19 and the Russia–Ukraine crisis.</li>
     </ul>
