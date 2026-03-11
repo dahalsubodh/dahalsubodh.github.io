@@ -103,7 +103,7 @@ title: Home
       </div>
     </div>
   </div>
-  <a href="/publications" class="cta-button btn-primary">Explore All Publications →</a>
+  <a href="/publications" class="btn-primary">Explore All Publications →</a>
 </section>
   
 
