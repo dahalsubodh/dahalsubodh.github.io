@@ -3,65 +3,144 @@ title: Projects
 layout: default
 ---
 
-# Projects conducted
+<span class="status-badge static">
+  <span class="status-dot"></span>
+  Research & Practice
+</span>
 
-## Status of ICT in Schools
-
-**Role:** Researcher / Assessor  
-**Scope:** ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality.  
-**Focus:** Collect baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.  
-**Methods:** School surveys, interviews, observational assessment of ICT infrastructure and usage.  
-**Key Learnings:** 
-1. Understanding of how technology is integrated in classrooms and challenges schools face.  
-2. Groundwork for ICT capacity-building interventions.  
-3. Data informed broader research and policy discussions around EdTech adoption.  
-
+<h2 class="section-title">Projects Conducted</h2>
+<p style="color: var(--color-text-muted); font-size:0.97rem; max-width:620px; margin-bottom:2rem; line-height:1.8;">
+  A record of research, assessment, and consultancy projects spanning educational technology, academic integrity, and development policy.
+</p>
 
 ---
 
-## EdTech Tools & Academic Integrity Scoping Review
+<!-- ================= PROJECT 1 ================= -->
+<div class="edu-entry">
+  <div class="edu-year">2025<br>Completed</div>
+  <div>
+    <h3 class="edu-degree">Status of ICT in Schools</h3>
+    <div class="edu-institution">Researcher · Assessor · Gokarneshwor Municipality</div>
 
-**Role:** Research and Communication Consultant (Process Feedback)  
-**Scope:** A scoping review examining how current educational technology tools address academic integrity.  
-**Focus:** Identifying whether edtech tools adopt preventive, punitive, or educative approaches to uphold learning integrity.  
-**Methods:** Systematic literature review, comparative analysis of existing technologies.  
-**Key Learnings:** Identified significant gaps in integrity-focused technologies, which directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).  
+    <div class="thesis-box">
+      <div class="tb-label">Scope & Focus</div>
+      <p>ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality — collecting baseline data to plan teacher ICT workshops and provide recommendations to local education authorities.</p>
+    </div>
 
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Methods</div>
+      <p>School surveys, interviews, and observational assessment of ICT infrastructure and usage.</p>
+    </div>
 
---- 
+    <ul class="entry-highlights" style="margin-top:0.75rem;">
+      <li>Understanding of how technology is integrated in classrooms and challenges schools face.</li>
+      <li>Groundwork for ICT capacity-building interventions.</li>
+      <li>Data informed broader research and policy discussions around EdTech adoption.</li>
+    </ul>
+  </div>
+</div>
 
-## Own Source Revenue of Lumbini Province
+---
 
-**Role:** Research Assistant   
-**Scope:** Contributed to a study on revenue generation sources for Lumbini Province.  
-**Focus:** Understanding how provinces generate revenue independently of federal transfers.  
-**Methods:** Data analysis, report drafting, and documentation support.  
-**Key Learnings:**  
-1. Exposure to policy and governance research.  
-2. Experience in data analysis, understanding fiscal systems, and preparing research for publication.  
-3. Reinforced analytical and methodological skills.
+<!-- ================= PROJECT 2 ================= -->
+<div class="edu-entry">
+  <div class="edu-year">Ongoing</div>
+  <div>
+    <h3 class="edu-degree">EdTech Tools & Academic Integrity Scoping Review</h3>
+    <div class="edu-institution">Research & Communication Consultant · Process Feedback</div>
 
+    <div class="thesis-box">
+      <div class="tb-label">Scope & Focus</div>
+      <p>A scoping review examining how current educational technology tools address academic integrity — identifying whether EdTech tools adopt preventive, punitive, or educative approaches to uphold learning integrity.</p>
+    </div>
 
---- 
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Methods</div>
+      <p>Systematic literature review and comparative analysis of existing technologies.</p>
+    </div>
 
-## Assessment of Teachers' TPACK for E-Learning
+    <ul class="entry-highlights" style="margin-top:0.75rem;">
+      <li>Identified significant gaps in integrity-focused technologies.</li>
+      <li>Directly contributed to the conceptual development of the 3P Framework (Person–Process–Product).</li>
+    </ul>
+  </div>
+</div>
 
-**Role:** Principal Researcher (M.A. Thesis)  
-**Scope:** Assessing technological and pedgagogical knowledge of government school teachers in Lalitpur Metropolitan City, Nepal.  
-**Focus:** Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of teachers in Science, Math, and English, and its influence on e-learning.  
-**Methods:** Convergent parallel mixed-methods design: surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.  
-**Key Learnings:** Discovered that infrastructure gaps alone don't explain low tech adoption, institutional support and teacher confidence are critical levers.  
+---
 
+<!-- ================= PROJECT 3 ================= -->
+<div class="edu-entry">
+  <div class="edu-year">Nov 2024 –<br>Feb 2025</div>
+  <div>
+    <h3 class="edu-degree">Own Source Revenue of Lumbini Province</h3>
+    <div class="edu-institution">Research Assistant · Economic Advisor Consultancy</div>
 
---- 
+    <div class="thesis-box">
+      <div class="tb-label">Scope & Focus</div>
+      <p>Contributed to a study on revenue generation sources for Lumbini Province — understanding how provinces generate revenue independently of federal transfers.</p>
+    </div>
 
-## Climate Programs Under Pandemic Recovery
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Methods</div>
+      <p>Data analysis, report drafting, Focus Group Discussions with government departments, and consultation workshops with 25+ private sector representatives.</p>
+    </div>
 
-**Role:** Project Work (M.A. Program)  
-**Scope:** Analysis of the COVID-19 pandemic's impact on Nepal's climate governance and its Nationally Determined Contributions (NDCs) under the Paris Agreement.  
-**Focus:** Assessing disruptions to climate adaptation and mitigation programs implemented by organizations in Kathmandu Valley.  
-**Methods:** Desk reviews and Key Informant Interviews with nine national and international organizations.  
-**Key Learnings:** Understood how global crises (pandemic, Russia-Ukraine war) intersect with and affect national policy implementation and funding flows for climate action.  
+    <ul class="entry-highlights" style="margin-top:0.75rem;">
+      <li>Exposure to policy and governance research in a federal context.</li>
+      <li>Experience in fiscal systems analysis and preparing research for publication.</li>
+      <li>Reinforced analytical and methodological skills.</li>
+    </ul>
+  </div>
+</div>
 
+---
 
-------------
+<!-- ================= PROJECT 4 ================= -->
+<div class="edu-entry">
+  <div class="edu-year">2025<br>M.A. Thesis</div>
+  <div>
+    <h3 class="edu-degree">Assessment of Teachers' TPACK for E-Learning</h3>
+    <div class="edu-institution">Principal Researcher · Mid-West University, Nepal</div>
+
+    <div class="thesis-box">
+      <div class="tb-label">Scope & Focus</div>
+      <p>Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of Science, Math, and English teachers in government schools of Lalitpur Metropolitan City, and its influence on e-learning adoption.</p>
+    </div>
+
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Methods</div>
+      <p>Convergent parallel mixed-methods design — surveys with 28 teachers and qualitative interviews with ICT focal persons from nine schools.</p>
+    </div>
+
+    <ul class="entry-highlights" style="margin-top:0.75rem;">
+      <li>Infrastructure gaps alone don't explain low tech adoption — institutional support and teacher confidence are critical levers.</li>
+      <li>Found TPACK is highly context-dependent, shaped by school-level support and professional development quality.</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+<!-- ================= PROJECT 5 ================= -->
+<div class="edu-entry">
+  <div class="edu-year">2025<br>M.A. Project</div>
+  <div>
+    <h3 class="edu-degree">Climate Programs Under Pandemic Recovery</h3>
+    <div class="edu-institution">Project Work · M.A. Program · Mid-West University</div>
+
+    <div class="thesis-box">
+      <div class="tb-label">Scope & Focus</div>
+      <p>Analysis of COVID-19's impact on Nepal's climate governance and Nationally Determined Contributions (NDCs) under the Paris Agreement — assessing disruptions to climate adaptation and mitigation programs in Kathmandu Valley.</p>
+    </div>
+
+    <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
+      <div class="tb-label" style="color:var(--color-green);">Methods</div>
+      <p>Desk reviews and Key Informant Interviews with nine national and international organisations working on climate adaptation and mitigation.</p>
+    </div>
+
+    <ul class="entry-highlights" style="margin-top:0.75rem;">
+      <li>Understood how global crises intersect with national policy implementation and funding flows.</li>
+      <li>Found low-to-medium pandemic impact on funding, with anticipated future constraints due to combined effects of COVID-19 and the Russia–Ukraine crisis.</li>
+    </ul>
+  </div>
+</div>
