@@ -535,46 +535,44 @@ p, ul {
 .timeline {
   position: relative;
   margin: 1.5rem 0 2.5rem;
-  padding-left: 130px;    
+  padding-left: 120px;        /* space for date + line on left */
 }
 
 /* vertical line */
 .timeline::before {
   content: '';
   position: absolute;
-  left: 8px;               
-  top: 6px;
-  bottom: 6px;
+  left: 100px;                /* sits after the date column */
+  top: 0;
+  bottom: 0;
   width: 2px;
   background: var(--color-border);
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 1.25rem;
-  padding-top: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-/* date — positioned to the left of the line */
+/* date — left of the line */
 .timeline-date {
   position: absolute;
-  width: auto;
-  text-align: left;
+  left: -120px;               /* pulls into left column */
+  top: 0;
+  width: 90px;                /* fixed width for date column */
+  text-align: right;          /* right-align date toward the line */
   font-size: 0.7rem;
   font-weight: 700;
   color: var(--color-text-muted);
   letter-spacing: 0.04em;
   line-height: 1.4;
-  padding-left: 1.5rem;
-  top: 0;                    
-  left: 28px;                   
 }
 
-/* dot — sits exactly on the line */
+/* dot — centered on the line */
 .timeline-marker {
   position: absolute;
-  left: 4px;                
-  top: 0;               
+  left: -16px;                /* 100px line - 120px padding + half dot = -15px */
+  top: 0.1rem;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -582,8 +580,10 @@ p, ul {
   border: 2px solid var(--color-background);
   box-shadow: 0 0 0 2px var(--color-primary);
   z-index: 1;
+  transform: translateX(-50%); /* perfectly centers dot on line */
 }
 
+/* card — right of the line */
 .timeline-card {
   background: var(--color-soft-accent);
   border: 1px solid var(--color-border);
@@ -591,7 +591,7 @@ p, ul {
   padding: 0.75rem 1rem;
   border-radius: 0 4px 4px 0;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
-  margin-left: 1.5rem;
+  margin-left: 1rem;          /* gap between line and card */
 }
 
 .timeline-card:hover {
@@ -599,6 +599,7 @@ p, ul {
   transform: translateX(3px);
 }
 
+/* ── CARD CONTENT ── */
 .timeline-type {
   font-size: 0.55rem;
   font-weight: 700;
@@ -621,14 +622,12 @@ p, ul {
 
 .timeline-card h3 a {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-color: var(--color-secondary);
-  text-underline-offset: 3px;
-  transition: text-decoration-color 0.2s;
+  text-decoration: none;
 }
 
 .timeline-card h3 a:hover {
-  text-decoration-color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .timeline-venue {
@@ -645,7 +644,7 @@ p, ul {
   margin-top: 0.5rem;
 }
 
-/* type badge colours */
+/* ── TYPE BADGE COLOURS ── */
 .timeline-type.conference { color: var(--color-primary);    border-color: var(--color-primary);    background: var(--color-primary-pale); }
 .timeline-type.poster     { color: var(--color-text-muted); border-color: var(--color-text-muted); background: transparent; }
 .timeline-type.workshop   { color: #2e7d52;                 border-color: #2e7d52;                 background: rgba(46,125,82,0.06); }
@@ -655,32 +654,29 @@ p, ul {
 /* ── MOBILE ── */
 @media (max-width: 600px) {
   .timeline {
-    padding-left: 1.5rem;     /* just enough for dot + line */
+    padding-left: 1.5rem;
   }
 
   .timeline::before {
-    left: 4px;                /* line hugs the left edge */
-    top: 6px;
-    bottom: 6px;
+    left: 4px;
   }
 
   .timeline-marker {
-    left: -1px;               /* dot sits on the line */
-    top: 0.5rem;
+    left: 0;
+    transform: translateX(-50%);
+    top: 0.3rem;
   }
 
   .timeline-date {
-    position: static;         /* date flows normally above card */
+    position: static;
     width: auto;
     text-align: left;
-    padding-top: 0;
-    padding-left: 1.25rem;
     margin-bottom: 0.35rem;
     display: block;
   }
 
   .timeline-card {
-    margin-left: 0;
+    margin-left: 0.75rem;
   }
 }
 /* ---------------- Footer ---------------- */
