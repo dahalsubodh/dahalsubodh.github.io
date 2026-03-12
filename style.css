@@ -543,7 +543,7 @@ p, ul {
 .timeline::before {
   content: '';
   position: absolute;
-  left: 0px;               
+  left: 16px;               
   top: 6px;
   bottom: 6px;
   width: 2px;
@@ -570,13 +570,13 @@ p, ul {
   margin-bottom: 0.35rem;
   padding-left: 1.5rem;
   top: 0;                    
-  left: 0;                   
+  left: 28px;                   
 }
 
 /* dot — sits exactly on the line */
 .timeline-marker {
   position: absolute;
-  left: -9px;                /* pulls dot onto the line: -(130px - 115px + 2px) */
+  left: 8px;                /* pulls dot onto the line: -(130px - 115px + 2px) */
   top: 0.15rem;               
   width: 10px;
   height: 10px;
