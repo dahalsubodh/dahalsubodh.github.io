@@ -809,6 +809,15 @@ section > *:not(.container) {
   background: rgba(90, 122, 90, 0.05);
   border-radius: 4px;
 }
+.status-badge.pulse-blue {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background: var(--color-primary-pale);
+}
+
+.status-badge.pulse-blue .status-dot {
+  background: var(--color-primary);
+}
 /* ---------------- blinking dot ---------------- */
 .status-dot {
   width: 6px;
