@@ -534,9 +534,8 @@ p, ul {
 
 .timeline {
   position: relative;
-  margin: 2rem 0 2.5rem;
+  margin: 1.5rem 0 2.5rem;
   padding-left: 130px;    
-  margin-top: 1.5rem;
 }
 
 /* vertical line */
@@ -566,8 +565,6 @@ p, ul {
   color: var(--color-text-muted);
   letter-spacing: 0.04em;
   line-height: 1.4;
-  padding-top: 0;        /* aligns date to card top */
-  margin-bottom: 0.35rem;
   padding-left: 1.5rem;
   top: 0;                    
   left: 28px;                   
