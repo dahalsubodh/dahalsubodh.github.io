@@ -19,7 +19,14 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon-16x16.png' | relative_url }}">
 </head>
-
+  <!-- Links to open in new tab -->
+<script>
+  document.querySelectorAll('a[href^="http"], a[href^="https"]').forEach(link => {
+    link.setAttribute('target', '_blank');
+    link.setAttribute('rel', 'noopener');
+  });
+</script>
+  
 <body>
 
   <!-- ================= NAVIGATION ================= -->
