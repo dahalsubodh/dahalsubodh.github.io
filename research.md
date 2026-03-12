@@ -25,7 +25,7 @@ layout: default
 
 <!-- ================= SECTION 1 ================= -->
 <div class="section-label">Phase 01</div>
-<h3 Foundations in Educational Technology</h3>
+<h3>Foundations in Educational Technology</h3>
 
 <p style="font-size:0.95rem; line-height:1.85; color:var(--color-text-main); margin-bottom:1rem;">
 My early exposure to educational technology began during graduate studies and field-based research. During my master's degree, this interest became central to my thesis — examining how teachers were prepared to integrate technology into their classrooms using the TPACK framework.
@@ -44,7 +44,7 @@ I found that while teachers had strong pedagogical knowledge, their technologica
 
 <!-- ================= SECTION 2 ================= -->
 <div class="section-label">Phase 02</div>
-<h3 Learning Integrity in the Age of Generative AI</h3>
+<h3>Learning Integrity in the Age of Generative AI</h3>
 
 <p style="font-size:0.95rem; line-height:1.85; color:var(--color-text-main); margin-bottom:1rem;">
 With the widespread adoption of GenAI tools in education, a deeper challenge emerged:
@@ -63,7 +63,7 @@ As I engaged in research on GenAI and academic integrity tools, I observed that 
 
 <!-- ================= SECTION 3 ================= -->
 <div class="section-label">Phase 03</div>
-<h3 Learning Integrity as Process and Evidence</h3>
+<h3>Learning Integrity as Process and Evidence</h3>
 
 <p style="font-size:0.95rem; line-height:1.85; color:var(--color-text-main); margin-bottom:1rem;">
 This led to my growing interest in learning integrity — specifically, whether learning activities, processes, and evidence genuinely reflect learners' understanding and engagement.
@@ -93,7 +93,7 @@ This led to my growing interest in learning integrity — specifically, whether 
 
 <!-- ================= SECTION 4 ================= -->
 <div class="section-label">Knowledge Sharing</div>
-<h3 International Dissemination</h3>
+<h3>International Dissemination</h3>
 
 <p style="font-size:0.95rem; line-height:1.85; color:var(--color-text-main); margin-bottom:1.25rem;">
 I have shared this work through workshops and presentations in both national and international settings — including at <a href="https://ace.iafor.org/ace2024/#conference-theme">ACE 2024</a> (Tokyo) and <a href="https://www.nelta.org.np/conference/30">NELTA 2026</a> (Kathmandu). These experiences have further shaped my perspective on designing educational technology that supports reflection, enables formative feedback, and generates credible learning evidence.
