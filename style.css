@@ -571,7 +571,7 @@ p, ul {
 /* dot — centered on the line */
 .timeline-marker {
   position: absolute;
-  left: -17px;                /* 100px line - 120px padding + half dot = -15px */
+  left: -18px;                /* 100px line - 120px padding + half dot = -15px */
   top: 0.1rem;
   width: 10px;
   height: 10px;
@@ -662,7 +662,7 @@ p, ul {
   }
 
   .timeline-marker {
-    left: -16px;
+    left: -18px;
     transform: translateX(-50%);
     top: 0.3rem;
   }
