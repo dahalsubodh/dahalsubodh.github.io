@@ -662,7 +662,7 @@ p, ul {
   }
 
   .timeline-marker {
-    left: 4px;
+    left: -4px;
     transform: translateX(-50%);
     top: 0.3rem;
   }
