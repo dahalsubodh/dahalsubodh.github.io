@@ -535,7 +535,7 @@ p, ul {
 .timeline {
   position: relative;
   margin: 2rem 0 2.5rem;
-  padding-left: 130px;        /* space for date + line */
+  padding-left: 0       
 }
 
 /* vertical line */
@@ -556,22 +556,24 @@ p, ul {
 
 /* date — positioned to the left of the line */
 .timeline-date {
-  position: absolute;
+  position: static;
   left: -130px;
-  width: 100px;
-  text-align: right;
+  width: auto;
+  text-align: left;
   font-size: 0.7rem;
   font-weight: 700;
   color: var(--color-text-muted);
   letter-spacing: 0.04em;
   line-height: 1.4;
   padding-top: 0.7rem;        /* aligns date to card top */
+  margin-bottom: 0.35rem;
+  padding-left: 1.5rem;
 }
 
 /* dot — sits exactly on the line */
 .timeline-marker {
   position: absolute;
-  left: -17px;                /* pulls dot onto the line: -(130px - 115px + 2px) */
+  left: 0;                /* pulls dot onto the line: -(130px - 115px + 2px) */
   top: 0.7rem;                /* matches date padding-top */
   width: 10px;
   height: 10px;
@@ -589,6 +591,7 @@ p, ul {
   padding: 0.75rem 1rem;
   border-radius: 0 4px 4px 0;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
+  margin-left: 1.5rem;
 }
 
 .timeline-card:hover {
