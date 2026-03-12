@@ -536,7 +536,7 @@ p, ul {
   position: relative;
   margin: 2rem 0 2.5rem;
   padding-left: 130px;    
-  margin-top: 1,5rem;
+  margin-top: 1.5rem;
 }
 
 /* vertical line */
@@ -558,7 +558,6 @@ p, ul {
 /* date — positioned to the left of the line */
 .timeline-date {
   position: static;
-  left: -130px;
   width: auto;
   text-align: left;
   font-size: 0.7rem;
