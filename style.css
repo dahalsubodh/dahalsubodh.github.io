@@ -535,14 +535,15 @@ p, ul {
 .timeline {
   position: relative;
   margin: 2rem 0 2.5rem;
-  padding-left: 0       
+  padding-left: 130px;    
+  margin-top: 1,5rem;
 }
 
 /* vertical line */
 .timeline::before {
   content: '';
   position: absolute;
-  left: 115px;                /* sits right behind the dots */
+  left: 0px;               
   top: 6px;
   bottom: 6px;
   width: 2px;
@@ -573,7 +574,7 @@ p, ul {
 /* dot — sits exactly on the line */
 .timeline-marker {
   position: absolute;
-  left: 0;                /* pulls dot onto the line: -(130px - 115px + 2px) */
+  left: -9px;                /* pulls dot onto the line: -(130px - 115px + 2px) */
   top: 0.7rem;                /* matches date padding-top */
   width: 10px;
   height: 10px;
