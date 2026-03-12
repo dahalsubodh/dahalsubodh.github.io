@@ -3,13 +3,43 @@ title: Contact
 layout: default
 ---
 
-# Contact Me
+<span class="status-badge">
+  <span class="status-dot"></span>
+  Open to Collaboration
+</span>
 
-Feel free to reach out for collaborations, research discussions, or just to say hello! I’m always open to connecting with fellow educators, EdTech enthusiasts, and researchers.
+<h2 class="section-title">Get in Touch</h2>
+<p style="color: var(--color-text-muted); font-size:0.97rem; max-width:620px; margin-bottom:2rem; line-height:1.8;">
+  Open to research collaborations, academic discussions, EdTech consultancy, and policy conversations. Feel free to reach out.
+</p>
 
+---
 
-## Contact Information
+<div class="in-progress-grid">
 
-- 📧 **Email:** [subodhdotcome@gmail.com](mailto:subodhdotcome@gmail.com)  
-- 💼 **LinkedIn:** [linkedin.com/in/subodh-dahal](https://linkedin.com/in/subodh-dahal)  
-- 📚 **Google Scholar:** [View Profile](https://scholar.google.com/citations?hl=en&user=3pw7tvsAAAAJ)
+  <div class="progress-card" data-status="● Email">
+    <h4>Direct Message</h4>
+    <p>Best way to reach me for collaborations, research discussions, or general enquiries.</p>
+    <a href="mailto:subodhdotcome@gmail.com" style="display:inline-block; margin-top:0.75rem; font-size:0.8rem; font-weight:700; color:var(--color-primary);">subodhdotcome@gmail.com →</a>
+  </div>
+
+  <div class="progress-card" data-status="● LinkedIn">
+    <h4>Professional Network</h4>
+    <p>Connect for professional updates, research interests, and academic networking.</p>
+    <a href="https://linkedin.com/in/subodh-dahal" target="_blank" rel="noopener" style="display:inline-block; margin-top:0.75rem; font-size:0.8rem; font-weight:700; color:var(--color-primary);">linkedin.com/in/subodh-dahal →</a>
+  </div>
+
+  <div class="progress-card" data-status="● Google Scholar">
+    <h4>Academic Profile</h4>
+    <p>View publications, citations, and research output on Google Scholar.</p>
+    <a href="https://scholar.google.com/citations?hl=en&amp;user=3pw7tvsAAAAJ" target="_blank" rel="noopener" style="display:inline-block; margin-top:0.75rem; font-size:0.8rem; font-weight:700; color:var(--color-primary);">View Scholar Profile →</a>
+  </div>
+
+</div>
+
+---
+
+<div class="thesis-box" style="margin-top:1rem;">
+  <div class="tb-label">Based In</div>
+  <p>Kathmandu, Nepal — available for remote collaborations and online consultations globally.</p>
+</div>
