@@ -27,7 +27,7 @@ title: Home
       <p style="margin-top:0.3rem;">
       ✅ <a href="https://www.Processfeedback.org">Process Feedback</a> &nbsp;|&nbsp;
         <a href="https://www.youtube.com/watch?v=mVxsM_omzrI">Multimedia produced</a>
-        <br>📄 <a href= "https://www.processfocus.org/2025/04/top-chrome-extensions-for-exploring.html"> Tools for writing process - Blog</a> </p>
+        <br>📄 <a href= "https://www.processfocus.org/2025/04/top-chrome-extensions-for-exploring.html">Blog - Tools for writing process</a> </p>
     </article>
     <article class="progress-card" data-status="● Ongoing · Policy Coordination">
       <h3>School Education Sector Plan (SESP) Implementation</h3>
