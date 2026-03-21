@@ -81,6 +81,9 @@ layout: default
   </div>
   <div class="pub-meta">Star Global Conference · Dhulikhel, Kathmandu · December 2024</div>
   <p class="pub-desc">Co-presented on Process Feedback — an EdTech tool that illuminates students' writing processes and AI usage. Demonstrated how process-based tools encourage insightful writing, reflection, and self-learning through quantitative summaries and interactive charts.</p>
+  <p style="margin-top:0.5rem;">
+    <a href="https://docs.google.com/presentation/d/1xZ87ax6gtfTTpFbD6N7yqE3AAqvsEskR_lQ92NgNraQ/edit?usp=sharing" target="_blank" rel="noopener" style="font-size:0.8rem; font-weight:700; color:var(--color-primary);">View Presentation ↗</a>
+  </p>
 </div>
 
 <div class="pub-item">
@@ -96,6 +99,9 @@ layout: default
   </div>
   <div class="pub-meta">Asian Conference on Education (ACE 2024) · Tokyo · November 2024</div>
   <p class="pub-desc">Discussed process-oriented feedback that enables students to self-identify their habits, strengths, and weaknesses — and how this approach helps teachers better understand students' working processes and close the gap between actual and desired learning outcomes.</p>
+  <p style="margin-top:0.5rem;">
+    <a href="https://docs.google.com/presentation/d/1Yu9vq1ri32rrpsYuRa5GMff4qMipImarOQKmaplfZsY/edit?usp=sharing" target="_blank" rel="noopener" style="font-size:0.8rem; font-weight:700; color:var(--color-primary);">View Presentation ↗</a>
+  </p>
 </div>
 
 ---
