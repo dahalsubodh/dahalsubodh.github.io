@@ -21,18 +21,18 @@ A record of research, assessment, and consultancy projects spanning educational 
     <div class="edu-institution">Research &amp; Communication Consultant · Process Feedback</div>
     <div class="thesis-box">
       <div class="tb-label">Scope &amp; Focus</div>
-      <p>A scoping review examining how current educational technology tools address academic integrity — identifying whether EdTech tools adopt preventive, punitive, or educative approaches to uphold learning integrity.</p>
+      <p>A scoping review examining how current educational technology tools address academic integrity — identifying whether EdTech tools adopt preventive, punitive, or educative approaches to uphold academic integrity.</p>
     </div>
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
       <div class="tb-label" style="color:var(--color-green);">Methods</div>
-      <p>Systematic literature review and comparative analysis of existing technologies.</p>
+      <p>Scoping review of tools and strategies for promoting academic integrity.</p>
     </div>
     <div class="thesis-box" style="border-left-color: #4a90b8; margin-top:0.75rem;">
       <div class="tb-label" style="color:#4a90b8;">Lessons Learnt</div>
       <ul class="entry-highlights" style="margin-top:0.25rem;">
-        <li>Understanding of how technology is integrated in classrooms and challenges schools face.</li>
-        <li>Groundwork for ICT capacity-building interventions.</li>
-        <li>Data informed broader research and policy discussions around EdTech adoption.</li>
+        <li>Tools and strategies are sporadic and lacks evidence to identify leaners, their learning method and outcome produced.</li>
+        <li>The detection tool and approach are ineffective to ensure if the outcome is produced by human or outsourced.</li>
+        <li>Limited tools focus on making learning steps visible including brainstorming, drafting, revising, and human-AI collaborations.</li>
       </ul>
     </div>
   </div>
