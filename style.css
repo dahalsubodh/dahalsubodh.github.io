@@ -1,16 +1,16 @@
 /* ================= CORLOR THEME ================= */
 :root {
-  --color-primary: #174766;
-  --color-primary-dark: #1F5C82;
-  --color-secondary: #CBDDE9;
-  --color-soft-accent: #F8FAFC;
+  --color-primary: #1a6bb5;
+  --color-primary-dark: #155a9e;
+  --color-secondary: #d0e6f7;
+  --color-soft-accent: #f0f7ff;
 
   --color-text-main: #1a1a1a;
   --color-text-light: #ffffff;
   --color-text-muted: #4a6380;
 
   --color-background: #ffffff;
-  --color-border: #E2E8F0;
+  --color-border: #daeaf6;
 }
 
 /* ================= GLOBAL RESET ================= */
