@@ -18,7 +18,7 @@ A record of research, assessment, and consultancy projects spanning educational 
   <div class="edu-year">Ongoing</div>
   <div>
     <h3 class="edu-degree">EdTech Tools &amp; Academic Integrity Scoping Review</h3>
-    <div class="edu-institution">Research &amp; Communication Consultant · Process Feedback</div>
+    <div class="edu-institution">Research &amp; Communication Consultant · <a href="www.processfeedback.org" target="_blank" rel="noopener noreferrer">Process Feedback</a></div>
     <div class="thesis-box">
       <div class="tb-label">Scope &amp; Focus</div>
       <p>A scoping review examining how current educational technology tools address academic integrity — identifying whether EdTech tools adopt preventive, punitive, or educative approaches to uphold academic integrity.</p>
@@ -68,10 +68,10 @@ A record of research, assessment, and consultancy projects spanning educational 
   <div class="edu-year">Nov 2024 –<br>Feb 2025</div>
   <div>
     <h3 class="edu-degree">Own Source Revenue of Lumbini Province</h3>
-    <div class="edu-institution">Research Assistant · Economic Advisor</div>
+    <div class="edu-institution">Research Associate · Supervised by: <a href="https://np.linkedin.com/in/sushant-vaidik" target="_blank" rel="noopener noreferrer">Economist and Policy Expert</a></div>
     <div class="thesis-box">
       <div class="tb-label">Scope &amp; Focus</div>
-      <p>Contributed to a study on revenue generation sources for Lumbini Province — understanding how provinces generate revenue independently of federal transfers.</p>
+      <p>Contributed to a study conducted by <a href="https://np.linkedin.com/in/sushant-vaidik" target="_blank" rel="noopener noreferrer">Economic Advisor</a> on revenue generation sources for Lumbini Province — understanding how provinces generate revenue independently of federal transfers.</p>
     </div>
     <div class="thesis-box" style="border-left-color: var(--color-green); margin-top:0.75rem;">
       <div class="tb-label" style="color:var(--color-green);">Methods</div>
