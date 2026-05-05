@@ -8,7 +8,7 @@ title: Home
   <h2 class="section-title">Research in Progress</h2>
   <span class="status-badge">
     <span class="status-dot"></span>
-    Active — 2024–Present
+    Active 
   </span>
   <div class="in-progress-grid">
     <article class="progress-card" data-status="● Ongoing · Research &amp; Practice">
