@@ -106,8 +106,8 @@ layout: default
 
 ---
 
-<!-- ================= ACKNOWLEDGEMENTS ================= -->
-<div class="section-label">Acknowledgements</div>
+<!-- ================= OTHER CONTRIBUTIONS ================= -->
+<div class="section-label">Other contributions</div>
 <div class="pub-item">
   <div class="pub-header">
     <div class="pub-number">A–01</div>
@@ -119,5 +119,5 @@ layout: default
     </a>
   </div>
   <div class="pub-meta">SIGCSE Technical Symposium</div>
-  <p class="pub-desc">Formally acknowledged for contributions to validating and verifying workshop website content for the Process Feedback online compiler workshop.</p>
+  <p class="pub-desc">Acknowledged for contributions to validating and verifying workshop website content.</p>
 </div>
