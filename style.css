@@ -1,7 +1,7 @@
 /* ================= COLOUR THEME — Blue + Amber ================= */
 :root {
   /* ── Blues ── */
-  --color-primary:        #1D4ED8;
+  --color-primary:        #2563eb;
   --color-primary-dark:   #1e40af;
   --color-primary-hover:  #1d4ed8;   /* FIX: was missing -- from var() calls */
   --color-primary-pale:   #eff6ff;   /* ADD: was referenced but never defined */
@@ -267,23 +267,22 @@ p, ul {
   transform: translateY(-2px);                    /* ADD: subtle lift signals clickability */
 }
 
-/* FIX: btn-secondary was outline style — changed to amber per Option C */
 .btn-secondary {
-  background-color: var(--color-accent);
+  background-color: transparent;
   color: var(--color-accent-text);
   padding: 0.8rem 1.6rem;
-  border: none;
+  border: 1.5px solid var(--color-accent);
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-accent-hover);   /* FIX: was var(color-primary-hover) — wrong var + missing -- */
+  background-color: var(--color-accent);
   color: var(--color-accent-text);
-  box-shadow: 0 4px 14px rgba(251, 191, 36, 0.4);
+  box-shadow: 0 4px 14px rgba(251, 191, 36, 0.35);
   transform: translateY(-2px);
 }
 
@@ -710,7 +709,7 @@ p, ul {
 /* ================= FOOTER ================= */
 
 .site-footer {
-  background: var(--color-primary-dark);   /* CHANGE: was #f8fafc — now deep blue */
+  background: #f8fafc;
   margin-top: 6rem;
   padding: 4rem 0 3rem;
   width: 100%;
@@ -727,12 +726,12 @@ p, ul {
 .footer-container h4 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #bfdbfe;                           /* CHANGE: was #0083cb — light blue on dark */
+  color: #0083cb;
 }
 
 .footer-tagline {
   font-size: 1rem;
-  color: #93c5fd;                           /* CHANGE: was #4b5563 — readable on dark bg */
+  color: #4b5563;
   margin-bottom: 2rem;
 }
 
@@ -745,7 +744,7 @@ p, ul {
 }
 
 .social a {
-  color: var(--color-accent);               /* CHANGE: was #0083cb — amber pops on dark */
+  color: #0083cb;
   font-size: 1.25rem;
   text-decoration: none;
   display: flex;
@@ -762,24 +761,24 @@ p, ul {
 
 .social a span {
   font-size: 0.875rem;
-  color: #bfdbfe;                           /* CHANGE: was #0f172a — visible on dark bg */
+  color: #0f172a;
 }
 
 .social a:hover {
-  transform: translateY(-3px);
-  color: #fde68a;                           /* CHANGE: lighter amber on hover */
+  transform: translateY(-2px);
+  color: #005f94;
 }
 
 .footer-divider {
   width: 60px;
   height: 2px;
-  background: rgba(251, 191, 36, 0.4);     /* CHANGE: amber tint divider */
+  background: #dbeafe;
   margin: 0 auto 1.5rem;
 }
 
 .footer-microtext {
   font-size: 0.8rem;
-  color: #64748b;
+  color: #6b7280;
 }
 
 /* ================= MARKDOWN CONTENT ================= */
