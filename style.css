@@ -1,16 +1,18 @@
 /* ================= CORLOR THEME ================= */
 :root {
-  --color-primary: #1a6bb5;
-  --color-primary-dark: #155a9e;
-  --color-secondary: #d0e6f7;
-  --color-soft-accent: #f0f7ff;
+  --color-primary: #2563eb;
+  --color-primary-dark: #1e40af;
+  --color-secondary: #dbeafe;
+  --color-soft-accent: #f8faff;
+  --color-primary-hover:  #1d4ed8;
 
-  --color-text-main: #1a1a1a;
+  --color-text-main: #0f172a;
   --color-text-light: #ffffff;
-  --color-text-muted: #163355;
+  --color-text-muted: #475569;
+  --color-text-caption: #64748b;
 
   --color-background: #ffffff;
-  --color-border: #daeaf6;
+  --color-border: #e2e8f0;
 }
 
 /* ================= GLOBAL RESET ================= */
@@ -126,7 +128,7 @@ p, ul {
 }
 
 .nav-link:hover {
-  color: var(--color-primary);
+  color: var(color-primary-hover);
 }
 
 .nav-link:hover::after {
@@ -246,7 +248,7 @@ p, ul {
 }
 
 .btn-primary:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(color-primary-hover);
   color: var(--color-text-light);
 }
 
@@ -262,7 +264,7 @@ p, ul {
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(color-primary-hover);
   color: var(--color-text-light);
   transform: translateY(-2px);
 }
@@ -406,7 +408,7 @@ p, ul {
 }
 
 .trajectory .cta-button:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(color-primary-hover);
   color: var(--color-text-light);
   transform: translateY(-2px);
 }
