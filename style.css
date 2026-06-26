@@ -1,18 +1,28 @@
-/* ================= CORLOR THEME ================= */
+/* ================= COLOUR THEME — Option C: Blue + Amber ================= */
 :root {
-  --color-primary: #1D4ED8;
-  --color-primary-dark: #1e40af;
-  --color-secondary: #dbeafe;
-  --color-soft-accent: #f8faff;
-  --color-primary-hover:  #1E40AF;
+  /* ── Blues ── */
+  --color-primary:        #1D4ED8;
+  --color-primary-dark:   #1e40af;
+  --color-primary-hover:  #1d4ed8;   /* FIX: was missing -- from var() calls */
+  --color-primary-pale:   #eff6ff;   /* ADD: was referenced but never defined */
+  --color-secondary:      #dbeafe;
+  --color-soft-accent:    #f8faff;
 
-  --color-text-main: #0f172a;
-  --color-text-light: #ffffff;
-  --color-text-muted: #475569;
-  --color-text-caption: #64748b;
+  /* ── Amber accent (use sparingly) ── */
+  --color-accent:         #fbbf24;   /* ADD: secondary CTA, blockquote border */
+  --color-accent-hover:   #f59e0b;   /* ADD: hover state for amber elements   */
+  --color-accent-tint:    #fef9c3;   /* ADD: amber badge/tag backgrounds      */
+  --color-accent-text:    #78350f;   /* ADD: readable text on amber bg        */
 
-  --color-background: #ffffff;
-  --color-border: #e2e8f0;
+  /* ── Text ── */
+  --color-text-main:      #0f172a;
+  --color-text-light:     #ffffff;
+  --color-text-muted:     #475569;
+  --color-text-caption:   #64748b;
+
+  /* ── Surface & Border ── */
+  --color-background:     #ffffff;
+  --color-border:         #e2e8f0;
 }
 
 /* ================= GLOBAL RESET ================= */
@@ -29,7 +39,6 @@ body {
   line-height: 1.7;
 }
 
-/* Remove forced heading color inheritance */
 h1, h2, h3 {
   margin: 0;
 }
@@ -43,19 +52,11 @@ p, ul {
 .container {
   max-width: 1150px;
   margin-left: auto;
-  margin-right: auto;  /* centers container horizontally */
-  padding-left: 1rem;  /* horizontal padding */
+  margin-right: auto;
+  padding-left: 1rem;
   padding-right: 2rem;
 }
 
-.content-narrow {
-  max-width: 950px;
-  margin: 0 auto;
-}
-
-/* ================= PAGE CONTENT WIDTH ================= */
-
-/* For research/publication pages */
 .content-narrow {
   max-width: 950px;
   margin: 0 auto;
@@ -66,8 +67,8 @@ p, ul {
 .nav-bar {
   position: sticky;
   top: 0;
- background: var(--color-background);
-  border-bottom: 1px solid var(--color-border);
+  background: var(--color-background);
+  border-bottom: 2px solid var(--color-primary);   /* CHANGE: was 1px border; now blue underline signals the brand */
   z-index: 1000;
 }
 
@@ -76,8 +77,8 @@ p, ul {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  max-width: 1150px; /* ensure consistent with other containers */
-  margin: 0 auto;     /* center horizontally */
+  max-width: 1150px;
+  margin: 0 auto;
   padding: 0 2rem;
 }
 
@@ -113,9 +114,10 @@ p, ul {
   position: relative;
   padding-bottom: 3px;
   transition: color 0.2s ease;
+  cursor: pointer;             /* ADD: explicit hand cursor */
 }
 
-/* Subtle underline animation */
+/* Animated underline on hover */
 .nav-link::after {
   content: "";
   position: absolute;
@@ -123,15 +125,24 @@ p, ul {
   bottom: 0;
   width: 0%;
   height: 2px;
-  background: #2563EB;
+  background: var(--color-primary);
   transition: width 0.25s ease;
 }
 
 .nav-link:hover {
-  color: var(color-primary-hover);
+  color: var(--color-primary-hover);   /* FIX: was var(color-primary-hover) — missing -- */
 }
 
 .nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.nav-link.active::after {
   width: 100%;
 }
 
@@ -157,18 +168,18 @@ p, ul {
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
-    top: 72px; /* nav-bar height */
+    top: 72px;
     right: 0;
     background: #ffffff;
     width: 100%;
     flex-direction: column;
-    display: none; /* hidden by default */
+    display: none;
     text-align: center;
     border-top: 1px solid #e5e7eb;
   }
 
   .nav-links.show {
-    display: flex; /* show when hamburger clicked */
+    display: flex;
   }
 
   .nav-links a {
@@ -177,7 +188,7 @@ p, ul {
   }
 
   .hamburger {
-    display: flex; /* show hamburger on mobile */
+    display: flex;
   }
 
   .nav-container {
@@ -197,7 +208,7 @@ p, ul {
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
-  flex-wrap: nowrap;   /* prevents stacking by default */
+  flex-wrap: nowrap;
   margin: 0 auto;
 }
 
@@ -208,10 +219,11 @@ p, ul {
   max-width: 600px;
 }
 
+/* FIX: hero-text h1 had a broken value: `color: background-color: var(...)` */
 .hero-text h1 {
   font-size: 3.2rem;
   font-weight: 800;
-  color: background-color: var(--color-soft-accent);
+  color: var(--color-text-main);
   margin-bottom: 1rem;
 }
 
@@ -244,28 +256,34 @@ p, ul {
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
-  transition: 0.2s ease;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
 }
 
 .btn-primary:hover {
-  background-color: var(color-primary-hover);
+  background-color: var(--color-primary-hover);   /* FIX: was var(color-primary-hover) — missing -- */
   color: var(--color-text-light);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+  transform: translateY(-2px);                    /* ADD: subtle lift signals clickability */
 }
 
+/* FIX: btn-secondary was outline style — changed to amber per Option C */
 .btn-secondary {
-  background-color: transparent;
-  color: var(--color-primary);
+  background-color: var(--color-accent);
+  color: var(--color-accent-text);
   padding: 0.8rem 1.6rem;
-  border: 1.5px solid var(--color-primary);
+  border: none;
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
-  transition: 0.2s ease;
+  cursor: pointer;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
 }
 
 .btn-secondary:hover {
-  background-color: var(color-primary-hover);
-  color: var(--color-text-light);
+  background-color: var(--color-accent-hover);   /* FIX: was var(color-primary-hover) — wrong var + missing -- */
+  color: var(--color-accent-text);
+  box-shadow: 0 4px 14px rgba(251, 191, 36, 0.4);
   transform: translateY(-2px);
 }
 
@@ -282,7 +300,7 @@ p, ul {
   height: 350px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 20%; 
+  object-position: center 20%;
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
@@ -294,107 +312,107 @@ p, ul {
     text-align: center;
   }
   .hero-image {
-    margin-bottom: 2rem; /* spacing between image and text */
+    margin-bottom: 2rem;
   }
-
   .hero-cta {
     justify-content: center;
   }
 }
 
-/* -------- HERO GREETINGS AND NAME -------- */
+/* -------- HERO GREETING AND NAME -------- */
+
 .hero-greeting {
-  display: block;           /* forces it onto its own line */
-  font-size: 2.5rem;        /* adjust size as needed */
+  display: block;
+  font-size: 2.5rem;
   font-weight: 500;
   color: var(--color-text-main);
-  margin-bottom: 0.2rem;    /* small spacing before name */
+  margin-bottom: 0.2rem;
 }
 
 .hero-name {
-  display: block;           /* ensures it’s on its own line */
+  display: block;
   font-size: 3.2rem;
   font-weight: 800;
   color: var(--color-primary);
 }
 
-/* ---------------- Trajectory ---------------- */
-.trajectory { 
-  padding: 1rem 1.5rem; 
+/* ================= TRAJECTORY ================= */
+
+.trajectory {
+  padding: 1rem 1.5rem;
   background-color: var(--color-soft-accent);
   border: 1px solid var(--color-border);
-  border-radius: 1.5rem;     /* rounded corners for box */
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05); /* subtle shadow */
-  max-width: 1150px;         /* same as container */
-  margin: 4rem auto;         /* center the section on page */
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  max-width: 1150px;
+  margin: 4rem auto;
 }
 
-.trajectory h2 { 
-  text-align: center; 
-  margin-bottom: 3rem; 
-  font-size: 2.5rem; 
+.trajectory h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
   color: var(--color-text-main);
 }
 
-/* Steps container (line + cards) */
 .steps {
-  display: flex; 
-  justify-content: space-between; 
-  flex-wrap: wrap; 
-  position: relative; 
-  gap: 2rem; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 2rem;
 }
 
-/* Center line behind cards */
 .steps::before {
-  content:""; 
-  position:absolute; 
-  top:50%; 
-  left:0; 
-  right:0; 
-  height:4px; 
-  background-color:var(--color-secondary);
-  z-index:0; 
-  transform:translateY(-50%);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: var(--color-secondary);
+  z-index: 0;
+  transform: translateY(-50%);
 }
 
-/* Individual step cards */
 .step-card {
-  flex: 1 1 250px; 
+  flex: 1 1 250px;
   background: var(--color-background);
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
   border: 1px solid var(--color-border);
-  transition: all 0.3s ease;
-  position: relative; 
-  z-index: 1;                /* above the line */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  z-index: 1;
   margin: 1rem 0;
+  cursor: pointer;             /* ADD */
 }
 
-.step-card:hover { 
-  transform: translateY(-10px); 
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1); 
+.step-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  border-color: var(--color-primary);   /* ADD: border lights up blue on hover */
 }
 
-.step-card .icon { 
-  font-size: 2rem; 
+.step-card .icon {
+  font-size: 2rem;
   color: var(--color-primary);
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
-.step-card h3 { 
-  margin-bottom: 0.5rem; 
+.step-card h3 {
+  margin-bottom: 0.5rem;
   color: var(--color-text-main);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .steps {
     flex-direction: column;
     align-items: center;
   }
 }
+
 .trajectory .cta-button {
   display: inline-block;
   margin-top: 1rem;
@@ -404,61 +422,66 @@ p, ul {
   border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
-  transition: background 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .trajectory .cta-button:hover {
-  background-color: var(color-primary-hover);
+  background-color: var(--color-primary-hover);   /* FIX: was var(color-primary-hover) — missing -- */
   color: var(--color-text-light);
   transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
 }
-/* ---------------- Research in Progress - mission ---------------- */
+
+/* ================= MISSION / RESEARCH IN PROGRESS ================= */
+
 .mission {
   background-color: var(--color-soft-accent);
-  padding: 1rem 1rem;      /* spacing top/bottom */
+  padding: 1rem 1rem;
   text-align: left;
-  border-radius: 1.5rem;     /* subtle rounding for box feel */
+  border-radius: 1.5rem;
   border: 1px solid var(--color-border);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05); /* light shadow */
-  max-width: 1140px;         /* same as global container */
-  margin: 4rem auto;          /* center on page with spacing above/below */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  max-width: 1140px;
+  margin: 4rem auto;
 }
 
 .mission h2 {
   color: var(--color-primary);
-  font-size: 2rem; 
+  font-size: 2rem;
   margin-bottom: 2rem;
   font-weight: 600;
 }
 
+/* CHANGE: blockquote now uses amber accent border — Option C signature touch */
 .mission blockquote {
-  font-size: 1.5rem; 
-  font-style: italic; 
+  font-size: 1.5rem;
+  font-style: italic;
   color: var(--color-text-main);
-  max-width: 800px; 
+  max-width: 800px;
   margin: 0 auto;
   line-height: 1.8;
   position: relative;
-  padding: 2rem 3rem;           /* padding inside box */
+  padding: 2rem 3rem;
   background-color: var(--color-background);
-  border-left: 6px solid var(--color-primary);
+  border-left: 6px solid var(--color-accent);   /* CHANGE: was primary blue → amber */
   border-radius: 1rem;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 .mission blockquote::before {
-  content: "“";
+  content: "\201C";
   font-size: 3rem;
-  color: var(--color-primary);
+  color: var(--color-accent);                   /* CHANGE: was primary blue → amber */
   position: absolute;
   top: -10px;
   left: 20px;
 }
 
 .mission blockquote::after {
-  content: "”";
+  content: "\201D";
   font-size: 3rem;
-  color: var(--color-primary);
+  color: var(--color-accent);                   /* CHANGE: was primary blue → amber */
   position: absolute;
   bottom: -20px;
   right: 20px;
@@ -470,6 +493,7 @@ p, ul {
     font-size: 1.25rem;
   }
 }
+
 .section-title {
   font-size: 1.6rem;
   font-weight: 700;
@@ -483,7 +507,7 @@ p, ul {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.25rem;
   margin-top: 1.5rem;
-  text-align: left;         /* overrides any center-align from .mission */
+  text-align: left;
 }
 
 .progress-card {
@@ -492,12 +516,14 @@ p, ul {
   border-top: 3px solid var(--color-primary);
   padding: 1.5rem;
   border-radius: 3px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-top-color 0.25s ease;
 }
 
 .progress-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 24px rgba(23, 71, 102, 0.1);
+  border-top-color: var(--color-accent);   /* ADD: top border shifts blue → amber on hover */
 }
 
 .progress-card::before {
@@ -528,6 +554,7 @@ p, ul {
 }
 
 /* ================= TIMELINE ================= */
+
 .research-highlight {
   max-width: 1280px;
   margin: 4rem auto;
@@ -537,14 +564,13 @@ p, ul {
 .timeline {
   position: relative;
   margin: 1.5rem 0 2.5rem;
-  padding-left: 120px;        /* space for date + line on left */
+  padding-left: 120px;
 }
 
-/* vertical line */
 .timeline::before {
   content: '';
   position: absolute;
-  left: 100px;                /* sits after the date column */
+  left: 100px;
   top: 0;
   bottom: 0;
   width: 2px;
@@ -556,13 +582,12 @@ p, ul {
   margin-bottom: 1.5rem;
 }
 
-/* date — left of the line */
 .timeline-date {
   position: absolute;
-  left: -120px;               /* pulls into left column */
+  left: -120px;
   top: 0;
-  width: 90px;                /* fixed width for date column */
-  text-align: right;          /* right-align date toward the line */
+  width: 90px;
+  text-align: right;
   font-size: 0.7rem;
   font-weight: 700;
   color: var(--color-text-muted);
@@ -570,10 +595,9 @@ p, ul {
   line-height: 1.4;
 }
 
-/* dot — centered on the line */
 .timeline-marker {
   position: absolute;
-  left: -20px;                /* 100px line - 120px padding + half dot = -15px */
+  left: -20px;
   top: 0.1rem;
   width: 10px;
   height: 10px;
@@ -582,26 +606,28 @@ p, ul {
   border: 2px solid var(--color-background);
   box-shadow: 0 0 0 2px var(--color-primary);
   z-index: 1;
-  transform: translateX(-50%); /* perfectly centers dot on line */
+  transform: translateX(-50%);
 }
 
-/* card — right of the line */
 .timeline-card {
   background: var(--color-soft-accent);
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-primary);
   padding: 0.75rem 1rem;
   border-radius: 0 4px 4px 0;
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
-  margin-left: 1rem;          /* gap between line and card */
+  cursor: pointer;
+  transition: box-shadow 0.25s ease, transform 0.25s ease, border-left-color 0.25s ease;
+  margin-left: 1rem;
 }
 
 .timeline-card:hover {
-  box-shadow: 0 4px 16px rgba(23, 71, 102, 0.1);
-  transform: translateX(3px);
+  box-shadow: 0 4px 16px rgba(23, 71, 102, 0.12);
+  transform: translateX(4px);
+  border-left-color: var(--color-accent);   /* ADD: blue → amber on hover */
 }
 
 /* ── CARD CONTENT ── */
+
 .timeline-type {
   font-size: 0.55rem;
   font-weight: 700;
@@ -625,9 +651,12 @@ p, ul {
 .timeline-card h3 a {
   color: inherit;
   text-decoration: none;
+  transition: color 0.2s ease;
+  cursor: pointer;
 }
 
 .timeline-card h3 a:hover {
+  color: var(--color-primary-hover);   /* ADD: darkens on hover */
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -658,17 +687,14 @@ p, ul {
   .timeline {
     padding-left: 1.5rem;
   }
-
   .timeline::before {
     left: 4px;
   }
-
   .timeline-marker {
     left: -20px;
     transform: translateX(-50%);
     top: 0.3rem;
   }
-
   .timeline-date {
     position: static;
     width: auto;
@@ -676,14 +702,15 @@ p, ul {
     margin-bottom: 0.35rem;
     display: block;
   }
-
   .timeline-card {
     margin-left: 0.75rem;
   }
 }
-/* ---------------- Footer ---------------- */
+
+/* ================= FOOTER ================= */
+
 .site-footer {
-  background: #f8fafc;
+  background: var(--color-primary-dark);   /* CHANGE: was #f8fafc — now deep blue */
   margin-top: 6rem;
   padding: 4rem 0 3rem;
   width: 100%;
@@ -694,18 +721,18 @@ p, ul {
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 1.5rem;
-  text-align: center; /* ensure container content is centered */
+  text-align: center;
 }
 
 .footer-container h4 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #0083cb;
+  color: #bfdbfe;                           /* CHANGE: was #0083cb — light blue on dark */
 }
 
 .footer-tagline {
   font-size: 1rem;
-  color: #4b5563;
+  color: #93c5fd;                           /* CHANGE: was #4b5563 — readable on dark bg */
   margin-bottom: 2rem;
 }
 
@@ -718,47 +745,45 @@ p, ul {
 }
 
 .social a {
-  color: #0083cb;
+  color: var(--color-accent);               /* CHANGE: was #0083cb — amber pops on dark */
   font-size: 1.25rem;
   text-decoration: none;
   display: flex;
-  flex-direction: column; /* icon above label */
+  flex-direction: column;
   align-items: center;
+  cursor: pointer;
   transition: transform 0.2s ease, color 0.2s ease;
 }
 
 .social a i {
   font-size: 1.5rem;
-  margin-bottom: 0.25rem; /* space between icon and label */
+  margin-bottom: 0.25rem;
 }
 
 .social a span {
   font-size: 0.875rem;
-  color: #0f172a;
+  color: #bfdbfe;                           /* CHANGE: was #0f172a — visible on dark bg */
 }
 
 .social a:hover {
-  transform: translateY(-2px);
-  color: #005f94;
-}
-
-.site-footer,
-.footer-container {
-  text-align: center; /* center all text and icons */
+  transform: translateY(-3px);
+  color: #fde68a;                           /* CHANGE: lighter amber on hover */
 }
 
 .footer-divider {
   width: 60px;
   height: 2px;
-  background: #dbeafe;
+  background: rgba(251, 191, 36, 0.4);     /* CHANGE: amber tint divider */
   margin: 0 auto 1.5rem;
 }
 
 .footer-microtext {
   font-size: 0.8rem;
-  color: #6b7280;
+  color: #64748b;
 }
-/* ---------------- Markdown content ---------------- */
+
+/* ================= MARKDOWN CONTENT ================= */
+
 main {
   max-width: 950px;
   margin: 2rem auto;
@@ -786,13 +811,14 @@ section > *:not(.container) {
 .markdown-content img { ... }
 .markdown-content .pull-quote { ... }
 
-
 @media (max-width: 768px) {
   .markdown-content { padding: 1.5rem 1rem; }
   .markdown-content img { width: 100%; max-width: 100%; }
   .markdown-content table { font-size: 0.9rem; }
 }
-/*----------------Tags--------------------------*/
+
+/* ================= TAGS / STATUS BADGES ================= */
+
 .status-badge {
   display: inline-flex;
   align-items: center;
@@ -807,6 +833,7 @@ section > *:not(.container) {
   background: rgba(90, 122, 90, 0.05);
   border-radius: 4px;
 }
+
 .status-badge.pulse-blue {
   color: var(--color-primary);
   border-color: var(--color-primary);
@@ -816,20 +843,37 @@ section > *:not(.container) {
 .status-badge.pulse-blue .status-dot {
   background: var(--color-primary);
 }
-/* ---------------- blinking dot ---------------- */
+
+.status-badge.static {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background: var(--color-primary-pale);
+}
+
+.status-badge.static .status-dot {
+  background: var(--color-primary);
+  animation: none;
+  box-shadow: none;
+}
+
+/* -------- Blinking dot -------- */
+
 .status-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background: #5a7a5a;
-  animation: pulse 3s infinite; flex-shrink: 0;
+  animation: pulse 3s infinite;
+  flex-shrink: 0;
 }
 
 @keyframes pulse {
   0%, 100% { opacity: 1; }
   50%       { opacity: 0.3; }
 }
-/* ---------------- Small label ---------------- */
+
+/* -------- Small label -------- */
+
 .work-type {
   font-size: 0.30rem;
   letter-spacing: 0.12em;
@@ -840,12 +884,12 @@ section > *:not(.container) {
   border-bottom: 1px solid var(--color-border);
 }
 
+/* ================= EDUCATION / PROJECT ================= */
 
-/* ================= EDUCATION/Project ================= */
 .edu-entry {
   display: grid;
   grid-template-columns: 160px 1fr;
-  gap: 1.25;
+  gap: 1.25rem;
   row-gap: 0;
   padding: 2rem 0;
   border-bottom: 1px solid var(--color-border);
@@ -909,18 +953,6 @@ section > *:not(.container) {
   color: var(--color-text-main);
   line-height: 1.75;
 }
-/* Status badge */
-.status-badge.static {
-  color: var(--color-primary);
-  border-color: var(--color-primary);
-  background: var(--color-primary-pale);
-}
-
-.status-badge.static .status-dot {
-  background: var(--color-primary);
-  animation: none;        
-  box-shadow: none;
-}
 
 .entry-highlights {
   list-style: none;
@@ -946,7 +978,6 @@ section > *:not(.container) {
   line-height: 1.6;
 }
 
-/* mobile */
 @media (max-width: 640px) {
   .edu-entry {
     grid-template-columns: 1fr;
@@ -961,12 +992,14 @@ section > *:not(.container) {
 }
 
 /* ================= PUBLICATIONS ================= */
+
 .pub-item {
   padding: 1.25rem 1.25rem 1.75rem 1.5rem;
   border-left: 3px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   margin-bottom: 1.25rem;
-  transition: border-left-color 0.25s ease;
+  cursor: pointer;
+  transition: border-left-color 0.25s ease, background 0.25s ease;
 }
 
 .pub-item:hover {
@@ -998,10 +1031,14 @@ section > *:not(.container) {
   text-decoration: underline;
   text-decoration-color: var(--color-secondary);
   text-underline-offset: 3px;
-  transition: text-decoration-color 0.2s;
+  transition: text-decoration-color 0.2s, color 0.2s;
+  cursor: pointer;
 }
 
-.pub-title a:hover { text-decoration-color: var(--color-primary); }
+.pub-title a:hover {
+  text-decoration-color: var(--color-primary);
+  color: var(--color-primary-hover);   /* ADD: darkens on hover */
+}
 
 .pub-meta {
   font-size: 0.80rem;
@@ -1040,13 +1077,14 @@ section > *:not(.container) {
 .pub-header .pub-number {
   margin-bottom: 0;
 }
-.pub-type-tag.conference { color: var(--color-primary);    border-color: var(--color-primary);    background: var(--color-primary-pale); }
-.pub-type-tag.journal    { color: #8b6914;                 border-color: #8b6914;                 background: rgba(139,105,20,0.06); }
-.pub-type-tag.workshop   { color: #2e7d52;                 border-color: #2e7d52;                 background: rgba(46,125,82,0.06); }
-.pub-type-tag.poster     { color: var(--color-text-muted); border-color: var(--color-text-muted); }
+
+.pub-type-tag.conference  { color: var(--color-primary);    border-color: var(--color-primary);    background: var(--color-primary-pale); }
+.pub-type-tag.journal     { color: #8b6914;                 border-color: #8b6914;                 background: rgba(139,105,20,0.06); }
+.pub-type-tag.workshop    { color: #2e7d52;                 border-color: #2e7d52;                 background: rgba(46,125,82,0.06); }
+.pub-type-tag.poster      { color: var(--color-text-muted); border-color: var(--color-text-muted); }
 .pub-type-tag.acknowledged { color: var(--color-text-muted); border-color: var(--color-text-muted); }
 
-/* ================= Section label ================= */
+/* ================= SECTION LABEL ================= */
 
 .section-label {
   font-size: 0.67rem;
