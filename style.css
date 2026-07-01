@@ -3,16 +3,16 @@
   /* ── Blues ── */
   --color-primary:        #2563eb;
   --color-primary-dark:   #1e40af;
-  --color-primary-hover:  #1d4ed8;   /* FIX: was missing -- from var() calls */
-  --color-primary-pale:   #eff6ff;   /* ADD: was referenced but never defined */
+  --color-primary-hover:  #1d4ed8;   
+  --color-primary-pale:   #eff6ff;   
   --color-secondary:      #dbeafe;
   --color-soft-accent:    #f8faff;
 
-  /* ── Amber accent (use sparingly) ── */
-  --color-accent:         #fbbf24;   /* ADD: secondary CTA, blockquote border */
-  --color-accent-hover:   #f59e0b;   /* ADD: hover state for amber elements   */
-  --color-accent-tint:    #fef9c3;   /* ADD: amber badge/tag backgrounds      */
-  --color-accent-text:    #78350f;   /* ADD: readable text on amber bg        */
+  /* ── Amber accent (use sparingly) 
+  --color-accent:         #fbbf24;   
+  --color-accent-hover:   #f59e0b;   
+  --color-accent-tint:    #fef9c3;   
+  --color-accent-text:    #78350f;   
 
   /* ── Text ── */
   --color-text-main:      #0f172a;
@@ -130,7 +130,7 @@ p, ul {
 }
 
 .nav-link:hover {
-  color: var(--color-primary-hover);   /* FIX: was var(color-primary-hover) — missing -- */
+  color: var(--color-primary-hover);   
 }
 
 .nav-link:hover::after {
@@ -261,15 +261,15 @@ p, ul {
 }
 
 .btn-primary:hover {
-  background-color: var(--color-primary-hover);   /* FIX: was var(color-primary-hover) — missing -- */
+  background-color: var(--color-primary-hover);   
   color: var(--color-text-light);
   box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
-  transform: translateY(-2px);                    /* ADD: subtle lift signals clickability */
+  transform: translateY(-2px);                    
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: var(--color-accent-text);
+  color: transparent;
   padding: 0.8rem 1.6rem;
   border: 1.5px solid var(--color-accent);
   border-radius: 6px;
@@ -426,7 +426,7 @@ p, ul {
 }
 
 .trajectory .cta-button:hover {
-  background-color: var(--color-primary-hover);   /* FIX: was var(color-primary-hover) — missing -- */
+  background-color: var(--color-primary-hover);   
   color: var(--color-text-light);
   transform: translateY(-2px);
   box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
