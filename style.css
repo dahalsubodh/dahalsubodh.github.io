@@ -219,7 +219,6 @@ p, ul {
   max-width: 600px;
 }
 
-/* FIX: hero-text h1 had a broken value: `color: background-color: var(...)` */
 .hero-text h1 {
   font-size: 3.2rem;
   font-weight: 800;
@@ -268,8 +267,8 @@ p, ul {
 }
 
 .btn-secondary {
-  background-color: transparent;
-  color: transparent;
+  background-color:var(--color-secondary);
+  color: var(--color-accent);
   padding: 0.8rem 1.6rem;
   border: 1.5px solid var(--color-accent);
   border-radius: 6px;
