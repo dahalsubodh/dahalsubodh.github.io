@@ -1,28 +1,28 @@
 /* ================= COLOUR THEME — Blue + Amber ================= */
 :root {
   /* ── Blues ── */
-  --color-primary:        #2563eb;
-  --color-primary-dark:   #1e40af;
-  --color-primary-hover:  #1d4ed8;   
-  --color-primary-pale:   #eff6ff;   
-  --color-secondary:      #dbeafe;
-  --color-soft-accent:    #f8faff;
+  --color-primary:        #234a70;
+  --color-primary-dark:   #16324f;
+  --color-primary-hover:  #2f5c85;
+  --color-primary-pale:   #eef1f4;
+  --color-secondary:      #dde4ec;
+  --color-soft-accent:    #f7f8fa;
 
-  /* ── Amber accent (use sparingly) 
-  --color-accent:         #fbbf24;   
-  --color-accent-hover:   #f59e0b;   
-  --color-accent-tint:    #fef9c3;   
-  --color-accent-text:    #78350f;   
+  /* ── Steel blue (accent) ── */
+  --color-accent:         #3f6690;
+  --color-accent-hover:   #2f4e70;
+  --color-accent-tint:    #e7edf3;
+  --color-accent-text:    #ffffff;  
 
   /* ── Text ── */
-  --color-text-main:      #0f172a;
-  --color-text-light:     #ffffff;her
-  --color-text-muted:     #475569;
-  --color-text-caption:   #64748b;
+  --color-text-main:      #1f2933;
+  --color-text-light:     #ffffff;
+  --color-text-muted:     #4b5563;
+  --color-text-caption:   #6b7280;
 
   /* ── Surface & Border ── */
   --color-background:     #ffffff;
-  --color-border:         #e2e8f0;
+  --color-border:         #dfe3e8;
 }
 
 /* ================= GLOBAL RESET ================= */
@@ -223,10 +223,11 @@ p, ul {
 }
 /* -------- HERO AVATAR - MOBILE -------- */
 .hero-avatar {
-  display: none; /* shown only on mobile */
+  display: none; 
 }
 
 .hero-text h1 {
+  color: var(--color-primary)
   font-size: clamp(1.3rem, 6.5vw, 3.2rem);
   white-space: nowrap;
   font-weight: 800;
