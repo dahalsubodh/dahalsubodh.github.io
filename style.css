@@ -221,14 +221,16 @@ p, ul {
 .hero-header {
   display: block;
 }
-
+/* -------- HERO AVATAR - MOBILE -------- */
 .hero-avatar {
   display: none; /* shown only on mobile */
 }
 
 .hero-text h1 {
-  font-size: 2.1rem;
+  font-size: clamp(1.3rem, 6.5vw, 2.1rem);
+  white-space: nowrap;
   font-weight: 800;
+  min-width: 0;
   color: var(--color-text-main);
   margin-bottom: 1rem;
 }
@@ -241,7 +243,7 @@ p, ul {
   background: var(--color-primary-pale);
   border: 1px solid var(--color-primary);
   padding: 0.35rem 0.9rem;
-  border-radius: 20px;
+  border-radius: 10px;
   margin-bottom: 1.25rem;
 }
 
