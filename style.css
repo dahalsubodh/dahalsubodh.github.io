@@ -303,21 +303,42 @@ p, ul {
   box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
 }
 
-/* -------- RESPONSIVE -------- */
+/* -------- RESPONSIVE HERO AVATAR-------- */
+.hero-avatar {
+  display: none; /* only shown on mobile */
+}
 
 @media (max-width: 900px) {
   .hero-container {
-    flex-direction: column-reverse;
-    text-align: center;
+    flex-direction: column;
+    text-align: left;          /* matches the reference layout */
   }
+
   .hero-image {
-    margin-bottom: 2rem;
+    display: none;             /* big desktop photo hidden on mobile */
   }
+
+  .hero-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-avatar {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 20%;
+    flex-shrink: 0;
+  }
+
   .hero-cta {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
-
 /* -------- HERO GREETING AND NAME -------- */
 
 .hero-greeting {
