@@ -209,14 +209,16 @@ p, ul {
   justify-content: space-between;
   gap: 4rem;
   flex-wrap: nowrap;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 /* -------- TEXT -------- */
 
 .hero-text {
-  flex: 1;
-  max-width: 600px;
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-text h1 {
@@ -294,8 +296,8 @@ p, ul {
 }
 
 .hero-image img {
-  width: 350px;
-  height: 350px;
+  width: clamp(220px, 24vw, 300px);  
+  height: clamp(220px, 24vw, 300px);
   border-radius: 50%;
   object-fit: cover;
   object-position: center 20%;
