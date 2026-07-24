@@ -16,7 +16,7 @@
 
   /* ── Text ── */
   --color-text-main:      #0f172a;
-  --color-text-light:     #ffffff;
+  --color-text-light:     #ffffff;her
   --color-text-muted:     #475569;
   --color-text-caption:   #64748b;
 
@@ -341,7 +341,11 @@ p, ul {
     object-position: center 20%;
     flex-shrink: 0;
   }
-
+.hero-subtitle {
+    font-size: clamp(0.65rem, 3vw, 0.85rem);
+    white-space: nowrap;
+    padding: 0.3rem 0.7rem;
+  }
   .hero-cta {
     justify-content: flex-start;
   }
