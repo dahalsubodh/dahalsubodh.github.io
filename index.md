@@ -68,7 +68,6 @@ title: Home
       <div class="timeline-card">
         <h3>TPACK Study — Government School Teachers & E-Learning</h3>
         <div class="timeline-venue">Mid-West University, Nepal</div>
-        <p>Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of 28 community school teachers on e-learning adoption.</p>
         <span class="timeline-type thesis">M.A. Thesis</span>
       </div>
     </div>
