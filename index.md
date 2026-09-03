@@ -135,6 +135,6 @@ title: Home
 <section class="mission">
   <h2> Research Interest and Consultation Area</h2>
   <blockquote>
-    "Educational Technology, GenAI, AI in Education, Academic Integrity, Learning Analytics"
+    Educational Technology | GenAI | AI in Education | Academic Integrity | Learning Analytics
   </blockquote>
 </section>
