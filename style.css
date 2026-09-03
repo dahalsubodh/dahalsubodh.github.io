@@ -463,8 +463,8 @@ p, ul {
 
 .mission h2 {
   color: var(--color-primary);
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
   font-weight: 600;
 }
 
@@ -524,7 +524,10 @@ p, ul {
   margin-top: 1.5rem;
   text-align: left;
 }
-
+/-----for ongoing research----/
+.mission .in-progress-grid {
+  grid-template-columns: 1fr;
+}
 .progress-card {
   background: var(--color-soft-accent);
   border: 1px solid var(--color-border);
