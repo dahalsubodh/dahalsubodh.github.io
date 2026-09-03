@@ -48,55 +48,56 @@ title: Home
       <div class="timeline-marker"></div>
       <div class="timeline-date">Feb 2026</div>
       <div class="timeline-card">
-        <span class="timeline-type poster">Poster</span>
         <h3><a href="https://www.nelta.org.np/conference/30">Three Ps for Academic Integrity in the AI Era: Right Person, Process, and Product</a></h3>
         <div class="timeline-venue">NELTA International Conference · Kathmandu</div>
+        <span class="timeline-type poster">Poster Presentation</span>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-date">Oct 2025</div>
       <div class="timeline-card">
-        <span class="timeline-type conference">Conference</span>
         <h3><a href="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">Right Person, Process, and Product: Using 3Ps Framework to Improve Student Learning</a></h3>
         <div class="timeline-venue">FTTC 2025</div>
+        <span class="timeline-type conference">Conference</span>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-marker"></div>
-      <div class="timeline-date">2025</div>
+      <div class="timeline-date">Aug 2025</div>
       <div class="timeline-card">
-        <span class="timeline-type thesis">M.A. Thesis</span>
         <h3>TPACK Study — Government School Teachers & E-Learning</h3>
         <div class="timeline-venue">Mid-West University, Nepal</div>
-        <p>Convergent parallel mixed-methods study with 28 teachers and 9 ICT focal persons across Lalitpur Metropolitan City.</p>
+        <p>Assessing the Technological, Pedagogical, and Content Knowledge (TPACK) of 28 community school teachers on e-learning adoption.</p>
+        <span class="timeline-type thesis">M.A. Thesis</span>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-date">Dec 2024</div>
       <div class="timeline-card">
-        <span class="timeline-type workshop">Workshop</span>
+        
         <h3><a href="https://stargc2024.kusoed.edu.np/wp-content/uploads/2024/12/Book-of-Abstract-in-person-conference-as-of-date-Dec-11-2024.pdf">Easy Chrome Extension for Promoting Academic Integrity and Self-Reflection</a></h3>
         <div class="timeline-venue">Star Global Conference · Dhulikhel</div>
+        <span class="timeline-type workshop">Workshop</span>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-marker"></div>
       <div class="timeline-date">Nov 2024</div>
       <div class="timeline-card">
-        <span class="timeline-type conference">Conference</span>
         <h3><a href="https://ace.iafor.org/presentation/submission88664">The Process Matters: Academic Integrity in the Age of AI</a></h3>
         <div class="timeline-venue">Asian Conference on Education (ACE) · Tokyo, virtual</div>
+        <span class="timeline-type conference">Conference</span>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-marker"></div>
-      <div class="timeline-date">2023</div>
+      <div class="timeline-date">July 2023</div>
       <div class="timeline-card">
-        <span class="timeline-type journal">Journal Article</span>
         <h3><a href="https://doi.org/10.5539/ass.v19n4p55">The Reality of School Nutrition Programs as Perceived by Teachers: A Case Study of Primary Schools in Khotang, Nepal</a></h3>
         <div class="timeline-venue">Asian Social Science, 19(4)</div>
+        <span class="timeline-type journal">Journal Article</span>
       </div>
     </div>
   </div>
@@ -133,8 +134,6 @@ title: Home
 
 <!-- ================= Core Philosophy ================= -->
 <section class="mission">
-  <h2> Research Interest and Consultation Area</h2>
-  <blockquote>
-    Educational Technology | GenAI | AI in Education | Academic Integrity | Learning Analytics
-  </blockquote>
+  <h2> Research &amp Collaboration</h2>
+    Educational Technology | Generative AI | AI in Education | Academic Integrity | Learning Analytics
 </section>
