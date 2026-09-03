@@ -34,7 +34,7 @@ title: Home
     </article>
     <article class="progress-card" data-status="● Ongoing · Case study">
       <h3>School Technology Readiness</h3>
-      <p>In 2025, with institutional support from NIRT, I led a semi-structured survey across 13 community schools in Kathmandu to assess readiness for digital technology adoption. The study found that access to infrastructure alone was insufficient for effective adoption, highlighting the need for teacher capacity, institutional planning, training, and ongoing support.</p>
+      <p>In 2026, with institutional support from NIRT, I led a semi-structured survey across 13 community schools in Kathmandu to assess readiness for digital technology adoption. The study found that access to infrastructure alone was insufficient for effective adoption, highlighting the need for teacher capacity, institutional planning, training, and ongoing support.</p>
     </article>
   </div>
 </section>
