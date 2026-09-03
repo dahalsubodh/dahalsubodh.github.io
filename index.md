@@ -134,6 +134,6 @@ title: Home
 
 <!-- ================= Core Philosophy ================= -->
 <section class="mission">
-  <h2> Research &amp Collaboration</h2>
+  <h2> Research & Collaboration</h2>
     Educational Technology | Generative AI | AI in Education | Academic Integrity | Learning Analytics
 </section>
