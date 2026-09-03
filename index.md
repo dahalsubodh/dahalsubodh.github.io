@@ -112,13 +112,8 @@ title: Home
   <div class="in-progress-grid">
 
     <article class="progress-card" data-status="● Completed · 2025">
-      <h4><i class="fa-solid fa-laptop" style="color:var(--color-primary); margin-right:0.5rem;"></i>ICT Status in Schools</h4>
-      <p>ICT status and needs assessment across 14 public schools of Gokarneshwor Municipality.</p>
-    </article>
-
-    <article class="progress-card" data-status="● Ongoing · Research">
-      <h4><i class="fa-solid fa-laptop-file" style="color:var(--color-primary); margin-right:0.5rem;"></i>EdTech Tools &amp; Academic Integrity Scoping Review</h4>
-      <p>Scoping review examining whether educational technology tools adopt preventive, punitive, or educative approaches to academic integrity.</p>
+      <h4><i class="fa-solid fa-laptop" style="color:var(--color-primary); margin-right:0.5rem;"></i>Own Source Revenue of Lumbini Province</h4>
+      <p>Contributed to a study conducted by a national economic advisor on revenue generation sources for Lumbini Province to understand how provinces generate revenue independently of federal transfers.</p>
     </article>
 
     <article class="progress-card" data-status="● Completed · M.A. Thesis">
@@ -126,6 +121,11 @@ title: Home
       <p>Study of government school teachers' TPACK in adopting e-learning in Lalitpur Metropolitan City, Nepal.</p>
     </article>
 
+<article class="progress-card" data-status="● Completed · M.A. Project Work">
+      <h4><i class="fa-solid fa-laptop-file" style="color:var(--color-primary); margin-right:0.5rem;"></i>Climate Programs Under Pandemic Recovery</h4>
+      <p>Analysis of COVID-19's impact on Nepal's climate governance and assessing disruptions to climate adaptation and mitigation programs in Kathmandu Valley.</p>
+    </article>
+    
   </div>
 
   <a href="/projects" class="btn-primary" style="margin-top:1.5rem; display:inline-block;">Explore All Projects →</a>
@@ -133,8 +133,8 @@ title: Home
 
 <!-- ================= Core Philosophy ================= -->
 <section class="mission">
-  <h2>Core Philosophy</h2>
+  <h2> Research Interest and Consultation Area</h2>
   <blockquote>
-    "Designing, implementing and studying educational interventions that emphasize learning process, formative feedback and cognitive development."
+    "Educational Technology, GenAI, AI in Education, Academic Integrity, Learning Analytics"
   </blockquote>
 </section>
