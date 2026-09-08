@@ -26,7 +26,7 @@ title: Home
       <p style="margin-top:0.3rem;">
       ✅ <a href="https://www.Processfeedback.org">Process Feedback</a> &nbsp;|&nbsp;
         <a href="https://www.youtube.com/watch?v=mVxsM_omzrI">Multimedia produced</a>
-        <br>📄 <a href= "https://processfeedback.org/blog/">Process Feedback Blog</a> </p>
+        <br>📄 <a href= "https://processfeedback.org/blog/">Blog published</a> </p>
     </article>
     <article class="progress-card" data-status="● Policy Coordination">
       <h3>Education Policy Implementation and Coordination</h3>
