@@ -19,6 +19,7 @@ title: Home
         <a href="https://builder.guidebook.com/g/#/guides/fttc2025/schedule/sessions/31735290?scheduleDayPosition=2025-10-24&scheduleIndexInDayPosition=39">FTTC 2025</a>
         <br>📄<a href= "https://drive.google.com/file/d/1IdP8zCTnvqBzVhxeaKmsmzgbzyCWsYKX/view?usp=sharing">Poster presentation</a> 
       </p>
+<div class="in-progress-grid">
     <article class="progress-card" data-status="● Edtech Consultant">
       <h3>Process Feedback research</h3>
       <p>I have contributed to research communication and content development, including website architecture, multimedia strategy, EdTech research, and academic outreach. This work has enabled me to collaborate with professors from universities in the United States and internationally and present my work at national and international conferences. I have also led public outreach campaigns, developing a global network of EdTech leaders and educators.</p>
@@ -27,11 +28,13 @@ title: Home
         <a href="https://www.youtube.com/watch?v=mVxsM_omzrI">Multimedia produced</a>
         <br>📄 <a href= "https://processfeedback.org/blog/">Blog published</a> </p>
     </article>
-    <article class="progress-card" data-status="● Policy Coordination">
+ <div class="in-progress-grid">
+  <article class="progress-card" data-status="● Policy Coordination">
       <h3>Education Policy Implementation and Coordination</h3>
       <p>Seconded to the Department of Education, I coordinate with government agencies and development partners to support the implementation of the national School Education Sector Plan (SESP). I support local governments in developing Local Education Plans through workshops, technical discussions, and plan reviews, while organizing and facilitating 10 thematic working groups.</p>
     </article>
-    <article class="progress-card" data-status="● Case study">
+ <div class="in-progress-grid">
+   <article class="progress-card" data-status="● Case study">
       <h3>School Technology Readiness</h3>
       <p>In 2026, with institutional support from NIRT, I led a semi-structured survey across 13 community schools in Kathmandu to assess readiness for digital technology adoption. The study found that access to infrastructure alone was insufficient for effective adoption, highlighting the need for teacher capacity, institutional planning, training, and ongoing support.</p>
     </article>
