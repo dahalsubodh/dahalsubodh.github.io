@@ -108,12 +108,12 @@ title: Home
 
 <!-- ================= Research Trajectory ================= -->
 <section class="research-highlight">
-  <div class="section-label">Selected Projects</div>
+  <div class="section-label">Past Projects</div>
   <h2 class="section-title">Projects Conducted</h2>
 
   <div class="in-progress-grid">
 
-    <article class="progress-card" data-status="● Completed · 2025">
+    <article class="progress-card" data-status="● Consultancy · 2025">
       <h4><i class="fa-solid fa-laptop" style="color:var(--color-primary); margin-right:0.5rem;"></i>Own Source Revenue of Lumbini Province</h4>
       <p>Contributed to a study conducted by a national economic advisor on revenue generation sources for Lumbini Province to understand how provinces generate revenue independently of federal transfers.</p>
     </article>
