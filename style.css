@@ -452,14 +452,11 @@ p, ul {
 /* ================= MISSION / RESEARCH IN PROGRESS ================= */
 
 .mission {
-  background-color: var(--color-soft-accent);
-  padding: 1rem 1rem;
   text-align: left;
-  border-radius: 1.5rem;
-  border: 1px solid var(--color-border);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  border-top: 1px solid var(--color-border);
+  padding-top: 2.5rem;
   max-width: 1140px;
-  margin: 4rem auto;
+  margin: 4rem auto 0;
 }
 
 .mission h2 {
@@ -519,30 +516,27 @@ p, ul {
 }
 
 .in-progress-grid {
-  display: grid;
-  grid-template-columns: 1fr));
-  gap: 1.25rem;
+  display: flex;
+  flex-direction: column;
   margin-top: 1.5rem;
   text-align: left;
 }
-/-----for ongoing research----/
-.mission .in-progress-grid {
-  grid-template-columns: 1fr;
-}
+
 .progress-card {
-  background: var(--color-soft-accent);
-  border: 1px solid var(--color-border);
-  border-top: 3px solid var(--color-primary);
-  padding: 1.5rem;
-  border-radius: 3px;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  border-left: 3px solid transparent;
+  padding-left: 1rem;
   cursor: pointer;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-top-color 0.25s ease;
+  transition: border-left-color 0.25s ease;
+}
+
+.progress-card:last-child {
+  border-bottom: none;
 }
 
 .progress-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(23, 71, 102, 0.1);
-  border-top-color: var(--color-accent);   /* ADD: top border shifts blue → amber on hover */
+  border-left-color: var(--color-accent);
 }
 
 .progress-card::before {
@@ -554,10 +548,9 @@ p, ul {
   color: var(--color-primary);
   display: block;
   margin-bottom: 0.55rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 1px solid var(--color-border);
 }
 
+.progress-card h3,
 .progress-card h4 {
   font-size: 1rem;
   font-weight: 700;
@@ -629,20 +622,16 @@ p, ul {
 }
 
 .timeline-card {
-  background: var(--color-soft-accent);
-  border: 1px solid var(--color-border);
-  border-left: 3px solid var(--color-primary);
-  padding: 0.75rem 1rem;
-  border-radius: 0 4px 4px 0;
+  border-left: 2px solid var(--color-border);
+  padding: 0 0 0 1rem;
   cursor: pointer;
-  transition: box-shadow 0.25s ease, transform 0.25s ease, border-left-color 0.25s ease;
+  transition: border-left-color 0.25s ease, transform 0.25s ease;
   margin-left: 1rem;
 }
 
 .timeline-card:hover {
-  box-shadow: 0 4px 16px rgba(23, 71, 102, 0.12);
   transform: translateX(4px);
-  border-left-color: var(--color-accent);   /* ADD: blue → amber on hover */
+  border-left-color: var(--color-accent);
 }
 
 /* ── CARD CONTENT ── */
